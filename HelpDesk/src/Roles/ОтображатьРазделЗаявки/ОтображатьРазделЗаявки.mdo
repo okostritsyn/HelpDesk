@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1c1f6a9-4f65-4c2c-aa21-04b5b4a1d6fa">
-  <name>ОтображатьРазделЗаявки</name>
-  <synonym>
-    <key>ru</key>
-    <value>Отображать раздел заявки</value>
-  </synonym>
-</mdclass:Role>

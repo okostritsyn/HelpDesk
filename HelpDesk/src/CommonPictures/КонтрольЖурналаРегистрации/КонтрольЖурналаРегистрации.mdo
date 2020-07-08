@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92e43ec5-b8ec-435e-9c46-dce95b947f28">
-  <name>КонтрольЖурналаРегистрации</name>
-  <synonym>
-    <key>ru</key>
-    <value>Контроль журнала регистрации</value>
-  </synonym>
-</mdclass:CommonPicture>

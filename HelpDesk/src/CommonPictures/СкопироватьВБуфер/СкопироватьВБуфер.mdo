@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa57f942-ea1f-4a44-bbc2-8ea42ceaf470">
-  <name>СкопироватьВБуфер</name>
-  <synonym>
-    <key>ru</key>
-    <value>Скопировать в буфер</value>
-  </synonym>
-</mdclass:CommonPicture>

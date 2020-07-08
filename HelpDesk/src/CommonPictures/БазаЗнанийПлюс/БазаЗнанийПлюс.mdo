@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fd3c0f7-5c1d-4f1c-9535-c02f5d6a4d07">
-  <name>БазаЗнанийПлюс</name>
-  <synonym>
-    <key>ru</key>
-    <value>База знаний плюс</value>
-  </synonym>
-</mdclass:CommonPicture>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a43af08c-90c1-475c-a7a7-c7ea9d7eede0">
-  <name>ОтображатьРазделУчетВремени</name>
-  <synonym>
-    <key>ru</key>
-    <value>Отображать раздел учет времени</value>
-  </synonym>
-</mdclass:Role>

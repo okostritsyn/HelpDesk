@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff92d115-ab55-4a3c-9fbd-f8fedc671970">
-  <name>ВставитьИзБуфера</name>
-  <synonym>
-    <key>ru</key>
-    <value>Вставить из буфера</value>
-  </synonym>
-</mdclass:CommonPicture>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81f75db4-e558-4c0a-b8d5-2651e3eb6cf7">
-  <name>ДобавлениеИзменениеИсходящихДокументов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Добавление изменение исходящих документов</value>
-  </synonym>
-</mdclass:Role>
