@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4472a24-a5c5-4451-8436-fb5b196ac72c">
+  <name>БизнесПроцессыИЗадачиПоПредмету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы и задачи по предмету</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

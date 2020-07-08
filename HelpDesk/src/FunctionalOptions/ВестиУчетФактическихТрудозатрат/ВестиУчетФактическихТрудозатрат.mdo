@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76a06877-3403-44e0-b496-0ed739b407aa">
+  <name>ВестиУчетФактическихТрудозатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет фактических трудозатрат</value>
+  </synonym>
+  <location>Constant.ВестиУчетФактическихТрудозатрат</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ФактическиеТрудозатраты</content>
+  <content>InformationRegister.ФактическиеТрудозатраты.Command.ТрудозатратыПоИсточнику</content>
+  <content>InformationRegister.ФактическиеТрудозатраты.Command.ТрудозатратыПопроектуЗадаче</content>
+  <content>InformationRegister.ФактическиеТрудозатраты.Command.МоиТрудозатраты</content>
+  <content>InformationRegister.ФактическиеТрудозатраты.Command.ТрудозатратыПодчиненных</content>
+  <content>InformationRegister.ПлановыеТрудозатратыПоЗаявкам</content>
+  <content>Report.НачисленияЗаПериод</content>
+  <content>Report.НачисленияПоПроекту</content>
+  <content>Report.ТрудозатратыПоПроекту</content>
+  <content>Report.НачисленияПоВидамРабот</content>
+</mdclass:FunctionalOption>

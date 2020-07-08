@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baf42adb-aca8-45b5-aa43-70369c4391b9">
+  <name>ЦветШрифта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет шрифта</value>
+  </synonym>
+</mdclass:CommonPicture>

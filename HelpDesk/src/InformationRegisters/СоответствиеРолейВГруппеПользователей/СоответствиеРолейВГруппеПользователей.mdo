@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c489de1-3dc9-4bfa-aeec-1714eb69a62d">
+  <producedTypes>
+    <selectionType typeId="653db1e5-8067-42e8-b4d0-0cc3a5a362df" valueTypeId="f928b928-307d-4f5f-96c1-14d083beb6a4"/>
+    <listType typeId="1e92a41d-8203-4646-818b-f06850cbf8ed" valueTypeId="9988551e-5347-4507-8fae-0324ed6ec07e"/>
+    <managerType typeId="e54ee4ec-de53-413c-96f9-7144d52197df" valueTypeId="19d1d3e5-08e6-44fe-bbe9-a533f519e7bc"/>
+    <recordSetType typeId="c784bb59-206b-423f-b5dc-391cc74000a5" valueTypeId="5448527f-d87e-4559-96bf-22f21ba25fbb"/>
+    <recordKeyType typeId="792b8892-9eef-4b7b-9be4-cc911f6a929f" valueTypeId="7cbe057e-d028-4cbd-bfb5-00cee1378230"/>
+    <recordType typeId="7c8801eb-523f-4c83-8c07-ac90d4a1c1d8" valueTypeId="59463551-113a-4069-b0e9-9e256eab2f71"/>
+    <recordManagerType typeId="3537ffd9-fbc9-4dac-927f-f2c32decd19a" valueTypeId="183e0218-6423-46da-86f3-c18b3a45e47f"/>
+  </producedTypes>
+  <name>СоответствиеРолейВГруппеПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие ролей в группе пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="a42eed56-aecf-4d44-8739-9c6886301c35">
+    <name>РолиИсполнителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bef14d4e-bf4b-466a-b317-895ae81e47c1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="821f6598-5c59-42cc-9aba-69afa90f0ded">
+    <name>ГруппаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа </value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

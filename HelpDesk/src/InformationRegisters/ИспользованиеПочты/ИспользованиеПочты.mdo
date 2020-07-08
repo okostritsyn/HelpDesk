@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="740a0840-9c6a-42d1-884e-c55022bbc9cf">
+  <producedTypes>
+    <selectionType typeId="32025c51-315f-417b-87b4-fe025ed315ff" valueTypeId="04c1ea35-9c8a-4b90-9ecf-74b10a2227b2"/>
+    <listType typeId="ca30774d-6954-401f-838b-d0445b3cd51d" valueTypeId="2737931b-a661-428e-b0f8-ca3e30f09650"/>
+    <managerType typeId="eedf73fc-ea74-484c-b617-4213ee615be7" valueTypeId="438a7ba2-464f-4330-a6ae-f3564d2f2c05"/>
+    <recordSetType typeId="37a32b17-27d0-4b66-8e79-4ed6856c3bde" valueTypeId="150413d3-afce-4d23-9ced-bfca77df630d"/>
+    <recordKeyType typeId="8adb4a8e-fae7-41da-8360-2ec5c564a45d" valueTypeId="12fc6ed9-8c47-4769-b7d0-7d115142e5d4"/>
+    <recordType typeId="b99fe79e-9145-4c58-878e-513ff64255bd" valueTypeId="58fd8211-a62a-45a9-87a3-522d73d7c9d4"/>
+    <recordManagerType typeId="d885f352-bbeb-497a-83a0-4b31da7876bc" valueTypeId="7326b788-bb13-4381-ba1a-b44693343718"/>
+  </producedTypes>
+  <name>ИспользованиеПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование почты</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3bc6e34d-bfdf-4eaa-a1dc-6ae80706a1c5">
+    <name>ИспользоватьЛегкуюПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать легкую почту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="70373f44-0a29-4ba0-89ce-04bcf0432462">
+    <name>ИспользоватьВстроеннуюПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать встроенную почту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8f8ee443-1e1e-49ab-b054-8eb3da2aa767">
+    <name>НастройкаИспользоватьЛегкуюПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка использовать легкую почту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f17af361-cafd-45f3-91bd-9e3b0357c26a">
+    <name>НастройкаИспользоватьВстроеннуюПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка использовать встроенную почту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="75113110-d061-4d3b-a270-92bd9a6e545f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

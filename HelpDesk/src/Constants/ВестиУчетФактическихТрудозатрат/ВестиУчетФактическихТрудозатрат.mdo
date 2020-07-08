@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be06ecbc-4b97-46c5-aadb-9a73f6fe0301">
+  <producedTypes>
+    <managerType typeId="30151664-f24a-4c1a-9067-16eaa2d539a8" valueTypeId="eb32d951-b600-4b93-9230-f556e51e723d"/>
+    <valueManagerType typeId="7af71c3b-da0c-45c7-9f54-90a441434fcb" valueTypeId="88e4bca0-f6b1-4cd4-a898-22da358b9385"/>
+    <valueKeyType typeId="30f85e41-c05e-5c49-8eee-db1ac3969f4c" valueTypeId="dc6b3b55-99ce-5c90-9f65-e1fc8924e09f"/>
+  </producedTypes>
+  <name>ВестиУчетФактическихТрудозатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет фактических трудозатрат</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

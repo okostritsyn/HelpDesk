@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d0c5a65-3583-4c76-bfa3-09b195b1366e">
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаПланирование</picture>
+  </picture>
+  <content>Catalog.Проекты</content>
+  <content>Constant.ВестиУчетПоПроектам</content>
+  <content>FunctionalOption.ВестиУчетПоПроектам</content>
+  <content>Catalog.ПроектныеЗадачи</content>
+  <content>Report.Проекты</content>
+  <content>DataProcessor.ИмпортПроектаИзMicrosoftProject</content>
+  <content>Report.ПроектныеЗадачи</content>
+  <content>Catalog.ВидыПроектов</content>
+  <content>CommonPicture.ПодсистемаПланирование</content>
+  <content>InformationRegister.СоответствиеПроектовГруппПользователей</content>
+  <content>Report.ПланФактПоПроектнымЗадачам</content>
+  <content>Report.ЗатратыВремени</content>
+  <content>InformationRegister.ТарифыПоВидамРабот</content>
+  <content>InformationRegister.ПлановыеТрудозатратыПоЗаявкам</content>
+  <parentSubsystem>Subsystem.СовместнаяРабота</parentSubsystem>
+</mdclass:Subsystem>

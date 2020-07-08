@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01579044-5659-4a73-a989-c52cfabaae66">
+  <producedTypes>
+    <selectionType typeId="901557d5-f0ca-449a-96ea-00b4cc2dd12a" valueTypeId="39f8c50f-88f6-40af-a4d3-6cdd581022e0"/>
+    <listType typeId="e9d5b5d9-53ce-4fd3-98cb-1dcd53e22d63" valueTypeId="9ef75705-c209-4b43-9ba4-6d7c26a91533"/>
+    <managerType typeId="687dd2fb-44b1-44dd-852b-a6457315fb78" valueTypeId="f58c535c-bbe7-4393-9f5a-356841a7ce9d"/>
+    <recordSetType typeId="045e4e39-98b9-4c07-9e82-f8851f4b9097" valueTypeId="78dbce6d-a0b1-4977-a850-51cd33ffda82"/>
+    <recordKeyType typeId="620c5283-c5ac-4aea-9446-377cfb416be2" valueTypeId="8f10a007-e107-4c3a-8c28-c15b4e676503"/>
+    <recordType typeId="a6d3fa56-d59a-41c9-abb1-081a688d95e4" valueTypeId="4dc3e8d4-e3b8-498a-923b-94c0ba6bf305"/>
+    <recordManagerType typeId="e3975f02-a1fe-495e-8286-408e0d36b5be" valueTypeId="85772dd2-99bc-463a-bbb1-c467a731c648"/>
+  </producedTypes>
+  <name>НаборыЗначенийДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы значений доступа</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.НаборыЗначенийДоступа.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НаборыЗначенийДоступа.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9b8509e8-8262-4e6a-b2f3-a0df8f49e2c5">
+    <name>Чтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение использует номер набора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права чтения объекта
+использовать набор с заданным номером
+(флажок устанавливается только для одной строки набора)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="6a798c80-459f-49ef-a8c2-83842ce4252c">
+    <name>Добавление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление использует номер набора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права добавления объекта
+использовать набор с заданным номером
+(флажок устанавливается только для одной строки набора)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="911baaa1-a4de-4558-b00e-51644144a762">
+    <name>Изменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение использует номер набора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права изменения объекта
+использовать набор с заданным номером
+(флажок устанавливается только для одной строки набора)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="d6400a59-6e02-4212-bb5a-9e49767aa8d6">
+    <name>Удаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление использует номер набора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права удаления объекта
+использовать набор с заданным номером
+(флажок устанавливается только для одной строки набора)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <attributes uuid="6016d26e-fe39-4c16-b2b5-15f8c663125e">
+    <name>ВидДоступаБезГруппЗначенияДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа без групп значения доступа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доступа без групп значений доступа (кэш свойства вида доступа)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </attributes>
+  <attributes uuid="6c19d9b0-1a41-4f82-a289-9fe05e272079">
+    <name>ВидДоступаЕдинственныйДляТипаЗначенияДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа единственный для типа значения доступа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доступа единственный для типа значений доступа (кэш свойства вида доступа)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </attributes>
+  <attributes uuid="df8063e2-47f1-4230-8e3c-eeee2143c72a">
+    <name>ВидДоступаЧерезПраваПоЗначениямДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа через права по значениям доступа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доступа через права по значениям доступа (кэш свойства вида доступа)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="89856ba2-f39a-41cd-be94-61243c6a0b96">
+    <name>ВидДоступаПравоЧтения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа право чтения</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Когда свойство Чтение установлено, содержит вид доступа ПравоЧтения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8bdb0483-6ea9-4553-91ac-9cde267aae19">
+    <name>ВидДоступаПравоДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа право добавления</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Когда свойство Добавление установлено, содержит вид доступа ПравоДобавления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="56c9fa68-467b-4c1b-813e-6bc7ac0375cb">
+    <name>ВидДоступаПравоИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа право изменения</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Когда свойство Изменение установлено, содержит вид доступа ПравоИзменения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf30f5a1-6542-469f-b3fe-eee726110ffb">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Одна запись среди всех наборов содержит пустую ссылку типа объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="13367a31-c2c9-43ea-b248-8a92e95ecd53">
+    <name>ТипЗначенияДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип значения доступа</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Когда вид доступа ПравоЧтения или ПравоДобавления или ПравоИзменения, содержит пустую ссылку типа значения доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8a8ad123-c01a-440a-bd01-1c0da72cf2eb">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на объект-владелец наборов значений доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ca4ef957-36c2-43b9-8ff7-e2b7ee58cde5">
+    <name>НомерНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер набора</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Число, объединяющие несколько строк в один набор.
+Результаты проверок строк в наборе объединяется по логическому &quot;И&quot;,
+а результаты проверок наборов объекта по логическому &quot;ИЛИ&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e036eff-92a8-4010-89b2-ed949c123311">
+    <name>ВидДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа</value>
+    </synonym>
+    <comment>Незаполненные значения нужно допустить, чтобы избежать ошибок при записи проверяемых объектов</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доступа по которому проверяется разрешенность значения доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.ВидыДоступа.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="38160114-dc22-4d0b-86a5-d650f4756932">
+    <name>ЗначениеДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение доступа</value>
+    </synonym>
+    <comment>Незаполненные значения нужно допустить, чтобы избежать ошибок при записи проверяемых объектов</comment>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на значение, например, на организацию, контрагента, ...</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="50ee876f-6860-443b-9857-aca772d711ea">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6955edb2-d481-432c-b282-58dc07fd067b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

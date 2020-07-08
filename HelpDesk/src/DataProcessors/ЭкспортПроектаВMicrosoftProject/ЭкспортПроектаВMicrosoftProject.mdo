@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aea0f74c-13bb-4652-95bd-515537ba7fa0">
+  <producedTypes>
+    <objectType typeId="83c4cdcd-9bd0-4106-a8f6-c98288082fc3" valueTypeId="ca0f2fdf-f3f3-4c02-a87f-dfd5bd3e32e7"/>
+    <managerType typeId="4d05c870-5905-464a-b775-494382f98367" valueTypeId="3364a8a4-991a-4ef1-976d-77ecb1d4cc90"/>
+  </producedTypes>
+  <name>ЭкспортПроектаВMicrosoftProject</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспорт проекта в Microsoft Project</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЭкспортПроектаВMicrosoftProject.Form.Форма</defaultForm>
+  <forms uuid="8887d2c1-edf6-49b9-92ab-383851b0e913">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

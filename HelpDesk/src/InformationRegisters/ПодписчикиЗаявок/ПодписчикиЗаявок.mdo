@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9b9e91e-fd18-4ae1-b228-234fc06051ed">
+  <producedTypes>
+    <selectionType typeId="72345c6f-49d4-44cd-82ce-8a778200668d" valueTypeId="ed95b22d-e6fe-4e6d-9731-3e67b0849cff"/>
+    <listType typeId="958899f6-c934-4972-b45b-4561fd6fe8c8" valueTypeId="bf456354-d546-4a95-b25c-1e62ab514fbb"/>
+    <managerType typeId="e7b14800-c881-4f79-a324-d9dbe9395d6f" valueTypeId="5a49facc-12e4-4d4d-8879-116225809c21"/>
+    <recordSetType typeId="d5755978-ba40-43d3-bbd1-f98f2696ea57" valueTypeId="9d361810-3c09-48dc-8006-460a6604bac2"/>
+    <recordKeyType typeId="1dc7fd34-c61c-4424-86c5-39b9ac3a37a5" valueTypeId="ce716cf8-744d-4e8c-9fdd-28f7f65d9195"/>
+    <recordType typeId="ea204144-20e2-49c1-98a9-2a1b9e6ab34c" valueTypeId="e8114134-2e4d-4841-a363-3236695526e5"/>
+    <recordManagerType typeId="2484c4b1-cb47-43a5-99f1-ef82ce4ee3d6" valueTypeId="fa2bf457-7d2f-4d7d-9208-a5ad19cf5297"/>
+  </producedTypes>
+  <name>ПодписчикиЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписчики заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="562cf1bd-f197-426e-be1b-fa352c996601">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Заявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="42976d33-bb7e-48f2-8340-1090c4279031">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="225b042a-153c-4da8-a639-fa5c07e364c2">
+    <name>ФормаСпискаПоЗаявке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка по заявке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f66dca1-9e5e-4a77-b06b-ff52a91c06bc">
+    <name>ФормаЗаписиПоЗаявке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи по заявке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1e0d6e51-e192-437d-aadf-b860ec530833">
+    <name>ПодписчикиЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписчики</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>DocumentRef.Заявка</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

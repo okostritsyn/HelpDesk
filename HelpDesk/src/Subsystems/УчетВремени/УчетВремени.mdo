@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="effb2644-844d-449c-96e3-8e34089f30a6">
+  <name>УчетВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет рабочего времени</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УчетВремениЧБ</picture>
+  </picture>
+  <content>Catalog.ВидыРабот</content>
+  <content>Document.ЕжедневныйОтчет</content>
+  <content>Enum.СпособыУказанияВремени</content>
+  <content>Enum.ДниНедели</content>
+  <content>InformationRegister.СведенияОПользователях</content>
+  <content>Report.ЗатратыВремени</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>InformationRegister.ХронометражРабочегоВремениПользователей</content>
+  <content>Enum.ВидыВремени</content>
+  <content>InformationRegister.ФактическиеТрудозатраты</content>
+  <content>Constant.ОсновнаяЕдиницаДлительности</content>
+  <content>Constant.ОсновнаяЕдиницаТрудозатрат</content>
+  <content>CommonPicture.ПодсистемаУчетВремениНов</content>
+  <content>CommonPicture.ПодсистемаУчетВремени48</content>
+  <content>CommonPicture.УчетВремениЧБ</content>
+  <content>DataProcessor.Планировщик</content>
+</mdclass:Subsystem>

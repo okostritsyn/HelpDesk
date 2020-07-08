@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53b6609f-14a3-4db1-8d69-5a334b3963ac">
+  <name>ВосклицательныйЗнак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Восклицательный знак</value>
+  </synonym>
+</mdclass:CommonPicture>

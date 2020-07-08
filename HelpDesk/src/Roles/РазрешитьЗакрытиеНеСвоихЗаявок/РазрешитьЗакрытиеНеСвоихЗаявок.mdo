@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b5d9a08-75ad-4fdf-8599-7674b0efc524">
+  <name>РазрешитьЗакрытиеНеСвоихЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить закрытие не своих заявок</value>
+  </synonym>
+</mdclass:Role>

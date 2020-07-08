@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcdec774-5d67-48b2-893d-26f4cadc6f72">
+  <name>ВыделениеЦветом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выделение цветом</value>
+  </synonym>
+</mdclass:CommonPicture>

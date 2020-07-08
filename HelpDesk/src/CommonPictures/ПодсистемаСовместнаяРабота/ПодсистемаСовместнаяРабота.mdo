@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8abc8c83-0214-4c94-8da3-24438f61e5ab">
+  <name>ПодсистемаСовместнаяРабота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема совместная работа</value>
+  </synonym>
+  <transparentPixel>
+    <x>3</x>
+    <y>30</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

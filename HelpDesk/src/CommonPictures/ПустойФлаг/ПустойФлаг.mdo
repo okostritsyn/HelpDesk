@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29fc1198-cbff-4ed5-a68f-70683079d378">
+  <name>ПустойФлаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пустой флаг</value>
+  </synonym>
+</mdclass:CommonPicture>

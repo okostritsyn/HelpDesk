@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e5a313a-fe4f-4791-bdd4-3cb763f284e0">
+  <producedTypes>
+    <objectType typeId="331f3df6-a4f7-403b-a154-554ea758aee0" valueTypeId="6d4c224c-c2dc-40a3-aadc-d28671166e1f"/>
+    <managerType typeId="174e5485-e3f9-49ed-8ce8-072348a20b0c" valueTypeId="955ee34d-bace-43d8-a367-c762d73cb039"/>
+  </producedTypes>
+  <name>ЗатратыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЗатратыВремени.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЗатратыВремени.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Общий отчет по затратам времени</value>
+  </explanation>
+  <forms uuid="e4bb82b8-b106-48d7-af78-d598b66318e3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c3ae20d6-bb13-4725-8a3d-f5b431b71be6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9deadd8a-503c-45f8-8ff8-81f216a84338">
+  <producedTypes>
+    <selectionType typeId="9923de2e-36b3-48a8-912c-59527a35abe2" valueTypeId="c8f4ea31-4d62-45da-a5ac-3eb44d1df1c1"/>
+    <listType typeId="1c0ca677-0dec-4001-a588-770c3e5e2d2f" valueTypeId="7f9db0bc-3e1b-41ae-aba0-805052862326"/>
+    <managerType typeId="743224e7-a26f-4664-bcd2-e6b8303a64a5" valueTypeId="0e0a986f-ef60-4782-aac3-8f5de02e405c"/>
+    <recordSetType typeId="0da7a555-e682-485e-9aaa-989a98067c53" valueTypeId="f37a40e8-4f85-4ef2-8edd-fb06d97d0da3"/>
+    <recordKeyType typeId="63133c5e-4a6b-477d-961f-8fffba4f6186" valueTypeId="5d9627f4-0c52-41c7-905c-e04bdd9a27a3"/>
+    <recordType typeId="90f28686-e56a-4b6e-bd26-e2916783a449" valueTypeId="bdce72a5-4260-4efe-a5b0-31ecd77cc6ec"/>
+    <recordManagerType typeId="901528d6-c6eb-43e0-b30e-c8c4481925e6" valueTypeId="7b7fd901-f029-444c-88ed-a474d075be29"/>
+  </producedTypes>
+  <name>НастройкиОтложеннойОтправкиПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки отложенной отправки писем</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="932b8bd1-12df-465f-8fef-6d4a2f68a68f">
+    <name>Задержка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задержка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задержка перед отправкой, сек.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="26f9c8ac-34a1-43e5-abfb-77ed00a2809a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

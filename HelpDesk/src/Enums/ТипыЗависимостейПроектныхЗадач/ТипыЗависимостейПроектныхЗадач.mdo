@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a545162-4742-4ccb-ad0d-7cc63ff4b99e">
+  <producedTypes>
+    <refType typeId="d237a4e8-ef32-4242-869e-72cebabebb1b" valueTypeId="7a43e6cf-8778-4346-929d-de54e37eb44c"/>
+    <listType typeId="47151cad-f9b9-4461-9a9f-3d58f2a24cb9" valueTypeId="66e05413-8695-4a0d-b9f9-97ecd5887bbb"/>
+    <managerType typeId="b5c108ca-b111-4731-862c-ff9847d554fc" valueTypeId="0c92de5f-c3b6-4c99-80e7-36768fdd38c6"/>
+  </producedTypes>
+  <name>ТипыЗависимостейПроектныхЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы зависимостей проектных задач</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10eeaf51-3c63-41e8-9cdc-6043d7e0b5dd">
+    <name>ОкончаниеНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание-начало</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f354fbfc-b95b-41b7-aca0-07441cd4128f">
+    <name>ОкончаниеОкончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание-окончание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d9dcc5c-8145-483c-add0-e95e004946f3">
+    <name>НачалоНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало-начало</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae81cc51-4952-4995-9f4c-cd68d52e7f13">
+    <name>НачалоОкончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало-окончание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

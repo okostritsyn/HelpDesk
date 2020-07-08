@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f61366c-1c88-4750-a73c-78e35f0080f9">
+  <producedTypes>
+    <objectType typeId="abc0aea1-c46d-4f2a-9cf2-3caff35eb0be" valueTypeId="fbfc1553-1212-44d3-bf43-a930cfda0fd7"/>
+    <managerType typeId="05e6dab8-5797-4fd0-9604-48fd13b1756e" valueTypeId="4c76d6cc-bfa7-4250-a854-0cfb851c31db"/>
+  </producedTypes>
+  <name>ОтчетПоИзменениямВерсийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по изменениям версий объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоИзменениямВерсийОбъектов.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="1bd4ad80-b991-4892-bb21-f423a119d368">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект информационной базы для формирования отчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e5aaa246-8659-468e-9b02-e3a9b870b2cd">
+    <name>СравнениеВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по изменениям версий и отдельной версии объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="29cf0ce4-7db8-40f0-94dd-4558bbf00ab9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="554ac957-6ca3-49b7-9a3b-094c443748a5">
+    <name>СтандартныйМакетПредставленияОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный макет представления объекта</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

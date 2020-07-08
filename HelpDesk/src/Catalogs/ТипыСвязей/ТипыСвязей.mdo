@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b601ea04-14ea-4eed-b519-e6f0d105b1f6">
+  <producedTypes>
+    <objectType typeId="c7c67410-b1ee-42c5-a979-e154f9c89db1" valueTypeId="298bc68c-e766-4802-8934-2c6812894f74"/>
+    <refType typeId="4f1f8dc5-5c96-495e-9f79-f5d80968cd24" valueTypeId="cf034c07-1e6c-4104-8d18-433b91a2b2d2"/>
+    <selectionType typeId="59b2fa58-f11a-4fee-b09c-3724e5ff6ea8" valueTypeId="f455ef14-558e-49fb-9fe6-0335dc082b60"/>
+    <listType typeId="7bee8cc4-0ca4-4989-b691-1038c4dc75ec" valueTypeId="6c639376-8d74-4c89-a40f-8cbd9e2182f2"/>
+    <managerType typeId="a73723d4-61a3-43f8-8093-bc6076b92c4d" valueTypeId="7f93cfa0-ffe7-473d-9d11-8402954d883e"/>
+  </producedTypes>
+  <name>ТипыСвязей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы связей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыСвязей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип связи</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="29d2926a-6745-497b-b0d1-9e34eb462202">
+      <name>ВходитВКомплект</name>
+      <description>Входит в комплект</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5645c5f7-3dec-46d7-a0c6-155277a8b95f">
+      <name>НаОснованииПисьма</name>
+      <description>На основании письма</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d898e73a-5d86-4dd8-b033-8329d7ebe848">
+      <name>ОсновноеОбращение</name>
+      <description>Основное обращение</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7864e898-e369-41ee-8fed-db6a01805b94">
+      <name>ОтправленВОтветНа</name>
+      <description>Отправлен в ответ на</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d8eb9584-69f6-443d-a5d2-47f8096da735">
+      <name>ВОтветНаПереадресованное</name>
+      <description>Отправлен в ответ на переадресованное</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="28879a8f-3d33-4519-b76b-1cabfabc73e3">
+      <name>ОтправленВОтветНаПисьмо</name>
+      <description>Отправлен в ответ на письмо</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e4fd1992-55dc-4373-aa88-885fd9057fdc">
+      <name>ОтправленОтвет</name>
+      <description>Отправлен ответ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6336b7e5-041e-4d32-9944-bba531f14b0d">
+      <name>ОтветПереадресовавшему</name>
+      <description>Отправлен ответ переадресовавшему</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="82b2f447-8d5d-4bee-8168-0a0024cbefa3">
+      <name>ОтправленОтветныйДокумент</name>
+      <description>Отправлен ответный документ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c7270e8d-dd2f-41b5-8f4a-044d0a238d80">
+      <name>ОтправленоОтветноеПисьмо</name>
+      <description>Отправлено ответное письмо</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="81423d6e-d868-4b58-a901-2c3a6cf94a9c">
+      <name>ПервичноеОбращение</name>
+      <description>Первичное обращение</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3048ec7a-2597-48fa-a65e-be817ffc9e78">
+      <name>ПерепискаПоПредмету</name>
+      <description>Переписка по предмету</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3b1babc7-55b1-44de-b74d-d0e168506b87">
+      <name>ПересланоПисьмом</name>
+      <description>Переслано письмом</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ac280d29-8452-44a4-a729-ea3f4343e214">
+      <name>ПересылкаПисьма</name>
+      <description>Пересылка письма</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fea1bc25-77ec-4f3f-8949-558c84c52d59">
+      <name>ПисьмоОтправленоВОтветНа</name>
+      <description>Письмо отправлено в ответ на</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e8cc91e6-cee2-41bf-88cd-e8d1c8e4c2f0">
+      <name>ПисьмоОснование</name>
+      <description>Письмо-основание</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="30311854-d6e0-4920-a7df-409973833d61">
+      <name>ПолученВОтветНа</name>
+      <description>Получен в ответ на</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a077fb20-3a18-42d8-9d91-f08b8ddcc844">
+      <name>ПолученВОтветНаПисьмо</name>
+      <description>Получен в ответ на письмо</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4ef51688-1586-48ed-8493-21b1800aa83d">
+      <name>ПолученОтвет</name>
+      <description>Получен ответ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d0e0e6fc-a0e1-4761-9dc1-d79e6bc8e5c7">
+      <name>ПолученОтветныйДокумент</name>
+      <description>Получен ответный документ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="88dba532-dd3e-4035-9716-fe5f0a9434c3">
+      <name>ПолученоВОтветНаДокумент</name>
+      <description>Получено в ответ на документ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6321e8db-4e0e-496e-af94-feaf08ec57b8">
+      <name>ПолученоВОтветНаПисьмо</name>
+      <description>Получено в ответ на письмо</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="10a4e596-0ef0-4ef8-b0e5-3f6f9a6a0dfb">
+      <name>ПолученоОтветноеПисьмо</name>
+      <description>Получено ответное письмо</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ef9784b8-ab68-42df-8d75-ebe5672a4c85">
+      <name>Содержит</name>
+      <description>Содержит</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="30b4f5e9-4243-4831-bba9-195806b8b026">
+      <name>ПредметПереписки</name>
+      <description>Содержит переписку по</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1e5d00fe-65af-49b4-a2a0-d578595f8525">
+      <name>ХарактерСвязей</name>
+      <description>Характер связей</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыСвязей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТипыСвязей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыСвязей.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="55638db0-137b-4b60-bbda-d78c714d19ad">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bc0dce0e-d6a3-444c-b030-5c96f9dcbe60">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13c1a277-2671-485a-99d9-bd2dffab6257">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c4dd3285-f40b-4192-af89-ed1568502f10">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58c3936c-4db0-45c8-a22e-b5dd49a61497">
+  <producedTypes>
+    <objectType typeId="31856e0f-1a59-47a4-9b14-54b5c8f2d9ac" valueTypeId="0417f69b-48cd-424a-bf91-3dbce65cd564"/>
+    <managerType typeId="2f3d48ca-6180-4962-87e3-c7f7482e2f3d" valueTypeId="4510730f-9884-4516-b894-c141f6562100"/>
+  </producedTypes>
+  <name>ЗависшиеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зависшие согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЗависшиеЗадачи.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЗависшиеЗадачи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8928693b-1933-4e02-8a33-99b6f05b1c57">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9aa607bc-5870-436a-bbe1-296560393e3b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

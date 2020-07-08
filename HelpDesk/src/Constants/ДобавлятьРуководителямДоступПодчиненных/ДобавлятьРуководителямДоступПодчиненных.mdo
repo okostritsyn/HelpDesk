@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fba74e94-e7e1-46d9-b72b-269cb1cc8a71">
+  <producedTypes>
+    <managerType typeId="74784f69-83b1-4882-85e4-6fc0c7473987" valueTypeId="267f4aa0-7de0-41c0-a271-e3655c5af8a1"/>
+    <valueManagerType typeId="ee0c0fed-d9e8-470f-b5b8-35be73b2d263" valueTypeId="f0068e30-efe6-452a-be07-408becfdf94f"/>
+    <valueKeyType typeId="f2ffcf65-ba94-512a-8f1a-ba3fc654c8be" valueTypeId="074a953a-90d8-57a1-a2bb-5ad217a4a4bf"/>
+  </producedTypes>
+  <name>ДобавлятьРуководителямДоступПодчиненных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавлять руководителям доступ подчиненных</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Доступ подчиненных полностью добавляется к доступу руководителей путем неявного добавления руководителей в участники групп доступа подчиненных</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

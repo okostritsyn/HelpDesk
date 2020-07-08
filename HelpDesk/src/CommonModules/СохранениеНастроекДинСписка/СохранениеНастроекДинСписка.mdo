@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a024ac11-6076-42ce-9eb5-969a2682cabb">
+  <name>СохранениеНастроекДинСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение настроек дин списка</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

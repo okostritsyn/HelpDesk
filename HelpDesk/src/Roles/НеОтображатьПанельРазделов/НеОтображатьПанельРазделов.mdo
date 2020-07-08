@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0214f0f4-72a6-4e3b-b2c2-50b71cb6e77e">
+  <name>НеОтображатьПанельРазделов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не отображать панель разделов</value>
+  </synonym>
+</mdclass:Role>

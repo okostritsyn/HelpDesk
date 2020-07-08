@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ef99dd3-d799-4f53-ab56-5528b4c9d782">
+  <name>ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СостояниеПользователя02</picture>
+  </picture>
+  <content>Catalog.ВидыДокументовФизическихЛиц</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Enum.ПолФизическогоЛица</content>
+  <content>InformationRegister.ДокументыФизическихЛиц</content>
+  <content>Role.ДобавлениеИзменениеФизическихЛиц</content>
+  <content>Role.ЧтениеПерсональныхДанныхФизическихЛиц</content>
+  <content>Role.ДобавлениеИзменениеПерсональныхДанныхФизическихЛиц</content>
+  <content>CommonModule.ФизическиеЛица</content>
+  <content>Role.ЧтениеФизическихЛиц</content>
+  <content>CommonModule.ФизическиеЛицаКлиент</content>
+  <content>CommonModule.ФизическиеЛицаКлиентСервер</content>
+  <content>f4ece3c1-fa99-489f-928a-a1b726d20db2</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

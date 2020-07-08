@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="822ede4b-766f-493f-9b13-4df0af6a78be">
+  <name>ВестиУчетПоПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет по проектам</value>
+  </synonym>
+  <location>Constant.ВестиУчетПоПроектам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Проекты</content>
+  <content>Catalog.ПроектныеЗадачи</content>
+  <content>CommonForm.ВыборПроектаЗадачи</content>
+  <content>Task.ЗадачаИсполнителя.Attribute.Проект</content>
+  <content>Task.ЗадачаИсполнителя.Attribute.ПроектнаяЗадача</content>
+  <content>Catalog.Файлы.Attribute.Проект</content>
+  <content>FilterCriterion.ДокументыПоПроекту</content>
+  <content>DataProcessor.ИмпортПроектаИзMicrosoftProject</content>
+  <content>Document.ВходящееПисьмо.Attribute.Проект</content>
+  <content>Document.ИсходящееПисьмо.Attribute.Проект</content>
+  <content>Report.Проекты</content>
+  <content>Report.ПроектныеЗадачи</content>
+  <content>Subsystem.СовместнаяРабота.Subsystem.Планирование</content>
+  <content>InformationRegister.СоответствиеПроектовГруппПользователей</content>
+  <content>InformationRegister.ПлановыеТрудозатратыПоЗаявкам</content>
+  <content>Report.НачисленияЗаПериод</content>
+  <content>Report.НачисленияПоПроекту</content>
+  <content>Report.ТрудозатратыПоПроекту</content>
+  <content>Report.НачисленияПоВидамРабот</content>
+</mdclass:FunctionalOption>

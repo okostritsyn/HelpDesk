@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5e33af5-2f50-493e-821c-1e00031865d6">
+  <producedTypes>
+    <managerType typeId="13b43456-1cff-4472-a480-058cdd28eb48" valueTypeId="b0ecc357-85ec-488d-ba9f-6631edf397e2"/>
+    <valueManagerType typeId="57ce7bae-a3fb-46b7-a262-daa8a5a3b8a9" valueTypeId="749a54ad-d3ed-4e16-ba70-a3da0fda8f0a"/>
+    <valueKeyType typeId="39fb9867-a3ef-5554-a8b2-7d86b679cccf" valueTypeId="b805203d-bb5b-53bc-a93b-276763d0a68f"/>
+  </producedTypes>
+  <name>ИспользоватьЕжедневныеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Ежедневные отчеты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

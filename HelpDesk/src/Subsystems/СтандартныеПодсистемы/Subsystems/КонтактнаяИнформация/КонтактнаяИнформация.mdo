@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af8bd73a-d8e8-487d-8f36-d835ab10ea3a">
+  <name>КонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonPicture.КонтактнаяИнформация</content>
+  <content>CommonModule.УправлениеКонтактнойИнформациейКлассификаторы</content>
+  <content>CommonModule.УправлениеКонтактнойИнформациейКлиент</content>
+  <content>CommonModule.УправлениеКонтактнойИнформациейПереопределяемый</content>
+  <content>CommonModule.УправлениеКонтактнойИнформацией</content>
+  <content>CommonForm.ПоискПоИндексу</content>
+  <content>CommonForm.ВводАдреса</content>
+  <content>CommonForm.ВводТелефона</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.СтраныМира</content>
+  <content>Enum.ТипыКонтактнойИнформации</content>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.КонтактнаяИнформация</content>
+  <content>CommonModule.УправлениеКонтактнойИнформациейКлассификаторыКлиент</content>
+  <content>EventSubscription.ЗаполнитьКонтактнуюИнформацию</content>
+  <content>CommonModule.УправлениеКонтактнойИнформациейСобытия</content>
+  <content>EventSubscription.ВидыКонтактнойИнформацииЗаполнитьЗначениеРеквизитаУпорядочивания</content>
+  <content>EventSubscription.ВидыКонтактнойИнформацииСброситьЗначениеРеквизитаУпорядочивания</content>
+  <content>CommonModule.УправлениеКонтактнойИнформациейКлиентСервер</content>
+  <content>StyleItem.КонтактнаяИнформацияСРедактированиемВДиалогеЦвет</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

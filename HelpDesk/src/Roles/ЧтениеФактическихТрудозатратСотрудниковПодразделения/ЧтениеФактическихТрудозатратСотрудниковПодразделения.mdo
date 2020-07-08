@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0562bb7a-eba7-4629-9067-e81a064c1992">
+  <name>ЧтениеФактическихТрудозатратСотрудниковПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение фактических трудозатрат сотрудников подразделения</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b93b8760-6200-40ee-8bdc-875ba80a6155">
+  <name>ЗаметкиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заметки пользователя</value>
+  </synonym>
+  <content>Catalog.Заметки</content>
+  <content>Enum.ЦветаЗаметок</content>
+  <content>CommonCommand.ЗаметкиПоПредмету</content>
+  <content>CommonCommand.СоздатьЗаметкуПоПредмету</content>
+  <content>CommonPicture.Заметка</content>
+  <content>CommonPicture.КоллекцияЗаметки</content>
+  <content>FunctionalOption.ИспользоватьЗаметки</content>
+  <content>Constant.ИспользоватьЗаметки</content>
+  <content>Role.ИспользованиеЗаметок</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

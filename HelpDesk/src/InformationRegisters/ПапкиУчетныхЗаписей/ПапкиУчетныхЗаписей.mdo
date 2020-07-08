@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cb2660b-1bd1-467c-96ec-5743ef53a5d7">
+  <producedTypes>
+    <selectionType typeId="50020306-3b3e-4d60-96d3-ffdc79600943" valueTypeId="b999ac0f-e3a2-4db1-ab54-e7e92ef1580d"/>
+    <listType typeId="cfa8c33c-3ea2-437b-8dc8-10c45288a82f" valueTypeId="62392ec1-62e2-4df9-b7cd-72b0c31dcbea"/>
+    <managerType typeId="46f837d4-9faf-4c8f-95c5-decabead52ab" valueTypeId="2ebd7e02-113a-466f-a6f9-d34c22dc4644"/>
+    <recordSetType typeId="a3fc8911-9820-4e62-99ac-693b17b9657f" valueTypeId="fd5862e5-f8f6-43af-a321-89bf32d1d214"/>
+    <recordKeyType typeId="66b39c8e-8232-4514-a514-1672738e27dd" valueTypeId="51ce82b5-2d9c-451f-9fea-4f5a6b23f21e"/>
+    <recordType typeId="797171f8-3c17-4507-a41f-3a00b9781c40" valueTypeId="44388b33-917f-47a6-9bc3-c6ecd5507e21"/>
+    <recordManagerType typeId="f7b9378d-19d2-4830-9867-38ff7380b37b" valueTypeId="72c4c9a1-8c7c-4b55-9c08-aee1814b5b20"/>
+  </producedTypes>
+  <name>ПапкиУчетныхЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папки учетных записей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Папка учетной записи</value>
+  </recordPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит соответствие папок и учетных записей электронной почты.</value>
+  </explanation>
+  <resources uuid="3a49f4e3-c48d-45f5-93aa-05502d6ca0a5">
+    <name>Папка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПапкиПисем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="40e373af-cb75-4aff-b0ff-e6f3148e0878">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="643851e7-f8a1-46d8-97bb-a15761f9b520">
+    <name>ВидПапки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид папки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПапокПисем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

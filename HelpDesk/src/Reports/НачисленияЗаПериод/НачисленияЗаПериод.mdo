@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f390e06b-dad0-46bf-ac05-f2f423675ca7">
+  <producedTypes>
+    <objectType typeId="92b31da2-3f3a-4557-9db0-00b3ad2f385d" valueTypeId="5fe9352b-7939-41fc-88e4-dfbccc6748d9"/>
+    <managerType typeId="5bc311dd-c704-42dc-996a-ddafd3b0d657" valueTypeId="e415aab0-b6e1-4b3c-a0a9-807cd4269202"/>
+  </producedTypes>
+  <name>НачисленияЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НачисленияЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6c1f8735-eee2-4825-be72-4e42d4a14475">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

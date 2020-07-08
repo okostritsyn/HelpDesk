@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7411eb1-f7ce-4584-8fef-af7ef54d3a85">
+  <name>Цвет05</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет05</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Колір05</value>
+  </synonym>
+</mdclass:CommonPicture>

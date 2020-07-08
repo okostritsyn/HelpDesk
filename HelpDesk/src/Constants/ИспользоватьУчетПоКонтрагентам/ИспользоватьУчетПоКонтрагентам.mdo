@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e495443-3595-401f-a0ae-8cf0221c5f28">
+  <producedTypes>
+    <managerType typeId="9952ee15-44e7-4d10-aaa6-ad1624d59c29" valueTypeId="b59a5738-565d-498d-aee6-4bad755a6cab"/>
+    <valueManagerType typeId="7758dc2e-a478-48e3-923e-a60c916c2b55" valueTypeId="1704a89a-789b-4dbc-9d13-6e46042d1813"/>
+    <valueKeyType typeId="236144ce-61c3-58dd-973e-b2fdbdb95508" valueTypeId="f85324eb-09c4-51af-be48-801cab30626a"/>
+  </producedTypes>
+  <name>ИспользоватьУчетПоКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет по контрагентам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

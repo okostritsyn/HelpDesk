@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee857575-1d44-44d2-9705-d8eea9c4352d">
+  <name>Файлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Файлы48</picture>
+  </picture>
+  <content>Catalog.Файлы</content>
+  <content>Catalog.ТомаХраненияФайлов</content>
+  <content>Report.ДинамикаИзмененийФайлов</content>
+  <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>
+  <content>CommonPicture.Файл</content>
+  <content>CommonPicture.Файлы</content>
+  <content>CommonPicture.Файлы48</content>
+  <subsystems>РаботаСФайлами</subsystems>
+  <subsystems>ФайловыеФункции</subsystems>
+</mdclass:Subsystem>

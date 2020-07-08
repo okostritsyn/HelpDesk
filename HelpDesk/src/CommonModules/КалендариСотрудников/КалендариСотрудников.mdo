@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0767f1a0-d9b4-409c-98c3-1f8470907f89">
+  <name>КалендариСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календари сотрудников</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Календарі співробітників</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

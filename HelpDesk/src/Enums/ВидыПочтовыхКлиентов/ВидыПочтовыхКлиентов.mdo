@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afd06185-f6c1-430d-941a-28cd22da2dcb">
+  <producedTypes>
+    <refType typeId="32e718a1-4276-4634-a94e-0258695d3491" valueTypeId="87e05177-0bf9-4ef5-8a35-3f80a79dbce4"/>
+    <listType typeId="ba3abc43-9c9f-4a99-83ad-3cfb63182ca4" valueTypeId="c978af5f-1228-4b97-98b5-a48d56d4c810"/>
+    <managerType typeId="6a19b662-f87c-44b9-a0e2-9879ebd3d009" valueTypeId="dc8219de-1b7d-458c-b1c6-86059921a7f1"/>
+  </producedTypes>
+  <name>ВидыПочтовыхКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды почтовых клиентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bd947ad0-c9a6-4cda-8e61-7acd1a99c5c9">
+    <name>MozillaThunderbird</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mozilla Thunderbird</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de0029c3-909e-4fd3-b940-bec794128fae">
+    <name>MSOutlook</name>
+    <synonym>
+      <key>ru</key>
+      <value>Microsoft Outlook</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f12fd8b-7c20-4e91-86b5-daa94786d68a">
+    <name>TheBat</name>
+    <synonym>
+      <key>ru</key>
+      <value>The Bat</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f80bbc44-2487-439f-8e3f-4851e6582177">
+    <name>ИнтернетПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="898c24d8-8e21-4b40-9de4-bedd6e340755">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>MAPI</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

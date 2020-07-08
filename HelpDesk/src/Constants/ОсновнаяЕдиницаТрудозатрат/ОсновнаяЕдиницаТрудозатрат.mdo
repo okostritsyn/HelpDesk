@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3af9b7d-0e02-4c6f-a993-565d8fb39f1f">
+  <producedTypes>
+    <managerType typeId="1607fe10-643f-4a73-8594-48e3111dac94" valueTypeId="a8841969-c6e7-482f-b797-12bc6f035c20"/>
+    <valueManagerType typeId="7418f6ca-da55-45f7-984f-467d2a808e4d" valueTypeId="166df4e2-4a9c-4d27-8767-34f49047daf5"/>
+    <valueKeyType typeId="54f50184-dc64-568d-92c2-631e0c01462c" valueTypeId="22aa99f1-37d8-541f-857c-9b3b9521e206"/>
+  </producedTypes>
+  <name>ОсновнаяЕдиницаТрудозатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная единица трудозатрат</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ЕдиницыТрудозатрат</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

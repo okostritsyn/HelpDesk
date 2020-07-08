@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
+	<setForNewObjects>false</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
+	<object>
+		<name>Configuration.ПоддержкаПользователей</name>
+		<right>
+			<name>ThinClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>WebClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Output</name>
+			<value>true</value>
+		</right>
+	</object>
+	<restrictionTemplate>
+		<name>ОграничениеЧтенияОбъектов</name>
+		<condition>// ОграничениеЧтенияОбъектов()
+
+#Если &amp;ОграничиватьДоступНаУровнеЗаписей
+  #Тогда
+
+ТекущаяТаблица ГДЕ Истина В
+(
+  ВЫБРАТЬ Первые 1 Истина
+  ИЗ РегистрСведений.ОграниченияДоступа КАК Ограничения
+  ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ПраваПользователей КАК Права
+  ПО
+      Ограничения.ОбъектДоступа = ТекущаяТаблица.Ссылка
+    И Права.ОпределительДоступа  = Ограничения.ОпределительДоступа
+  #Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+    И Права.Пользователь         = &amp;ТекущийПользователь
+  #Иначе
+    И Права.Пользователь         = &amp;ТекущийВнешнийПользователь
+  #КонецЕсли
+)
+
+#КонецЕсли</condition>
+	</restrictionTemplate>
+</Rights>

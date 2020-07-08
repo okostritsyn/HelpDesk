@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1768a43-acaa-4e4e-a549-341fc8eb921a">
+  <name>НачислениеЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Catalog.КомандировкиПоПроекту</content>
+  <content>InformationRegister.ТарифыПоВидамРабот</content>
+  <content>AccumulationRegister.НачисленияПоПроектам</content>
+  <content>Report.НачисленияЗаПериод</content>
+  <content>Report.НачисленияПоПроекту</content>
+  <content>Report.ТрудозатратыПоПроекту</content>
+  <content>Report.НачисленияПоВидамРабот</content>
+  <content>FunctionalOption.ВестиУчетНачисленияЗарплаты</content>
+  <parentSubsystem>Subsystem.СовместнаяРабота</parentSubsystem>
+</mdclass:Subsystem>

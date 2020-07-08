@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="563b35d5-4c07-4545-a43d-295380de07e6">
+  <producedTypes>
+    <refType typeId="8fbaea4f-4114-49b4-934c-0dc99aa6856b" valueTypeId="8ad15d09-dae8-441e-b57e-c1640290d86d"/>
+    <listType typeId="b4f3bb97-91f1-4536-8d65-0eb45b5c33eb" valueTypeId="571ce7ad-6306-4231-a4f9-f4d309f1c906"/>
+    <managerType typeId="651d4f10-00ee-48e3-a956-8283e556454c" valueTypeId="43c80e7e-7aa1-4f75-ad65-7bd1e3fcdc66"/>
+  </producedTypes>
+  <name>СпособыПланированияПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы планирования проекта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e25cda53-a4d1-4364-a847-b1638e7d59a8">
+    <name>ОтДатыНачалаПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>От даты начала проекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a0f84af-6ac1-4cf6-8cb3-f6319ec9ef8c">
+    <name>ОтДатыОкончанияПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>От даты окончания проекта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

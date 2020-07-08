@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9748f040-aa10-47c5-9f9f-c0a6dcb23aee">
+  <producedTypes>
+    <managerType typeId="65ec69a3-ca98-41e0-9e3c-5abe5e2f8d1b" valueTypeId="7b806cf1-ed8f-4547-9c22-da2191505565"/>
+    <valueManagerType typeId="1c1a5f44-411c-4a34-85da-5b6e9a425d41" valueTypeId="ea0848e9-7c77-496b-9183-78f2ffbb16c0"/>
+    <valueKeyType typeId="54ce22e6-5d1f-51d8-9304-f6f18a19e433" valueTypeId="73d0f749-84dc-5a4f-9ac4-96bf14fca2eb"/>
+  </producedTypes>
+  <name>ОсновнойГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной график работы</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГрафикиРаботы</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

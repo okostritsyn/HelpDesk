@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0421b67e-ed26-491d-ab98-ec59002ed4ce">
+  <name>СтандартныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>f4ece3c1-fa99-489f-928a-a1b726d20db2</content>
+  <content>51ceb5d7-e34b-4575-aadb-77bd9484801e</content>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>СтруктураПодчиненности</subsystems>
+  <subsystems>Свойства</subsystems>
+  <subsystems>КонтактнаяИнформация</subsystems>
+  <subsystems>НастройкаПорядкаЭлементов</subsystems>
+  <subsystems>ФайловыеФункции</subsystems>
+  <subsystems>РаботаСПочтовымиСообщениями</subsystems>
+  <subsystems>БизнесПроцессыИЗадачи</subsystems>
+  <subsystems>НапоминанияПользователя</subsystems>
+  <subsystems>ЗаметкиПользователя</subsystems>
+  <subsystems>УправлениеДоступом</subsystems>
+</mdclass:Subsystem>

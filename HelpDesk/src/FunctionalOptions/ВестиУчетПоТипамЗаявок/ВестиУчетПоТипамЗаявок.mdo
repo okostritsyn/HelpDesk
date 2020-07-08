@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa71d8e5-45cf-480c-be33-4267d018db97">
+  <name>ВестиУчетПоТипамЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет по типам заявок</value>
+  </synonym>
+  <location>Constant.ВестиУчетПоТипамЗаявок</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ТипыЗаявок</content>
+</mdclass:FunctionalOption>
