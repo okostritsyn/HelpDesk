@@ -43,11 +43,4 @@
       <value>Физическое лицо</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="10567594-00b0-4daf-a4d9-b681de72f12c">
-    <name>ЗначениеПеречисления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Значение перечисления</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>
