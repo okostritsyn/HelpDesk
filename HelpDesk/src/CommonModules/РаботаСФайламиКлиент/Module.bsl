@@ -3251,14 +3251,16 @@
 				Возврат "";
 			КонецЕсли;
 			
-			Оболочка = Новый COMОбъект("MSScriptControl.ScriptControl");
-			Оболочка.Language = "vbscript";
-			Оболочка.AddCode("
+			Попытка
+				Оболочка = Новый COMОбъект("MSScriptControl.ScriptControl");
+				Оболочка.Language = "vbscript";
+				Оболочка.AddCode("
 				|Function SpecialFoldersName(Name)
 				|set Shell=CreateObject(""WScript.Shell"")
 				|SpecialFoldersName=Shell.SpecialFolders(Name)
 				|End Function");
-			ПутьВыбора = Оболочка.Run("SpecialFoldersName", "MyDocuments");
+				ПутьВыбора = Оболочка.Run("SpecialFoldersName", "MyDocuments");
+			Исключение КонецПопытки;
 		#КонецЕсли	
 		
 		КонецЕсли;
@@ -3741,15 +3743,16 @@
 					ОбщегоНазначенияКлиентСервер.СообщитьПользователю(НСтр("ru = 'Данная операция не поддерживается в базовой версии.'"));
 					Возврат Ложь;
 				КонецЕсли;
-				
-				Оболочка = Новый COMОбъект("MSScriptControl.ScriptControl");
-				Оболочка.Language = "vbscript";
-				Оболочка.AddCode("
+				Попытка
+					Оболочка = Новый COMОбъект("MSScriptControl.ScriptControl");
+					Оболочка.Language = "vbscript";
+					Оболочка.AddCode("
 					|Function SpecialFoldersName(Name)
 					|set Shell=CreateObject(""WScript.Shell"")
 					|SpecialFoldersName=Shell.SpecialFolders(Name)
 					|End Function");
-				ПутьВыбора = Оболочка.Run("SpecialFoldersName", "MyDocuments");
+					ПутьВыбора = Оболочка.Run("SpecialFoldersName", "MyDocuments");
+				Исключение КонецПопытки;
 			#Иначе	
 				ПутьВыбора = "";
 			#КонецЕсли

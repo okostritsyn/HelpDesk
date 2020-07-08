@@ -69,19 +69,19 @@
 	
 	Если Путь = Неопределено Тогда
 		Если НЕ ПараметрыКлиента.ЭтоБазоваяВерсияКонфигурации Тогда
-			
-			Оболочка = Новый COMОбъект("MSScriptControl.ScriptControl");
-			Оболочка.Language = "vbscript";
-			Оболочка.AddCode("
+			Попытка
+				Оболочка = Новый COMОбъект("MSScriptControl.ScriptControl");
+				Оболочка.Language = "vbscript";
+				Оболочка.AddCode("
 				|Function SpecialFoldersName(Name)
 				|set Shell=CreateObject(""WScript.Shell"")
 				|SpecialFoldersName=Shell.SpecialFolders(Name)
 				|End Function");
-			
-			Путь = НормализоватьКаталог(Оболочка.Run("SpecialFoldersName", "MyDocuments"));
-			
-			ОбщегоНазначения.ХранилищеОбщихНастроекСохранить(
+				
+				Путь = НормализоватьКаталог(Оболочка.Run("SpecialFoldersName", "MyDocuments"));
+				ОбщегоНазначения.ХранилищеОбщихНастроекСохранить(
 				"ИмяПапкиВыгрузки", "ИмяПапкиВыгрузки", Путь);
+			Исключение  КонецПопытки;
 		КонецЕсли;
 	КонецЕсли;
 	

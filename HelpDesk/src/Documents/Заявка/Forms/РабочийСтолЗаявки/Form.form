@@ -3993,7 +3993,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ПрочиеПользовательскиеНастройки</picture>
+      <picture>StdPicture.DataCompositionFilter</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

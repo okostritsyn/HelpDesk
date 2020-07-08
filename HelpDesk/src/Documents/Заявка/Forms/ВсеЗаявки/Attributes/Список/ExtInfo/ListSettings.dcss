@@ -23,7 +23,6 @@
 			<right xsi:type="dcscor:DesignTimeValue">Справочник.Контрагенты.ПустаяСсылка</right>
 		</item>
 		<item xsi:type="FilterItemComparison">
-			<use>false</use>
 			<left xsi:type="dcscor:Field">Статус</left>
 			<comparisonType>NotEqual</comparisonType>
 			<right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗаявок.Отменена</right>

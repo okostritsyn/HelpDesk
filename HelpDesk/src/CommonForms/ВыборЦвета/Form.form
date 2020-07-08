@@ -1035,10 +1035,13 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ОК</commandName>
-      <representation>Auto</representation>
+      <representation>PictureAndText</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <picture xsi:type="core:PictureRef">
+        <picture>CommonPicture.ЗеленаяГалочкаБол</picture>
+      </picture>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">

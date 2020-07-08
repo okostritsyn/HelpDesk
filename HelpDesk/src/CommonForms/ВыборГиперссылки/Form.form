@@ -141,11 +141,18 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>AutoComplete</event>
+          <name>ГиперссылкаАвтоПодбор</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>ГиперссылкаОбработкаВыбора</name>
+        </handlers>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <choiceListButton>true</choiceListButton>
         <autoChoiceIncomplete>true</autoChoiceIncomplete>
-        <listChoiceMode>true</listChoiceMode>
         <autoMarkIncomplete>true</autoMarkIncomplete>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>

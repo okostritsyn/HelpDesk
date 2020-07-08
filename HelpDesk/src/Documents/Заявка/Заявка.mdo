@@ -797,7 +797,7 @@
     <name>Заявки</name>
     <synonym>
       <key>ru</key>
-      <value>Заявки</value>
+      <value>Мои заявки</value>
     </synonym>
     <group>NavigationPanelImportant</group>
     <commandParameterType/>
@@ -822,7 +822,7 @@
     <name>ВсеЗаявки</name>
     <synonym>
       <key>ru</key>
-      <value>Все заявки</value>
+      <value>Заявки</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
