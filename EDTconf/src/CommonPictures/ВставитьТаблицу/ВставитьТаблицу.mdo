@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf07ab7c-dd74-4d98-9c67-298cf838cf42">
+  <name>ВставитьТаблицу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить таблицу</value>
+  </synonym>
+</mdclass:CommonPicture>

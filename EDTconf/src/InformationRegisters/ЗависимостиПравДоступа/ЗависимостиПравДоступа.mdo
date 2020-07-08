@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6d48910-d526-4e8f-9414-ca776a7edaa3">
+  <producedTypes>
+    <selectionType typeId="fa03ea51-2caa-47b5-84ad-2ac151949287" valueTypeId="16338066-dbaf-4cb2-bb56-f7b67d250907"/>
+    <listType typeId="4e45a37a-16ad-49eb-8a57-355c6fa1fa77" valueTypeId="02f955a6-1597-4355-a7c4-58f059317da8"/>
+    <managerType typeId="fea53f85-1756-4d7b-a4f8-da24cb13049f" valueTypeId="a15d92ba-82ab-4bc3-b0f1-ec9b900a9f24"/>
+    <recordSetType typeId="77dc998b-b42d-4742-be20-f33df2848fe9" valueTypeId="2fdba0c0-b1b0-4846-b443-8a17b0aaa9f1"/>
+    <recordKeyType typeId="e16359b3-96e6-48fe-b7ad-0829703da140" valueTypeId="a16dd6c4-bbaa-47e8-abcf-f1b46275e24c"/>
+    <recordType typeId="e24f8011-70ab-41db-93ed-338b8570d411" valueTypeId="9ab70673-58a9-45b8-ab93-8a920566788c"/>
+    <recordManagerType typeId="d801de5a-bc55-4c9c-877f-2639fff669d1" valueTypeId="dbee5daa-6c04-4f44-a652-9749dab91f07"/>
+  </producedTypes>
+  <name>ЗависимостиПравДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зависимости прав доступа</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЗависимостиПравДоступа.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e8cd163-ca9b-42eb-b8c9-c3d44e7e486b">
+    <name>ОтключитьПроверкуПравВедущейТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить проверку прав ведущей таблицы</value>
+    </synonym>
+    <comment>Не проверять права ведущей таблицы, а проверять только ограничения прав</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверять только ограничения прав на объект ведущей таблицы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6bf8f383-af77-4be9-bda4-4d4220dfe374">
+    <name>ПриПроверкеПраваЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>При проверке права чтение</value>
+    </synonym>
+    <comment>При проверке права &quot;Чтение&quot; подчиненной таблицы, выполнить проверки объекта ведущей таблицы для права</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права &quot;Чтение&quot; подчиненной таблицы, выполнить проверку объекта ведущей таблицы для права, заданного одним из видов доступа &quot;ПравоЧтения&quot; или &quot;ПравоДобавления&quot; или &quot;ПравоИзменения&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b5c92c97-c4d2-4b4c-86be-035bfd17f905">
+    <name>ПриПроверкеПраваДобавление</name>
+    <synonym>
+      <key>ru</key>
+      <value>При проверке права добавление</value>
+    </synonym>
+    <comment>При проверке права &quot;Добавление&quot; подчиненной таблицы, выполнить проверки объекта ведущей таблицы для права</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права &quot;Добавление&quot; подчиненной таблицы, выполнить проверку объекта ведущей таблицы для права, заданного одним из видов доступа &quot;ПравоЧтения&quot; или &quot;ПравоДобавления&quot; или &quot;ПравоИзменения&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5bb3835-9dcf-4924-9c96-695e5173d702">
+    <name>ПриПроверкеПраваИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>При проверке права изменение</value>
+    </synonym>
+    <comment>При проверке права &quot;Изменение&quot; подчиненной таблицы, выполнить проверки объекта ведущей таблицы для права</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права &quot;Изменение&quot; подчиненной таблицы, выполнить проверку объекта ведущей таблицы для права, заданного одним из видов доступа &quot;ПравоЧтения&quot; или &quot;ПравоДобавления&quot; или &quot;ПравоИзменения&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="afa26db4-77a4-437c-965a-fefc6086c1a1">
+    <name>ПриПроверкеПраваУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>При проверке права удаление</value>
+    </synonym>
+    <comment>При проверке права &quot;Удаление&quot; подчиненной таблицы, выполнить проверки объекта ведущей таблицы для права</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права &quot;Удаление&quot; подчиненной таблицы, выполнить проверку объекта ведущей таблицы для права, заданного одним из видов доступа &quot;ПравоЧтения&quot; или &quot;ПравоДобавления&quot; или &quot;ПравоИзменения&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7e005845-c321-4529-b112-2dec63720195">
+    <name>ПодчиненнаяТаблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненная таблица</value>
+    </synonym>
+    <comment>Полное имя подчиненной таблицы</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права на элемент данных подчиненной таблицы проверяется право и ограничение права на объект ведущей таблицы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="48f7b074-2e43-4221-a36c-e2e30c22def6">
+    <name>ТипВедущейТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ведущей таблицы</value>
+    </synonym>
+    <comment>Тип ведущей таблицы, заданный пустой ссылкой</comment>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права на элемент данных подчиненной таблицы проверяется право и ограничение права на объект ведущей таблицы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="df2f5d28-b460-4692-861d-fbe39cb726b6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

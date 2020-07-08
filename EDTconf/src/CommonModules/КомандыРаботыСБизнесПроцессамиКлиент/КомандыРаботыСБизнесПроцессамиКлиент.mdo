@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd97e481-cfc4-4a40-8438-985020f06abd">
+  <name>КомандыРаботыСБизнесПроцессамиКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды работы с бизнес процессами клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

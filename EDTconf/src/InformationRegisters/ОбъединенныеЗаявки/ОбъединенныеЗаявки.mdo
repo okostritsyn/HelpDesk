@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8100727-7c7c-445a-bf3d-4d38f9d6c97f">
+  <producedTypes>
+    <selectionType typeId="5ac5a03f-a506-4acd-8881-939dd7da097a" valueTypeId="bd71edcd-4eab-43df-9ceb-501be8c9637a"/>
+    <listType typeId="cffba683-1eaa-4510-9d58-5d74e1db35a7" valueTypeId="cb0cb51f-f084-46d3-b32d-dcb43c0aa532"/>
+    <managerType typeId="fa4c8ed5-233c-462d-b86a-ccc4f3a9d012" valueTypeId="60787400-961b-436a-8d39-4f328412b146"/>
+    <recordSetType typeId="503e143f-4aa6-452c-b08d-7f360e4a3e71" valueTypeId="9977ae40-f569-487a-ac7e-209a24aae9f6"/>
+    <recordKeyType typeId="02a51b1e-1c26-4cec-94bb-fbc1ba140288" valueTypeId="5ebaf606-1d25-4d80-a801-7e71c9ee9bc6"/>
+    <recordType typeId="1cce33fd-ec5d-4611-a3ea-449959fb961b" valueTypeId="48f370c7-8801-41a7-bb66-093b85494441"/>
+    <recordManagerType typeId="0ca51435-d21b-4f35-b281-90d175928839" valueTypeId="4ea66e57-902d-4885-95ed-38d47426ece1"/>
+  </producedTypes>
+  <name>ОбъединенныеЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объединенные заявки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1cb2e11b-5557-47a4-9834-cac7e1efc181">
+    <name>ГлавнаяЗаявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Заявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="167b29e6-e0ab-45ec-aa7f-ccf7fa1e900f">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединенная заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Заявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f71297f2-d3d3-4fe4-bf82-0576ad202816">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0ec9f138-146d-464f-8054-04e4de0ecc3f">
+    <name>СвязанныеЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанные заявки</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>DocumentRef.Заявка</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

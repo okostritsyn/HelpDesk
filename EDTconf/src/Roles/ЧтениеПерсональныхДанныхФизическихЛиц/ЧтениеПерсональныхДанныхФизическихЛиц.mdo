@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3847d64-46b8-4bd1-9362-d88d82b34254">
+  <name>ЧтениеПерсональныхДанныхФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение персональных данных физических лиц</value>
+  </synonym>
+</mdclass:Role>

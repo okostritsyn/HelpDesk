@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9169e402-9d96-4224-9b29-6ced38806bfe">
+  <name>ИспользоватьЕжедневныеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Ежедневные отчеты</value>
+  </synonym>
+  <location>Constant.ИспользоватьЕжедневныеОтчеты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.УчетВремени</content>
+  <content>Catalog.ВидыРабот</content>
+  <content>Document.ЕжедневныйОтчет</content>
+  <content>Report.ЗатратыВремени</content>
+  <content>Enum.СпособыУказанияВремени</content>
+</mdclass:FunctionalOption>

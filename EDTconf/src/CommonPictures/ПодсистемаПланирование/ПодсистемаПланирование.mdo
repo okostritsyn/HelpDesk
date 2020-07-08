@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dba874a-f29e-463c-9556-1db25bf3ef3b">
+  <name>ПодсистемаПланирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема планирование</value>
+  </synonym>
+  <transparentPixel>
+    <x>3</x>
+    <y>30</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

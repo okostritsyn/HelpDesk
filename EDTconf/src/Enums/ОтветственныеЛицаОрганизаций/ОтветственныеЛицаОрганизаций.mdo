@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dc7d1ca-d63b-4c68-a80a-f365fe1bfb9e">
+  <producedTypes>
+    <refType typeId="657f0baf-9e20-4091-a53a-4f7fb58700ce" valueTypeId="940c5a17-38bd-4e31-8e0a-20601445fb83"/>
+    <listType typeId="b248b06f-da64-48af-9331-b147b29002bb" valueTypeId="077232c3-4ef4-453f-b654-1f6197e3aa23"/>
+    <managerType typeId="ce589890-230f-4e27-98a4-cd85232f1f86" valueTypeId="825d27f3-f516-41ca-b06f-dcf1235a49af"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица организаций</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7efd488-1c6a-4bf0-9db6-8555569d6d4d">
+    <name>РуководительОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e506107e-0dde-4195-88f5-f06ba29a6fef">
+    <name>РуководительАрхива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель архива</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="baaeded4-da08-465d-a559-86acbf269f35">
+    <name>РуководительСлужбыДОУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель службы ДОУ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

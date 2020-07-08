@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3119ab4d-3df4-4a7b-a70d-788dc77793c9">
+  <producedTypes>
+    <objectType typeId="c9527619-cf3c-4de3-bc62-c9777b405978" valueTypeId="ea9f96db-116d-4332-bcb2-b0b3ecae191d"/>
+    <managerType typeId="db2acab2-be22-4684-947b-58e734ddc7d4" valueTypeId="b81813b1-62ff-4ad2-a04c-e2c44e576d50"/>
+  </producedTypes>
+  <name>СпискиХранилищНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки хранилищ настроек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СпискиХранилищНастроек.Form.Форма</defaultForm>
+  <forms uuid="aba1e24b-dc97-43c4-a120-2561113e9768">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6b8319c6-3a11-421f-b0e5-f955da33d616">
+    <name>ФормаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9bb1f7ba-5a6e-4a65-a8b6-ae91074f7e12">
+    <name>УправлениеСпискомХранилищ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление списком хранилищ</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

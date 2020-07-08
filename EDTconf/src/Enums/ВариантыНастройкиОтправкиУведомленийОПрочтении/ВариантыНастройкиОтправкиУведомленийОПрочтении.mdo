@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="166fa75a-c7ee-48b5-81b0-6aab1c9bb7c3">
+  <producedTypes>
+    <refType typeId="1259d1f5-d7fd-48e9-b235-6ed015e3e957" valueTypeId="fd31db98-4c61-4cd7-aea4-d99cf8966ca7"/>
+    <listType typeId="9842c599-fad0-4ebc-8c2a-9f355cc196b9" valueTypeId="42c7add7-5418-4444-b2bd-0a7bfd0744b7"/>
+    <managerType typeId="e6c90409-d211-455f-b468-5dd71a284bf6" valueTypeId="e5e38953-a8d4-4305-a522-510bdd186695"/>
+  </producedTypes>
+  <name>ВариантыНастройкиОтправкиУведомленийОПрочтении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты настройки отправки уведомлений о прочтении</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74e11fba-cdad-4c7a-963c-1684836f4d61">
+    <name>ОтправлятьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять автоматически</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f182226c-a3f2-467b-aef6-755c0d4baad1">
+    <name>НеОтправлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a85493e6-fad2-41e6-bde9-d8dd8b373508">
+    <name>ЗапрашиватьПодтверждениеПередОтправкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрашивать подтверждение перед отправкой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

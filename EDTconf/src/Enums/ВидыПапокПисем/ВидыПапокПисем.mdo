@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce20c3a2-2424-4baa-bba7-56976654b951">
+  <producedTypes>
+    <refType typeId="9c087366-a2bd-4898-81bc-69f602545fab" valueTypeId="825d052b-4c80-4487-99a7-c407fa419ff4"/>
+    <listType typeId="7b02a06c-cd03-455f-9a41-b499655821e4" valueTypeId="732b95a8-0194-41f4-a25a-52f1f4b67854"/>
+    <managerType typeId="6062640b-1f15-4c47-ad53-347ec4ce69cb" valueTypeId="f321ade4-6775-49c5-8c3f-0aa83b3535e0"/>
+  </producedTypes>
+  <name>ВидыПапокПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды папок писем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6d57112e-a82b-472e-9c7f-f08309e0b16f">
+    <name>Входящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71dcf3db-baba-4475-bf7e-c12bb049ffb9">
+    <name>Исходящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d73d17b-35ba-4ca4-a627-307a47942097">
+    <name>Отправленные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправленные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="842f553f-b438-45eb-82d3-bf7cc21c6261">
+    <name>Общая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая папка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a23482f-ca71-4e54-8c30-8848c5ff0586">
+    <name>Корзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="989f680a-f687-4f05-be6e-090295383df6">
+    <name>Черновики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновики</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4168f6dc-d43f-435a-8a98-2dd99470568a">
+  <name>ДобавлятьРуководителямДоступПодчиненных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавлять руководителям доступ подчиненных</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

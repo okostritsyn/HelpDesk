@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b954c6b9-5460-47af-931b-26276aa2e465">
+  <producedTypes>
+    <objectType typeId="524795e6-9341-4eed-b1a0-c278c66b92bb" valueTypeId="43e8281e-81b9-4579-89fa-a1e1b7c62fc0"/>
+    <managerType typeId="95935f4e-09df-4819-a128-be6a6deb3b79" valueTypeId="92bcf475-c650-43cf-8f54-fe085f32ed14"/>
+  </producedTypes>
+  <name>АктивныеПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активные пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АктивныеПользователи.Form.ФормаСпискаАктивныхПользователей</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="166c87f7-c199-43ee-8a03-a4ad401a825a">
+    <name>ФормаСпискаАктивныхПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активные пользователи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9847d03e-4aa3-41a5-9a02-26c799443fad">
+    <name>АктивныеПользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активные пользователи</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

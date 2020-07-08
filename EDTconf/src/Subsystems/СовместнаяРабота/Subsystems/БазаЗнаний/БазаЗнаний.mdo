@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c507145-0947-4e1b-8bb2-6d4c2ddd710d">
+  <name>БазаЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.БазаЗнаний</picture>
+  </picture>
+  <content>FunctionalOption.ИспользоватьБазуЗнаний</content>
+  <content>Catalog.РазделыБазыЗнаний</content>
+  <content>Catalog.СтатьиБазыЗнаний</content>
+  <content>CommonForm.ВыборЦвета</content>
+  <content>DataProcessor.БазаЗнаний</content>
+  <content>CommonModule.БазаЗнанийСервер</content>
+  <content>CommonModule.БазаЗнанийКлиентСерверПовтИсп</content>
+  <content>CommonModule.БазаЗнанийКлиентСервер</content>
+  <content>InformationRegister.СтатистикаСтатейБазыЗнаний</content>
+  <content>Constant.ИспользоватьБазуЗнаний</content>
+  <content>CommonForm.ВыборГиперссылки</content>
+  <content>CommonPicture.БазаЗнанийЧБ</content>
+  <content>CommonPicture.БазаЗнаний</content>
+  <content>CommonPicture.БазаЗнанийМинус</content>
+  <content>CommonPicture.БазаЗнанийПлюс</content>
+  <content>CommonPicture.БазаЗнанийВход</content>
+  <content>CommonPicture.БазаЗнанийСтраница</content>
+  <content>CommonPicture.БазаЗнанийПапкаОткрыта</content>
+  <content>CommonPicture.БазаЗнанийПапка</content>
+  <content>CommonPicture.БазаЗнанийЛиния</content>
+  <content>CommonPicture.БазаЗнанийПустая</content>
+  <content>CommonPicture.БазаЗнанийПечать</content>
+  <content>CommonPicture.БазаЗнанийЗвездаПустая</content>
+  <content>CommonPicture.БазаЗнанийЗвездаПоловина</content>
+  <content>CommonPicture.БазаЗнанийЗвезда</content>
+  <content>CommonPicture.БазаЗнанийЛоготип</content>
+  <content>CommonPicture.БазаЗнанийПуть</content>
+  <content>CommonPicture.БазаЗнанийСтатья</content>
+  <content>CommonPicture.БазаЗнанийРедактирование</content>
+  <content>CommonPicture.БазаЗнанийДобавитьРаздел</content>
+  <content>CommonPicture.БазаЗнанийДобавитьСтатью</content>
+  <content>CommonPicture.БазаЗнанийРаздел</content>
+  <content>CommonForm.ИнформацияОСтатьяхБазыЗнаний</content>
+  <content>InformationRegister.ОбъектыHTMLСтраниц</content>
+  <parentSubsystem>Subsystem.СовместнаяРабота</parentSubsystem>
+</mdclass:Subsystem>

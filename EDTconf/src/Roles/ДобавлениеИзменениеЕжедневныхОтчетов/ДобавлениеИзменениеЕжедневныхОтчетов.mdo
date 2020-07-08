@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="344aaaed-409f-4870-ab4c-bbd5867e3711">
+  <name>ДобавлениеИзменениеЕжедневныхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение ежедневных отчетов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71f5671b-b5b1-493f-bfc8-f2a024199bcc">
+  <producedTypes>
+    <refType typeId="76548cde-3a8c-4730-824e-bd3eac654f83" valueTypeId="7018fec6-8502-4ed0-94b7-412f368731cf"/>
+    <listType typeId="64938cb9-9a69-4c5f-a7ff-68aeb0999b09" valueTypeId="801aa1b3-ccd5-4e35-8633-6ee943eff6dc"/>
+    <managerType typeId="41616bf7-ae6e-416e-98ab-51c7c7f41ad7" valueTypeId="f185c9e1-07a2-4b42-bc01-ff37517602b1"/>
+  </producedTypes>
+  <name>ВидыДействийСПисьмами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий с письмами</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="67f269bf-151b-4791-9f73-aa0cb3550f4e">
+    <name>ПоместитьВПапку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поместить в папку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8248bcb-7112-4959-b45e-d04bd3bfe028">
+    <name>ПоместитьВПапкуОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поместить в папку основания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9db022f1-12b2-4bcb-8201-d526212d57a4">
+    <name>ПометитьНаУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометить на удаление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbaa68f6-03c0-453c-bc17-0de333cf432e">
+    <name>СнятьПометкуУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снять пометку удаления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfea50dc-c5cf-4eab-9e0b-bc0a6cc8374f">
+    <name>ОтметитьКакПрочтенное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметить как прочтенное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7d2847e-2c88-4817-8b37-77f79043a3c6">
+    <name>ОтметитьКакНепрочтенное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметить как непрочтенное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

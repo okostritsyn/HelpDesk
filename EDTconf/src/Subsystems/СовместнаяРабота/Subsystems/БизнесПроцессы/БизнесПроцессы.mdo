@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44a209a5-3187-45ae-9081-9c04be14762f">
+  <name>БизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.БизнесПроцессы</picture>
+  </picture>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>BusinessProcess.Задание</content>
+  <content>Report.ПросроченныеЗадачи</content>
+  <content>Report.ЗадачиИстекающиеНаДату</content>
+  <content>Report.Задачи</content>
+  <content>Report.Задания</content>
+  <content>Report.ЗависшиеЗадачи</content>
+  <content>Report.БизнесПроцессы</content>
+  <content>Catalog.РолиИсполнителей</content>
+  <content>Catalog.ГруппыИсполнителейЗадач</content>
+  <content>CommonPicture.БизнесПроцессы</content>
+  <content>CommonPicture.Напоминание32</content>
+  <parentSubsystem>Subsystem.СовместнаяРабота</parentSubsystem>
+</mdclass:Subsystem>

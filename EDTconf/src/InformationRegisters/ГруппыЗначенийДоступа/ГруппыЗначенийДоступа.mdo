@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5012e69-89bc-40af-8e4f-377a042854ee">
+  <producedTypes>
+    <selectionType typeId="8cf268bf-f3d2-4dbf-ba9b-8091d7132f41" valueTypeId="39632b04-e96e-4fbc-b2a0-13daca7d5a1a"/>
+    <listType typeId="743a313b-b07a-42f3-9fc9-8ad81f26d457" valueTypeId="f32c4814-f74f-4391-bca7-0d5be679124f"/>
+    <managerType typeId="53c2c390-a637-4cc3-9b4e-0162ba373526" valueTypeId="5a296870-6da3-4aa7-a2a4-b0441e275e94"/>
+    <recordSetType typeId="0942c247-b30c-4eea-9bd0-dd9a4f7b7e26" valueTypeId="46c4bde7-4e49-4dfc-87c4-43153ea6eb87"/>
+    <recordKeyType typeId="9a4ca35f-ad3c-4160-8ebc-e6476abb10be" valueTypeId="52e9f210-c83f-4be3-95bf-3619611bb3d2"/>
+    <recordType typeId="fb253622-df1f-4a8e-9d73-4ea82a1d8a5b" valueTypeId="94c0d1ff-85b8-4d97-8bf0-43f8867c2fb2"/>
+    <recordManagerType typeId="45913249-a55a-4bd8-8ec2-10fa8051bca2" valueTypeId="c95c7b9d-1276-4eb2-afa4-f608000abb7a"/>
+  </producedTypes>
+  <name>ГруппыЗначенийДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы значений доступа</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ГруппыЗначенийДоступа.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="02f79fd8-5315-4c90-b520-db67dcb6e371">
+    <name>НаследоватьПраваРодителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наследовать права родителей</value>
+    </synonym>
+    <comment>Когда Ссылка = СсылкаВИерархии, флажок имеет смысл</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Флажок используется для случая установки прав по значениям доступа в иерархических справочниках. Например, по папкам файлов. Когда Истина наследуются права всех родителей для папки в полях &quot;Значение доступа&quot; и &quot;Группа доступа&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7f90681d-6534-40ee-bbb7-5356c0ed9de2">
+    <name>СвязьСРодителем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связь с родителем</value>
+    </synonym>
+    <comment>Истина, когда Ссылка &lt;> СсылкаВИерархии, используется в стандартных шаблонах ограничения доступа</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Флажок используется для случая установки прав по значениям доступа в иерархических справочниках. Например, по папкам файлов. Когда Истина, тогда папка в поле &quot;Значение доступа&quot; относится к родителю (в иерархии), в поле &quot;Группа доступа&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d1aca4be-1e1e-4bbd-b0a6-a68bc7c8c586">
+    <name>ИспользоватьПраваСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать права ссылки</value>
+    </synonym>
+    <comment>Когда Ссылка = СсылкаВИерархии Тогда Истина Иначе СсылкаВИерархии.НаследоватьПраваРодителей, используется в стандартных шаблонах ограничения доступа</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Флажок используется для случая установки прав по значениям доступа в иерархических справочниках. Например, по папкам файлов. Значение равно значению поля &quot;Наследовать права родителей&quot; строки со значением доступа, как в поле &quot;Группа доступа&quot; текущей строки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9bb52788-4a3a-48b5-a551-5ca753b6c059">
+    <name>ВидДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доступа, используемый для значения доступа (обычно один на тип значения доступа).
+
+Записи с видом доступа &quot;Пустая ссылка&quot; используется для отбора групп доступа авторизованного пользователя.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.ВидыДоступа.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4fb5004f-3cd9-44c4-a44b-d235cccf9e9c">
+    <name>ЗначениеДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение доступа</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элемент справочника или другого объекта метаданных, для которого используются группы значений доступа (контрагент, номенклатура)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="872a0c47-fab5-4a54-8ab9-23940bbdefbb">
+    <name>ТолькоВидДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только вид доступа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Флажок показывает, что в строке задана не группа значений указанного значения доступа, а использование вида доступа для значения доступа (используется для случая нескольких видов доступа для одного типа значения доступа)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7428a626-3fbc-4f2c-a3dd-f14e8d90c00b">
+    <name>ГруппаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа доступа</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обычно элемент справочника, который используется для группировки значений доступа (например, элемент справочника ГруппыДоступаНоменклатуры)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ec1755ed-d203-4548-9f1d-dd62ce331ecf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

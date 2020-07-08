@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f783f71-94fb-41a3-b1d3-af084e7dce27">
+  <producedTypes>
+    <objectType typeId="cd16975a-bbe1-435f-a233-e8389a259f00" valueTypeId="42c4bad8-8e45-4b86-b5f8-2d681f543ecb"/>
+    <managerType typeId="1f53a136-8199-42ff-ab17-03914c9e6f79" valueTypeId="16cac92d-0cd4-4cb0-9a97-7f3ed0a922cf"/>
+  </producedTypes>
+  <name>БазаЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БазаЗнаний.Form.ФормаHTML</defaultForm>
+  <attributes uuid="1938da06-3595-4f3f-9229-3af32425b2a3">
+    <name>СтатьяБазыЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья базы знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28a9b4e8-6ad6-4400-a53b-d10273d49686">
+    <name>Область</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb8c37a7-eec5-47c3-9c93-83868414cefe">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b672666-4b4e-49c3-af5a-1cf385fc4cc7">
+    <name>РасширенныйПоиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенный поиск</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8b624c76-5066-4dbb-b2f5-f2abc87c945d">
+    <name>РазделыПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделы поиска</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="4b3b828f-17a2-4221-892c-73d4dbee98d0">
+    <producedTypes>
+      <objectType typeId="e6adf7ba-f3a5-4051-a1b9-cc49c2ef7d6b" valueTypeId="f57ccbba-735a-457a-b79e-4c7a9c358b2b"/>
+      <rowType typeId="22b98d96-e98e-4dde-b93b-65400a977445" valueTypeId="f8097687-6bc3-48bd-94e0-dc8bbd29f336"/>
+    </producedTypes>
+    <name>История</name>
+    <synonym>
+      <key>ru</key>
+      <value>История</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f2f6df68-ecc8-4d0d-9741-d6c0c2717c22">
+      <name>ТекстHTML</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст HTML</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b205a5b2-99ce-4657-a70a-f2307ab5f6d4">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9681152a-1030-42e1-b076-96ee8ad86036">
+    <name>ФормаHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма HTML</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f68f83d-ab55-434b-8784-8674d3672480">
+    <name>ФормаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма поиска</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="976b6431-e614-410b-b548-c15dbe86b216">
+    <name>TREE_TPL</name>
+    <synonym>
+      <key>ru</key>
+      <value>TREE TPL</value>
+    </synonym>
+    <comment>TREE_TPL.JS</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="53109ca2-d136-4306-a4d3-d0f2fab533f7">
+    <name>Tree</name>
+    <synonym>
+      <key>ru</key>
+      <value>Tree</value>
+    </synonym>
+    <comment>Tree.JS</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="d5526c90-9eae-4f54-81f3-611a67af7666">
+    <name>ОткрытьБазуЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>База знаний</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

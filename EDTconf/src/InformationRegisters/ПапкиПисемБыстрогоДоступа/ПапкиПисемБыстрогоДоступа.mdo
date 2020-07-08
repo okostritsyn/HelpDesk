@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6a74726-4e2b-4689-8d63-06c874d52468">
+  <producedTypes>
+    <selectionType typeId="6bff7b8d-2c43-4013-a6e0-27409d14aa55" valueTypeId="760a4e51-1bda-4f63-85ea-c18c09ecc73e"/>
+    <listType typeId="09a4d289-a356-4fe5-aa20-ce1cd937c000" valueTypeId="3dd88dae-b6ae-42f3-a726-b4fa804e4a54"/>
+    <managerType typeId="87bb059a-fd26-40cc-a307-4f1e0214acf1" valueTypeId="45a13353-e154-416e-b370-81564f3855a5"/>
+    <recordSetType typeId="afd0aab8-b73c-46c4-9210-0712f97b51fb" valueTypeId="60104b8a-a9a4-4549-8c23-b77b3b948a42"/>
+    <recordKeyType typeId="62907308-bbad-4910-87eb-86182562d0c9" valueTypeId="c92d8371-ce96-492c-a295-86f0ece778f1"/>
+    <recordType typeId="b891ba27-58d6-401a-add3-216a78b6eef1" valueTypeId="e889ac9a-53b3-4978-8c6c-cf6bfa48d38f"/>
+    <recordManagerType typeId="debe4361-7ce8-431f-a6f0-135fb8dbf411" valueTypeId="7ed0d97e-31ce-48b0-b438-e85e0a71c517"/>
+  </producedTypes>
+  <name>ПапкиПисемБыстрогоДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папки писем быстрого доступа</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПапкиПисемБыстрогоДоступа.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="7a1d5631-0b4e-4ae3-8d80-0f3997bde310">
+    <name>Папка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПапкиПисем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ffa664f0-9021-4da0-bfd1-dd3df63e8514">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f25ed0d2-c578-499b-b35f-8fe5a92bba6b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

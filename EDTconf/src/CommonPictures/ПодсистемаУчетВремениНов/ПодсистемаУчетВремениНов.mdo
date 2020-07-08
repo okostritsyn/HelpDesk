@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6789ee0-8f91-4510-b84f-3ef1b614b962">
+  <name>ПодсистемаУчетВремениНов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема учет времени</value>
+  </synonym>
+  <transparentPixel>
+    <x>4</x>
+    <y>29</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

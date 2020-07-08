@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffeb6b43-c589-49b7-ac28-3f6d0172dae9">
+  <name>СоздатьПисьмо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Письмо</value>
+  </synonym>
+  <group>ActionsPanelCreate</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Создать письмо</value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1381abc-e09f-407d-b6b5-c59e7c9e2fd7">
+  <name>ВидыКонтактнойИнформацииЗаполнитьЗначениеРеквизитаУпорядочивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактной информации заполнить значение реквизита упорядочивания</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.НастройкаПорядкаЭлементовСобытия.ЗаполнитьЗначениеРеквизитаУпорядочивания</handler>
+</mdclass:EventSubscription>

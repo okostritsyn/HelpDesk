@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89d3d1e6-27a9-49c3-bad1-265c59d41a96">
+  <name>ВыравниваниеПоШирине</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выравнивание по ширине</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25896075-2484-4879-8310-7f5680d80b48">
+  <name>УстановитьНапоминаниеПоПредмету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить напоминание</value>
+  </synonym>
+  <group>CommandGroup.Органайзер</group>
+  <commandParameterType>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Заметки</types>
+    <types>DocumentRef.Заявка</types>
+    <types>TaskRef.ЗадачаИсполнителя</types>
+    <types>CatalogRef.Пользователи</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Установить напоминание по выбранному предмету</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Напоминание32</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

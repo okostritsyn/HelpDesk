@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c57dbcd5-7b93-4bb8-bf55-fcdda233ef93">
+  <producedTypes>
+    <refType typeId="985ee305-ac11-4c12-88e6-353c7435ee32" valueTypeId="68273149-e7eb-4b73-9eb1-a79aca878e20"/>
+    <listType typeId="cceefb3c-d8e3-4e29-b028-10ede8ce0e21" valueTypeId="5d0895e9-e600-41fb-8610-f42038307693"/>
+    <managerType typeId="7abd879a-6c3d-4c21-9c20-a74b0a1a92ba" valueTypeId="8fe5e1f0-4776-41e4-82bb-51cc866bdb0d"/>
+  </producedTypes>
+  <name>СпособыIMAPАутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы IMAP аутентификации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8ea81732-b1e2-490b-8113-7f4673b8b2f5">
+    <name>CramMD5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cram MD5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0cc6cae-6159-4857-851c-e988cc01565f">
+    <name>Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

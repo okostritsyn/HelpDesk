@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Веха</dataPath>
+			<field>Веха</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГрафикРаботы</dataPath>
+			<field>ГрафикРаботы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлительностьФакт</dataPath>
+			<field>ДлительностьФакт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаДлительностиФакт</dataPath>
+			<field>ЕдиницаДлительностиФакт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаТрудозатратФакт</dataPath>
+			<field>ЕдиницаТрудозатратФакт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Описание</dataPath>
+			<field>Описание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущийПланДлительность</dataPath>
+			<field>ТекущийПланДлительность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущийПланЕдиницаДлительности</dataPath>
+			<field>ТекущийПланЕдиницаДлительности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущийПланЕдиницаТрудозатрат</dataPath>
+			<field>ТекущийПланЕдиницаТрудозатрат</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущийПланТрудозатраты</dataPath>
+			<field>ТекущийПланТрудозатраты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Трудозатраты (план)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=10; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактическиеТрудозатратыМин</dataPath>
+			<field>ФактическиеТрудозатратыМин</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланоыеТрудозатратыПоЗаявкамМин</dataPath>
+			<field>ПланоыеТрудозатратыПоЗаявкамМин</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планоые трудозатраты по заявкам мин</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Исполнитель</dataPath>
+			<field>Исполнитель</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Таб1.ДатаРаботы КАК ДатаРаботы,
+	Таб1.ПроектРаботы КАК ПроектРаботы,
+	Таб2.ГруппаПользователей КАК ГруппаПользователей
+ПОМЕСТИТЬ ВТСоответствиеГруппПользователей
+ИЗ
+	(ВЫБРАТЬ
+		ФактическиеТрудозатраты.ДатаДобавления КАК ДатаРаботы,
+		ФактическиеТрудозатраты.Проект КАК ПроектРаботы,
+		МАКСИМУМ(СоответствиеПроектов.Период) КАК ПериодСреза
+	ИЗ
+		РегистрСведений.ФактическиеТрудозатраты КАК ФактическиеТрудозатраты
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СоответствиеПроектовГруппПользователей КАК СоответствиеПроектов
+			ПО (СоответствиеПроектов.Период &lt;= ФактическиеТрудозатраты.ДатаДобавления)
+				И (СоответствиеПроектов.Проект = ФактическиеТрудозатраты.Проект)
+	ГДЕ
+		ФактическиеТрудозатраты.Проект &lt;&gt; ЗНАЧЕНИЕ(Справочник.проекты.ПустаяСсылка)
+	
+	СГРУППИРОВАТЬ ПО
+		ФактическиеТрудозатраты.Проект,
+		ФактическиеТрудозатраты.ДатаДобавления) КАК Таб1
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СоответствиеПроектовГруппПользователей КАК Таб2
+		ПО Таб1.ПериодСреза = Таб2.Период
+			И Таб1.ПроектРаботы = Таб2.Проект
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Таб1.ДатаРаботы КАК ДатаРаботы,
+	Таб1.ГруппаПользователей КАК ГруппаПользователей,
+	Таб2.Пользователь КАК Пользователь,
+	Таб2.РолиИсполнителей КАК Роль
+ПОМЕСТИТЬ СоответствиеРолейИпользователей
+ИЗ
+	(ВЫБРАТЬ
+		ФактическиеТрудозатраты.ДатаРаботы КАК ДатаРаботы,
+		ФактическиеТрудозатраты.ГруппаПользователей КАК ГруппаПользователей,
+		МАКСИМУМ(СоответствиеРолей.Период) КАК ПериодСреза
+	ИЗ
+		ВТСоответствиеГруппПользователей КАК ФактическиеТрудозатраты
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СоответствиеРолейВГруппеПользователей КАК СоответствиеРолей
+			ПО (СоответствиеРолей.Период &lt;= ФактическиеТрудозатраты.ДатаРаботы)
+				И (СоответствиеРолей.ГруппаПользователей = ФактическиеТрудозатраты.ГруппаПользователей)
+	ГДЕ
+		ФактическиеТрудозатраты.ГруппаПользователей &lt;&gt; ЗНАЧЕНИЕ(Справочник.ГруппыПользователей.ПустаяСсылка)
+	
+	СГРУППИРОВАТЬ ПО
+		ФактическиеТрудозатраты.ГруппаПользователей,
+		ФактическиеТрудозатраты.ДатаРаботы) КАК Таб1
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СоответствиеРолейВГруппеПользователей КАК Таб2
+		ПО Таб1.ПериодСреза = Таб2.Период
+			И Таб1.ГруппаПользователей = Таб2.ГруппаПользователей
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ПроектныеЗадачи.Ссылка,
+	ПроектныеЗадачи.Веха,
+	ВЫБОР
+		КОГДА ПроектныеЗадачи.ГрафикРаботы &lt;&gt; ЗНАЧЕНИЕ(Справочник.ГрафикиРаботы.ПустаяСсылка)
+			ТОГДА ПроектныеЗадачи.ГрафикРаботы
+		ИНАЧЕ ПроектныеЗадачи.Владелец.ГрафикРаботы
+	КОНЕЦ КАК ГрафикРаботы,
+	ПроектныеЗадачи.ДлительностьФакт,
+	ПроектныеЗадачи.ЕдиницаДлительностиФакт,
+	ПроектныеЗадачи.ЕдиницаТрудозатратФакт,
+	ПроектныеЗадачи.Описание,
+	ПроектныеЗадачи.ТекущийПланДлительность,
+	ПроектныеЗадачи.ТекущийПланЕдиницаДлительности,
+	ВЫБОР
+		КОГДА ПроектныеЗадачиИсполнители.ТекущийПланТрудозатраты ЕСТЬ NULL 
+			ТОГДА ПроектныеЗадачи.ТекущийПланТрудозатраты
+		ИНАЧЕ ПроектныеЗадачиИсполнители.ТекущийПланТрудозатраты
+	КОНЕЦ КАК ТекущийПланТрудозатраты,
+	ПроектныеЗадачи.ТекущийПланЕдиницаТрудозатрат,
+	ЕСТЬNULL(ФактическиеТрудозатраты.Длительность, 0) / 60 КАК ФактическиеТрудозатратыМин,
+	ЕСТЬNULL(ПлановыеТрудозатраты.Длительность, 0) / 60 КАК ПланоыеТрудозатратыПоЗаявкамМин,
+	ПроектныеЗадачиИсполнители.Исполнитель
+ИЗ
+	Справочник.ПроектныеЗадачи КАК ПроектныеЗадачи
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			СУММА(Исполнители.ТекущийПланТрудозатраты) КАК ТекущийПланТрудозатраты,
+			Исполнители.Ссылка КАК Ссылка,
+			Исполнители.Исполнитель КАК Исполнитель
+		ИЗ
+			Справочник.ПроектныеЗадачи.Исполнители КАК Исполнители
+		
+		СГРУППИРОВАТЬ ПО
+			Исполнители.Ссылка,
+			Исполнители.Исполнитель) КАК ПроектныеЗадачиИсполнители
+			ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+				СУММА(ПлановыеТрудозатратыПоЗаявкамСрезПоследних.Длительность) КАК Длительность,
+				ПлановыеТрудозатратыПоЗаявкамСрезПоследних.ПроектнаяЗадача КАК ПроектнаяЗадача,
+				ПлановыеТрудозатратыПоЗаявкамСрезПоследних.Исполнитель КАК Пользователь
+			ИЗ
+				РегистрСведений.ПлановыеТрудозатратыПоЗаявкам.СрезПоследних(КОНЕЦПЕРИОДА(&amp;Период, ДЕНЬ), ) КАК ПлановыеТрудозатратыПоЗаявкамСрезПоследних
+			
+			СГРУППИРОВАТЬ ПО
+				ПлановыеТрудозатратыПоЗаявкамСрезПоследних.ПроектнаяЗадача,
+				ПлановыеТрудозатратыПоЗаявкамСрезПоследних.Исполнитель) КАК ПлановыеТрудозатраты
+			ПО ПроектныеЗадачиИсполнители.Ссылка = ПлановыеТрудозатраты.ПроектнаяЗадача
+				И ПроектныеЗадачиИсполнители.Исполнитель = ПлановыеТрудозатраты.Пользователь
+			ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+				ФактическиеТрудозатраты.ПроектнаяЗадача КАК ПроектнаяЗадача,
+				СУММА(ФактическиеТрудозатраты.Длительность) КАК Длительность,
+				СоответствиеРолейИпользователей.Роль КАК Исполнитель
+			ИЗ
+				РегистрСведений.ФактическиеТрудозатраты КАК ФактическиеТрудозатраты
+					ЛЕВОЕ СОЕДИНЕНИЕ СоответствиеРолейИпользователей КАК СоответствиеРолейИпользователей
+					ПО ФактическиеТрудозатраты.ДатаДобавления = СоответствиеРолейИпользователей.ДатаРаботы
+						И ФактическиеТрудозатраты.Пользователь = СоответствиеРолейИпользователей.Пользователь
+			
+			СГРУППИРОВАТЬ ПО
+				ФактическиеТрудозатраты.ПроектнаяЗадача,
+				СоответствиеРолейИпользователей.Роль) КАК ФактическиеТрудозатраты
+			ПО ПроектныеЗадачиИсполнители.Ссылка = ФактическиеТрудозатраты.ПроектнаяЗадача
+				И ПроектныеЗадачиИсполнители.Исполнитель = ФактическиеТрудозатраты.Исполнитель
+		ПО ПроектныеЗадачи.Ссылка = ПроектныеЗадачиИсполнители.Ссылка
+ГДЕ
+	ПроектныеЗадачи.Владелец = &amp;Проект</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ФактическиеТрудозатраты</dataPath>
+		<expression>РаботаСПроектами.ПересчитатьТрудозатраты(
+                ФактическиеТрудозатратыМин,
+                ЗНАЧЕНИЕ(Перечисление.ЕдиницыТрудозатрат.ЧеловекоМинута),
+                ТекущийПланЕдиницаТрудозатрат,
+                ГрафикРаботы)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Фактические трудозатраты</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧЦ=10; ЧДЦ=2</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ТрудозатратыОтклонение</dataPath>
+		<expression>ТекущийПланТрудозатраты - 
+РаботаСПроектами.ПересчитатьТрудозатраты(
+                ФактическиеТрудозатратыМин,
+                ЗНАЧЕНИЕ(Перечисление.ЕдиницыТрудозатрат.ЧеловекоМинута),
+                ТекущийПланЕдиницаТрудозатрат,
+                ГрафикРаботы)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Трудозатраты отклонение</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧЦ=10; ЧДЦ=2</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ПлановыеТрудозатратыПоЗаявкам</dataPath>
+		<expression>РаботаСПроектами.ПересчитатьТрудозатраты(
+                ПланоыеТрудозатратыПоЗаявкамМин,
+                ЗНАЧЕНИЕ(Перечисление.ЕдиницыТрудозатрат.ЧеловекоМинута),
+                ТекущийПланЕдиницаТрудозатрат,
+                ГрафикРаботы)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Плановые трудозатраты по заявкам</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧЦ=10; ЧДЦ=2</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ТрудозатратыОтклонениеПоЗаявкам</dataPath>
+		<expression>РаботаСПроектами.ПересчитатьТрудозатраты(
+                ПланоыеТрудозатратыПоЗаявкамМин,
+                ЗНАЧЕНИЕ(Перечисление.ЕдиницыТрудозатрат.ЧеловекоМинута),
+                ТекущийПланЕдиницаТрудозатрат,
+                ГрафикРаботы) -
+РаботаСПроектами.ПересчитатьТрудозатраты(
+                ФактическиеТрудозатратыМин,
+                ЗНАЧЕНИЕ(Перечисление.ЕдиницыТрудозатрат.ЧеловекоМинута),
+                ТекущийПланЕдиницаТрудозатрат,
+                ГрафикРаботы)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Трудозатраты отклонение по заявкам</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧЦ=10; ЧДЦ=2</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>ДлительностьФакт</dataPath>
+		<expression>Сумма(ДлительностьФакт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПлановыеТрудозатратыПоЗаявкам</dataPath>
+		<expression>Сумма(ПлановыеТрудозатратыПоЗаявкам)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПланоыеТрудозатратыПоЗаявкамМин</dataPath>
+		<expression>Сумма(ПланоыеТрудозатратыПоЗаявкамМин)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТекущийПланДлительность</dataPath>
+		<expression>Сумма(ТекущийПланДлительность)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТекущийПланТрудозатраты</dataPath>
+		<expression>Сумма(ТекущийПланТрудозатраты)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТрудозатратыОтклонение</dataPath>
+		<expression>Сумма(ТрудозатратыОтклонение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТрудозатратыОтклонениеПоЗаявкам</dataPath>
+		<expression>Сумма(ТрудозатратыОтклонениеПоЗаявкам)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ФактическиеТрудозатраты</dataPath>
+		<expression>Сумма(ФактическиеТрудозатраты)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ФактическиеТрудозатратыМин</dataPath>
+		<expression>Сумма(ФактическиеТрудозатратыМин)</expression>
+	</totalField>
+	<parameter>
+		<name>Проект</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Проект</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Проекты</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Проекты.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ПланФактПоТрудозатратам</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>План-факт по трудозатратам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТекущийПланЕдиницаТрудозатрат</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Плановые трудозатраты</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПлановыеТрудозатратыПоЗаявкам</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>По заявкам</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ТекущийПланТрудозатраты</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>По проектн. задаче</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФактическиеТрудозатраты</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Трудозатраты (факт)</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отклонение</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ТрудозатратыОтклонениеПоЗаявкам</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>По заявкам</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ТрудозатратыОтклонение</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>По проектн. задаче</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Проект</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.Проекты.ПустаяСсылка</dcscor:value>
+					<dcsset:userSettingID>4ca8ec32-1d0b-4579-a5f9-579612d166f3</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ТрудозатратыОтклонение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ТрудозатратыОтклонение</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:ОтметкаОтрицательногоВыполненияЗадачи</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ТрудозатратыОтклонение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ТрудозатратыОтклонение</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:ОтметкаПоложительногоВыполненияЗадачи</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План-факт по трудозатратам</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Исполнитель</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Ссылка</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

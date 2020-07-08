@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a8c20b4-b937-4a7c-85d6-078278e43a8d">
+  <producedTypes>
+    <objectType typeId="d5a0d23b-3e42-4146-8b45-f276a717d536" valueTypeId="35b4f875-d6af-4d66-b1cd-d585729b9930"/>
+    <managerType typeId="e560fb76-9fb2-43cb-a751-e0ad1d88bc5b" valueTypeId="152d32b6-bcfb-4a23-ae19-d2df44c165b1"/>
+  </producedTypes>
+  <name>АдминистрированиеСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Адміністрування</value>
+  </synonym>
+  <defaultForm>DataProcessor.АдминистрированиеСистемы.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="4868c278-4b9b-486c-9dcd-80ad53372262">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="34ec2a61-7c34-489e-8b5f-99beec6b5c1c">
+    <name>АдминистрированиеСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администрирование</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Адміністрування</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Администрирование информационной базы</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Адміністрування інформаційної бази</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

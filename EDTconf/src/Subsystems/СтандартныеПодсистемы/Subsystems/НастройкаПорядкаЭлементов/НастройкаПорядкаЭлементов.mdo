@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e43d69c8-b284-47da-b236-611bc94a15b6">
+  <name>НастройкаПорядкаЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка порядка элементов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.НастройкаПорядкаЭлементов</content>
+  <content>CommonModule.НастройкаПорядкаЭлементовКлиент</content>
+  <content>CommonModule.НастройкаПорядкаЭлементовСобытия</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

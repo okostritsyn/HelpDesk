@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38184767-167b-49b7-b995-4f13900b3822">
+  <name>СтандартныеПодсистемыПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы переопределяемый</value>
+  </synonym>
+  <comment>Модуль настройки связей между подсистемами при выборочном внедрении</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

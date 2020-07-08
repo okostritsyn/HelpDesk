@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8a8525a-7f85-4c07-a10f-a50eaf07e403">
+  <producedTypes>
+    <objectType typeId="a88db519-e97f-4cdf-bc8e-a8a3ae300da9" valueTypeId="7ba98717-2ba7-42f1-8b81-47086446d43c"/>
+    <managerType typeId="8abd0c92-8bf9-4c5b-8953-f6cdfbf21d61" valueTypeId="ac2cdfe1-7e77-42db-b7bc-10a2dbc344cf"/>
+  </producedTypes>
+  <name>ЗагрузкаУчетныхЗаписейИзAD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка учетных записей пользователей из Active Directory</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаУчетныхЗаписейИзAD.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.ЗагрузкаУчетныхЗаписейИзAD.Form.Форма</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="38bedb62-41af-4a16-a2a9-d17ac931968e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма (упр.)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3de1e7d8-71a9-4c1d-a0eb-61b06297b3ff">
+    <name>ФормаДереваAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дерева AD</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="514486ac-5993-40e3-b17d-3f334cab58b6">
+    <name>ЗагрузкаУчетныхЗаписейИзAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка учетных записей из AD</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

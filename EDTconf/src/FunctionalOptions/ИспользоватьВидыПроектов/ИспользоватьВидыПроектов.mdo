@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c99eda8-8185-48f0-91a1-f2a832dd8792">
+  <name>ИспользоватьВидыПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать виды проектов</value>
+  </synonym>
+  <location>Constant.ИспользоватьВидыПроектов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыПроектов</content>
+  <content>Catalog.Проекты.Attribute.ВидПроекта</content>
+</mdclass:FunctionalOption>

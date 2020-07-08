@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03fed4a1-e846-4e01-bdbb-80fa75e09980">
+  <name>ПанельОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель отчетов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

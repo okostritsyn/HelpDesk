@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
+	<setForNewObjects>false</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
+	<object>
+		<name>Catalog.ПроектныеЗадачи.Command.СоздатьПроектнуюЗадачуНаОсновании</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.Проекты</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ОграничениеЧтенияОбъектов</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ОграничениеДобавленияИзмененияУдаления</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ОграничениеДобавленияИзмененияУдаления</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ПроектныеЗадачи</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ВыборПроектаЗадачи</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ИмпортПроектаИзMicrosoftProject</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ПроектныеЗадачи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ОграничениеЧтенияОбъектов</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ОграничениеДобавленияИзмененияУдаления</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ОграничениеДобавленияИзмененияУдаления</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<restrictionTemplate>
+		<name>ОграничениеДобавленияИзмененияУдаления</name>
+		<condition>// Текст должен быть установлен, когда требуется, чтобы ПередЗаписью объекта/набора записей
+// выполнялась программная проверка ограничения добавления/изменения и,
+// соответственно, ПередУдалением объекта выполнялась программная проверка удаления.</condition>
+	</restrictionTemplate>
+	<restrictionTemplate>
+		<name>ОграничениеЧтенияОбъектов</name>
+		<condition>// ОграничениеЧтенияОбъектов()
+
+#Если &amp;ОграничиватьДоступНаУровнеЗаписей
+ #Тогда
+
+ТекущаяТаблица ГДЕ Истина В
+(
+  ВЫБРАТЬ Первые 1 Истина
+  ИЗ РегистрСведений.ОграниченияДоступа КАК Ограничения
+  ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ПраваПользователей КАК Права
+  ПО
+      Ограничения.ОбъектДоступа = ТекущаяТаблица.Ссылка
+    И Права.ОпределительДоступа  = Ограничения.ОпределительДоступа
+  #Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+    И Права.Пользователь         = &amp;ТекущийПользователь
+  #Иначе
+    И Права.Пользователь         = &amp;ТекущийВнешнийПользователь
+  #КонецЕсли
+)
+
+#КонецЕсли</condition>
+	</restrictionTemplate>
+</Rights>

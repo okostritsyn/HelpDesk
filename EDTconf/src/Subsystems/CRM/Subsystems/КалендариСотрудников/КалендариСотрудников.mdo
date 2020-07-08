@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2357b25-d3c1-40a0-a561-b781f2d84e6f">
+  <name>КалендариСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календари сотрудников</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Календарі співробітників</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>EventSubscription.АктуализироватьЗаписиКалендаряПоИсточнику</content>
+  <content>CommonModule.КалендариСотрудников</content>
+  <content>DefinedType.ИсточникЗаписейКалендаря</content>
+  <content>DefinedType.ИсточникЗаписейКалендаряОбъект</content>
+  <content>Role.ИспользованиеКалендаряСотрудника</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника</content>
+  <content>Catalog.КалендариСотрудников</content>
+  <content>CommonModule.СобытияCRMКлиентСервер</content>
+  <content>CommonModule.ЗаполнениеОбъектовCRM</content>
+  <content>CommonModule.РаботаССистемойCRMПовтИсп</content>
+  <content>CommonModule.РаботаСЦветомКлиентСервер</content>
+  <content>CommonModule.РаботаССистемойCRMСервер</content>
+  <content>ChartOfCharacteristicTypes.НастройкиПользователей</content>
+  <content>InformationRegister.НастройкиПользователей</content>
+  <content>CommonForm.ВыборЦветаКалендаря</content>
+  <content>InformationRegister.ПланированиеЗаявок</content>
+  <parentSubsystem>Subsystem.CRM</parentSubsystem>
+</mdclass:Subsystem>

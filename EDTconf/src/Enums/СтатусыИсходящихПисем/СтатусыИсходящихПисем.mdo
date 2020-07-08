@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daa51219-4871-47e5-95c8-0636870ef52d">
+  <producedTypes>
+    <refType typeId="46f4bd92-415d-48d8-8795-7084d7beedf1" valueTypeId="1f1daadc-ca8e-488f-90c0-f8cb14daf829"/>
+    <listType typeId="1316ebca-b10e-4b60-bc9b-acc0cf3e5f6f" valueTypeId="1d1fc528-4f97-4a25-b9a9-8908ffa2a9fc"/>
+    <managerType typeId="e9b1dc92-1173-4721-a146-85a965b93596" valueTypeId="059c6ca5-2dd0-4b14-9b22-258e7fcbb84e"/>
+  </producedTypes>
+  <name>СтатусыИсходящихПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы исходящих писем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4202cd55-4c45-4dc6-8bdb-529ac9551c56">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c0240bf-514c-4c98-ba26-1172f316a7e3">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb81b156-113c-409a-b74d-1b65b7729fee">
+    <name>Исходящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8c3a4e8-54df-45b1-9788-46d21b6294f5">
+    <name>ВКорзине</name>
+    <synonym>
+      <key>ru</key>
+      <value>В корзине</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

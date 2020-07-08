@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3158ffef-5aaa-43d3-83ca-40626aa33d3c">
+  <producedTypes>
+    <selectionType typeId="6331345c-586c-4851-ac41-de5a74d7483c" valueTypeId="a24c52a0-9f8b-4f0b-96cb-463ce6fbf8ce"/>
+    <listType typeId="a25dd1b9-f8ab-4c86-9202-7bcea2205000" valueTypeId="c46a9b49-352d-4fb8-ba22-19f2004833d9"/>
+    <managerType typeId="486efb51-3399-47a0-8954-68f894ae20cb" valueTypeId="fcbdc846-a6d3-4cd9-be75-6e17b3508b4d"/>
+    <recordSetType typeId="d7886e09-9f95-4838-a07a-8714a018eba2" valueTypeId="9ad27058-9815-4867-a9c2-2a21d470d36b"/>
+    <recordKeyType typeId="6458e771-c799-47a5-bb08-a333688141bc" valueTypeId="d00e7d2f-e686-4370-8660-85d16defbe15"/>
+    <recordType typeId="497ced06-0c0e-43ba-af52-3c3595c2a38d" valueTypeId="732c2659-12cc-4bdf-bfe8-14b96ff46a4f"/>
+    <recordManagerType typeId="6024b500-2e3a-4176-9f80-194160f88de4" valueTypeId="5e6b5149-a27a-416d-a56c-2fa169680231"/>
+  </producedTypes>
+  <name>ПодчиненныеПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подчиненные пользователи</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="36940f2c-b655-4d50-af16-2fb70acf5cdb">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, которому подчинены пользователи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7a0d7396-efed-4b57-92b6-e4ac74638b21">
+    <name>ПодчиненныйПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненный пользователь</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подчиненный пользователь или группа пользователей подчиненного пользователя или группа исполнителей задач подчиненного пользователя и объект авторизации подчиненного внешнего пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="42ff1536-0f3f-467b-b8f4-67260e5d87e3">
+    <name>ГруппаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа доступа пользователя и подчиненного пользователя одновременно</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

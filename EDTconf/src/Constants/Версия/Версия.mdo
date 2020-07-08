@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8249198-92a2-47ca-9a49-4228480c8a1b">
+  <producedTypes>
+    <managerType typeId="28e1973b-dc21-4019-b744-0ab40e15b970" valueTypeId="64666515-84bd-452a-a647-b1a9cde08856"/>
+    <valueManagerType typeId="678257cb-a0ce-4c69-822e-c649c54073ec" valueTypeId="5d0b0595-f332-42c1-be54-4259266caae5"/>
+    <valueKeyType typeId="0490ee77-e872-57c7-bd58-8bec8f3d590c" valueTypeId="1fc3f4a3-a268-53cb-8392-2a32148ced34"/>
+  </producedTypes>
+  <name>Версия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

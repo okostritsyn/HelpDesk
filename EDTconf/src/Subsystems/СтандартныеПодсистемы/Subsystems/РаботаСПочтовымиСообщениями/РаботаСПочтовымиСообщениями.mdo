@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd592a5d-b184-4558-8a28-7079ccf28b89">
+  <name>РаботаСПочтовымиСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с почтовыми сообщениями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.ЭлектроннаяПочтаКлиентПереопределяемый</content>
+  <content>CommonModule.ЭлектроннаяПочта</content>
+  <content>CommonModule.РаботаСПочтовымиСообщениямиКлиент</content>
+  <content>CommonModule.РаботаСПочтовымиСообщениями</content>
+  <content>CommonForm.ПодтверждениеПароляУчетнойЗаписи</content>
+  <content>CommonForm.РедактированиеНовогоПисьма</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Enum.ВариантыSMTPАутентификации</content>
+  <content>Enum.СпособыPOP3Аутентификации</content>
+  <content>Enum.СпособыSMTPАутентификации</content>
+  <content>Enum.ТипыТекстовЭлектронныхПисем</content>
+  <content>CommonPicture.ПриложитьФайл</content>
+  <content>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</content>
+  <content>Role.ИспользованиеУчетныхЗаписейЭлектроннойПочты</content>
+  <content>CommonModule.ЭлектроннаяПочтаВызовСервера</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

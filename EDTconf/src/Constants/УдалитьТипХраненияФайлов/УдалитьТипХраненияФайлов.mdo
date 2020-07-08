@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cf45640-aeb3-45aa-97aa-922a83e61510">
+  <producedTypes>
+    <managerType typeId="10433e5e-f676-4a9e-8932-090b466e7625" valueTypeId="a520727a-a14f-4d85-a5eb-92df74f0961e"/>
+    <valueManagerType typeId="c6e8d547-ac53-4d03-9c37-01032b663154" valueTypeId="9e43988f-442c-4aa8-af80-564caae17bcc"/>
+    <valueKeyType typeId="bb70da2d-9715-5c98-9704-f7d8205402ff" valueTypeId="a239e067-d6f8-5100-aaf4-b94cf9f37c5a"/>
+  </producedTypes>
+  <name>УдалитьТипХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить тип хранения файлов</value>
+  </synonym>
+  <comment>Удалено: Глобальная настройка - где хранятся файлы - в базе как ХранилищеЗначения или в каталоге на диске</comment>
+  <type>
+    <types>EnumRef.ТипыХраненияФайлов</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

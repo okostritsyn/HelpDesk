@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b3cab9a-fd05-42a8-811a-f443aee5e192">
+  <name>УправлениеКонтактнойИнформациейКлассификаторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление контактной информацией классификаторы</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

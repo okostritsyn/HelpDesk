@@ -1,0 +1,246 @@
+<Items Description="Страны мира" Columns="Code,ShortName,Alpha2,Alpha3,FullName">
+	<Item Code="004" ShortName="АФГАНИСТАН" Alpha2="AF" Alpha3="AFG" FullName="Переходное Исламское Государство Афганистан"/>
+	<Item Code="008" ShortName="АЛБАНИЯ" Alpha2="AL" Alpha3="ALB" FullName="Республика Албания"/>
+	<Item Code="010" ShortName="АНТАРКТИДА" Alpha2="AQ" Alpha3="ATA" FullName=""/>
+	<Item Code="012" ShortName="АЛЖИР" Alpha2="DZ" Alpha3="DZA" FullName="Алжирская Народная Демократическая Республика"/>
+	<Item Code="016" ShortName="АМЕРИКАНСКОЕ САМОА" Alpha2="AS" Alpha3="ASM" FullName=""/>
+	<Item Code="020" ShortName="АНДОРРА" Alpha2="AD" Alpha3="AND" FullName="Княжество Андорра"/>
+	<Item Code="024" ShortName="АНГОЛА" Alpha2="AO" Alpha3="AGO" FullName="Республика Ангола"/>
+	<Item Code="028" ShortName="АНТИГУА И БАРБУДА" Alpha2="AG" Alpha3="ATG" FullName=""/>
+	<Item Code="031" ShortName="АЗЕРБАЙДЖАН" Alpha2="AZ" Alpha3="AZE" FullName="Республика Азербайджан"/>
+	<Item Code="032" ShortName="АРГЕНТИНА" Alpha2="AR" Alpha3="ARG" FullName="Аргентинская Республика"/>
+	<Item Code="036" ShortName="АВСТРАЛИЯ" Alpha2="AU" Alpha3="AUS" FullName=""/>
+	<Item Code="040" ShortName="АВСТРИЯ" Alpha2="AT" Alpha3="AUT" FullName="Австрийская Республика"/>
+	<Item Code="044" ShortName="БАГАМЫ" Alpha2="BS" Alpha3="BHS" FullName="Содружество Багамы"/>
+	<Item Code="048" ShortName="БАХРЕЙН" Alpha2="BH" Alpha3="BHR" FullName="Королевство Бахрейн"/>
+	<Item Code="050" ShortName="БАНГЛАДЕШ" Alpha2="BD" Alpha3="BGD" FullName="Народная Республика Бангладеш"/>
+	<Item Code="051" ShortName="АРМЕНИЯ" Alpha2="AM" Alpha3="ARM" FullName="Республика Армения"/>
+	<Item Code="052" ShortName="БАРБАДОС" Alpha2="BB" Alpha3="BRB" FullName=""/>
+	<Item Code="056" ShortName="БЕЛЬГИЯ" Alpha2="BE" Alpha3="BEL" FullName="Королевство Бельгии"/>
+	<Item Code="060" ShortName="БЕРМУДЫ" Alpha2="BM" Alpha3="BMU" FullName=""/>
+	<Item Code="064" ShortName="БУТАН" Alpha2="BT" Alpha3="BTN" FullName="Королевство Бутан"/>
+	<Item Code="068" ShortName="БОЛИВИЯ" Alpha2="BO" Alpha3="BOL" FullName="Республика Боливия"/>
+	<Item Code="070" ShortName="БОСНИЯ И ГЕРЦЕГОВИНА" Alpha2="BA" Alpha3="BIH" FullName=""/>
+	<Item Code="072" ShortName="БОТСВАНА" Alpha2="BW" Alpha3="BWA" FullName="Республика Ботсвана"/>
+	<Item Code="074" ShortName="ОСТРОВ БУВЕ" Alpha2="BV" Alpha3="BVT" FullName=""/>
+	<Item Code="076" ShortName="БРАЗИЛИЯ" Alpha2="BR" Alpha3="BRA" FullName="Федеративная Республика Бразилия"/>
+	<Item Code="084" ShortName="БЕЛИЗ" Alpha2="BZ" Alpha3="BLZ" FullName=""/>
+	<Item Code="086" ShortName="БРИТАНСКАЯ ТЕРРИТОРИЯ В ИНДИЙСКОМ ОКЕАНЕ" Alpha2="IO" Alpha3="IOT" FullName=""/>
+	<Item Code="090" ShortName="СОЛОМОНОВЫ ОСТРОВА" Alpha2="SB" Alpha3="SLB" FullName=""/>
+	<Item Code="092" ShortName="ВИРГИНСКИЕ ОСТРОВА, БРИТАНСКИЕ" Alpha2="VG" Alpha3="VGB" FullName="Британские Виргинские острова"/>
+	<Item Code="096" ShortName="БРУНЕЙ-ДАРУССАЛАМ" Alpha2="BN" Alpha3="BRN" FullName=""/>
+	<Item Code="100" ShortName="БОЛГАРИЯ" Alpha2="BG" Alpha3="BGR" FullName="Республика Болгария"/>
+	<Item Code="104" ShortName="МЬЯНМА" Alpha2="MM" Alpha3="MMR" FullName="Союз Мьянма"/>
+	<Item Code="108" ShortName="БУРУНДИ" Alpha2="BI" Alpha3="BDI" FullName="Республика Бурунди"/>
+	<Item Code="112" ShortName="БЕЛАРУСЬ" Alpha2="BY" Alpha3="BLR" FullName="Республика Беларусь"/>
+	<Item Code="116" ShortName="КАМБОДЖА" Alpha2="KH" Alpha3="KHM" FullName="Королевство Камбоджа"/>
+	<Item Code="120" ShortName="КАМЕРУН" Alpha2="CM" Alpha3="CMR" FullName="Республика Камерун"/>
+	<Item Code="124" ShortName="КАНАДА" Alpha2="CA" Alpha3="CAN" FullName=""/>
+	<Item Code="132" ShortName="КАБО-ВЕРДЕ" Alpha2="CV" Alpha3="CPV" FullName="Республика Кабо-Верде"/>
+	<Item Code="136" ShortName="ОСТРОВА КАЙМАН" Alpha2="KY" Alpha3="CYM" FullName=""/>
+	<Item Code="140" ShortName="ЦЕНТРАЛЬНО-АФРИКАНСКАЯ РЕСПУБЛИКА" Alpha2="CF" Alpha3="CAF" FullName=""/>
+	<Item Code="144" ShortName="ШРИ-ЛАНКА" Alpha2="LK" Alpha3="LKA" FullName="Демократическая Социалистическая Республика Шри-Ланка"/>
+	<Item Code="148" ShortName="ЧАД" Alpha2="TD" Alpha3="TCD" FullName="Республика Чад"/>
+	<Item Code="152" ShortName="ЧИЛИ" Alpha2="CL" Alpha3="CHL" FullName="Республика Чили"/>
+	<Item Code="156" ShortName="КИТАЙ" Alpha2="CN" Alpha3="CHN" FullName="Китайская Народная Республика"/>
+	<Item Code="158" ShortName="ТАЙВАНЬ (КИТАЙ)" Alpha2="TW" Alpha3="TWN" FullName=""/>
+	<Item Code="162" ShortName="ОСТРОВ РОЖДЕСТВА" Alpha2="CX" Alpha3="CXR" FullName=""/>
+	<Item Code="166" ShortName="КОКОСОВЫЕ (КИЛИНГ) ОСТРОВА" Alpha2="CC" Alpha3="CCK" FullName=""/>
+	<Item Code="170" ShortName="КОЛУМБИЯ" Alpha2="CO" Alpha3="COL" FullName="Республика Колумбия"/>
+	<Item Code="174" ShortName="КОМОРЫ" Alpha2="KM" Alpha3="COM" FullName="Союз Коморы"/>
+	<Item Code="175" ShortName="МАЙОТТА" Alpha2="YT" Alpha3="MYT" FullName=""/>
+	<Item Code="178" ShortName="КОНГО" Alpha2="CG" Alpha3="COG" FullName="Республика Конго"/>
+	<Item Code="180" ShortName="КОНГО, ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА" Alpha2="CD" Alpha3="COD" FullName="Демократическая Республика Конго"/>
+	<Item Code="184" ShortName="ОСТРОВА КУКА" Alpha2="CK" Alpha3="COK" FullName=""/>
+	<Item Code="188" ShortName="КОСТА-РИКА" Alpha2="CR" Alpha3="CRI" FullName="Республика Коста-Рика"/>
+	<Item Code="191" ShortName="ХОРВАТИЯ" Alpha2="HR" Alpha3="HRV" FullName="Республика Хорватия"/>
+	<Item Code="192" ShortName="КУБА" Alpha2="CU" Alpha3="CUB" FullName="Республика Куба"/>
+	<Item Code="196" ShortName="КИПР" Alpha2="CY" Alpha3="CYP" FullName="Республика Кипр"/>
+	<Item Code="203" ShortName="ЧЕШСКАЯ РЕСПУБЛИКА" Alpha2="CZ" Alpha3="CZE" FullName=""/>
+	<Item Code="204" ShortName="БЕНИН" Alpha2="BJ" Alpha3="BEN" FullName="Республика Бенин"/>
+	<Item Code="208" ShortName="ДАНИЯ" Alpha2="DK" Alpha3="DNK" FullName="Королевство Дания"/>
+	<Item Code="212" ShortName="ДОМИНИКА" Alpha2="DM" Alpha3="DMA" FullName="Содружество Доминики"/>
+	<Item Code="214" ShortName="ДОМИНИКАНСКАЯ РЕСПУБЛИКА" Alpha2="DO" Alpha3="DOM" FullName=""/>
+	<Item Code="218" ShortName="ЭКВАДОР" Alpha2="EC" Alpha3="ECU" FullName="Республика Эквадор"/>
+	<Item Code="222" ShortName="ЭЛЬ-САЛЬВАДОР" Alpha2="SV" Alpha3="SLV" FullName="Республика Эль-Сальвадор"/>
+	<Item Code="226" ShortName="ЭКВАТОРИАЛЬНАЯ ГВИНЕЯ" Alpha2="GQ" Alpha3="GNQ" FullName="Республика Экваториальная Гвинея"/>
+	<Item Code="231" ShortName="ЭФИОПИЯ" Alpha2="ET" Alpha3="ETH" FullName="Федеративная Демократическая Республика Эфиопия"/>
+	<Item Code="232" ShortName="ЭРИТРЕЯ" Alpha2="ER" Alpha3="ERI" FullName=""/>
+	<Item Code="233" ShortName="ЭСТОНИЯ" Alpha2="EE" Alpha3="EST" FullName="Эстонская Республика"/>
+	<Item Code="234" ShortName="ФАРЕРСКИЕ ОСТРОВА" Alpha2="FO" Alpha3="FRO" FullName=""/>
+	<Item Code="238" ShortName="ФОЛКЛЕНДСКИЕ ОСТРОВА (МАЛЬВИНСКИЕ)" Alpha2="FK" Alpha3="FLK" FullName=""/>
+	<Item Code="239" ShortName="ЮЖНАЯ ДЖОРДЖИЯ И ЮЖНЫЕ САНДВИЧЕВЫ ОСТРОВА" Alpha2="GS" Alpha3="SGS" FullName=""/>
+	<Item Code="242" ShortName="ФИДЖИ" Alpha2="FJ" Alpha3="FJI" FullName="Республика Островов Фиджи"/>
+	<Item Code="246" ShortName="ФИНЛЯНДИЯ" Alpha2="FI" Alpha3="FIN" FullName="Финляндская Республика"/>
+	<Item Code="248" ShortName="ЭЛАНДСКИЕ ОСТРОВА" Alpha2="АХ" Alpha3="ALA" FullName=""/>
+	<Item Code="250" ShortName="ФРАНЦИЯ" Alpha2="FR" Alpha3="FRA" FullName="Французская Республика"/>
+	<Item Code="254" ShortName="ФРАНЦУЗСКАЯ ГВИАНА" Alpha2="GF" Alpha3="GUF" FullName=""/>
+	<Item Code="258" ShortName="ФРАНЦУЗСКАЯ ПОЛИНЕЗИЯ" Alpha2="PF" Alpha3="PYF" FullName=""/>
+	<Item Code="260" ShortName="ФРАНЦУЗСКИЕ ЮЖНЫЕ ТЕРРИТОРИИ" Alpha2="TF" Alpha3="ATF" FullName=""/>
+	<Item Code="262" ShortName="ДЖИБУТИ" Alpha2="DJ" Alpha3="DJI" FullName="Республика Джибути"/>
+	<Item Code="266" ShortName="ГАБОН" Alpha2="GA" Alpha3="GAB" FullName="Габонская Республика"/>
+	<Item Code="268" ShortName="ГРУЗИЯ" Alpha2="GE" Alpha3="GEO" FullName=""/>
+	<Item Code="270" ShortName="ГАМБИЯ" Alpha2="GM" Alpha3="GMB" FullName="Республика Гамбия"/>
+	<Item Code="275" ShortName="ПАЛЕСТИНСКАЯ ТЕРРИТОРИЯ, ОККУПИРОВАННАЯ" Alpha2="PS" Alpha3="PSE" FullName="Оккупированная Палестинская территория"/>
+	<Item Code="276" ShortName="ГЕРМАНИЯ" Alpha2="DE" Alpha3="DEU" FullName="Федеративная Республика Германия"/>
+	<Item Code="288" ShortName="ГАНА" Alpha2="GH" Alpha3="GHA" FullName="Республика Гана"/>
+	<Item Code="292" ShortName="ГИБРАЛТАР" Alpha2="GI" Alpha3="GIB" FullName=""/>
+	<Item Code="296" ShortName="КИРИБАТИ" Alpha2="KI" Alpha3="KIR" FullName="Республика Кирибати"/>
+	<Item Code="300" ShortName="ГРЕЦИЯ" Alpha2="GR" Alpha3="GRC" FullName="Греческая Республика"/>
+	<Item Code="304" ShortName="ГРЕНЛАНДИЯ" Alpha2="GL" Alpha3="GRL" FullName=""/>
+	<Item Code="308" ShortName="ГРЕНАДА" Alpha2="GD" Alpha3="GRD" FullName=""/>
+	<Item Code="312" ShortName="ГВАДЕЛУПА" Alpha2="GP" Alpha3="GLP" FullName=""/>
+	<Item Code="316" ShortName="ГУАМ" Alpha2="GU" Alpha3="GUM" FullName=""/>
+	<Item Code="320" ShortName="ГВАТЕМАЛА" Alpha2="GT" Alpha3="GTM" FullName="Республика Гватемала"/>
+	<Item Code="324" ShortName="ГВИНЕЯ" Alpha2="GN" Alpha3="GIN" FullName="Гвинейская Республика"/>
+	<Item Code="328" ShortName="ГАЙАНА" Alpha2="GY" Alpha3="GUY" FullName="Республика Гайана"/>
+	<Item Code="332" ShortName="ГАИТИ" Alpha2="HT" Alpha3="HTI" FullName="Республика Гаити"/>
+	<Item Code="334" ShortName="ОСТРОВ ХЕРД И ОСТРОВА МАКДОНАЛЬД" Alpha2="HM" Alpha3="HMD" FullName=""/>
+	<Item Code="336" ShortName="ПАПСКИЙ ПРЕСТОЛ (ГОСУДАРСТВО - ГОРОД ВАТИКАН)" Alpha2="VA" Alpha3="VAT" FullName=""/>
+	<Item Code="340" ShortName="ГОНДУРАС" Alpha2="HN" Alpha3="HND" FullName="Республика Гондурас"/>
+	<Item Code="344" ShortName="ГОНКОНГ" Alpha2="HK" Alpha3="HKG" FullName="Специальный административный регион Китая Гонконг"/>
+	<Item Code="348" ShortName="ВЕНГРИЯ" Alpha2="HU" Alpha3="HUN" FullName="Венгерская Республика"/>
+	<Item Code="352" ShortName="ИСЛАНДИЯ" Alpha2="IS" Alpha3="ISL" FullName="Республика Исландия"/>
+	<Item Code="356" ShortName="ИНДИЯ" Alpha2="IN" Alpha3="IND" FullName="Республика Индия"/>
+	<Item Code="360" ShortName="ИНДОНЕЗИЯ" Alpha2="ID" Alpha3="IDN" FullName="Республика Индонезия"/>
+	<Item Code="364" ShortName="ИРАН, ИСЛАМСКАЯ РЕСПУБЛИКА" Alpha2="IR" Alpha3="IRN" FullName="Исламская Республика Иран"/>
+	<Item Code="368" ShortName="ИРАК" Alpha2="IQ" Alpha3="IRQ" FullName="Республика Ирак"/>
+	<Item Code="372" ShortName="ИРЛАНДИЯ" Alpha2="IE" Alpha3="IRL" FullName=""/>
+	<Item Code="376" ShortName="ИЗРАИЛЬ" Alpha2="IL" Alpha3="ISR" FullName="Государство Израиль"/>
+	<Item Code="380" ShortName="ИТАЛИЯ" Alpha2="IT" Alpha3="ITA" FullName="Итальянская Республика"/>
+	<Item Code="384" ShortName="КОТ Д'ИВУАР" Alpha2="CI" Alpha3="CIV" FullName="Республика Кот д'Ивуар"/>
+	<Item Code="388" ShortName="ЯМАЙКА" Alpha2="JM" Alpha3="JAM" FullName=""/>
+	<Item Code="392" ShortName="ЯПОНИЯ" Alpha2="JP" Alpha3="JPN" FullName=""/>
+	<Item Code="398" ShortName="КАЗАХСТАН" Alpha2="KZ" Alpha3="KAZ" FullName="Республика Казахстан"/>
+	<Item Code="400" ShortName="ИОРДАНИЯ" Alpha2="JO" Alpha3="JOR" FullName="Иорданское Хашимитское Королевство"/>
+	<Item Code="404" ShortName="КЕНИЯ" Alpha2="KE" Alpha3="KEN" FullName="Республика Кения"/>
+	<Item Code="408" ShortName="КОРЕЯ, НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА" Alpha2="KP" Alpha3="PRK" FullName="Корейская Народно-Демократическая Республика"/>
+	<Item Code="410" ShortName="КОРЕЯ, РЕСПУБЛИКА" Alpha2="KR" Alpha3="KOR" FullName="Республика Корея"/>
+	<Item Code="414" ShortName="КУВЕЙТ" Alpha2="KW" Alpha3="KWT" FullName="Государство Кувейт"/>
+	<Item Code="417" ShortName="КИРГИЗИЯ" Alpha2="KG" Alpha3="KGZ" FullName="Киргизская Республика"/>
+	<Item Code="418" ShortName="ЛАОССКАЯ НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА" Alpha2="LA" Alpha3="LAO" FullName=""/>
+	<Item Code="422" ShortName="ЛИВАН" Alpha2="LB" Alpha3="LBN" FullName="Ливанская Республика"/>
+	<Item Code="426" ShortName="ЛЕСОТО" Alpha2="LS" Alpha3="LSO" FullName="Королевство Лесото"/>
+	<Item Code="428" ShortName="ЛАТВИЯ" Alpha2="LV" Alpha3="LVA" FullName="Латвийская Республика"/>
+	<Item Code="430" ShortName="ЛИБЕРИЯ" Alpha2="LR" Alpha3="LBR" FullName="Республика Либерия"/>
+	<Item Code="434" ShortName="ЛИВИЙСКАЯ АРАБСКАЯ ДЖАМАХИРИЯ" Alpha2="LY" Alpha3="LBY" FullName="Социалистическая Народная Ливийская Арабская Джамахирия"/>
+	<Item Code="438" ShortName="ЛИХТЕНШТЕЙН" Alpha2="LI" Alpha3="LIE" FullName="Княжество Лихтенштейн"/>
+	<Item Code="440" ShortName="ЛИТВА" Alpha2="LT" Alpha3="LTU" FullName="Литовская Республика"/>
+	<Item Code="442" ShortName="ЛЮКСЕМБУРГ" Alpha2="LU" Alpha3="LUX" FullName="Великое Герцогство Люксембург"/>
+	<Item Code="446" ShortName="МАКАО" Alpha2="MO" Alpha3="MAC" FullName="Специальный административный регион Китая Макао"/>
+	<Item Code="450" ShortName="МАДАГАСКАР" Alpha2="MG" Alpha3="MDG" FullName="Республика Мадагаскар"/>
+	<Item Code="454" ShortName="МАЛАВИ" Alpha2="MW" Alpha3="MWI" FullName="Республика Малави"/>
+	<Item Code="458" ShortName="МАЛАЙЗИЯ" Alpha2="MY" Alpha3="MYS" FullName=""/>
+	<Item Code="462" ShortName="МАЛЬДИВЫ" Alpha2="MV" Alpha3="MDV" FullName="Мальдивская Республика"/>
+	<Item Code="466" ShortName="МАЛИ" Alpha2="ML" Alpha3="MLI" FullName="Республика Мали"/>
+	<Item Code="470" ShortName="МАЛЬТА" Alpha2="MT" Alpha3="MLT" FullName="Республика Мальта"/>
+	<Item Code="474" ShortName="МАРТИНИКА" Alpha2="MQ" Alpha3="MTQ" FullName=""/>
+	<Item Code="478" ShortName="МАВРИТАНИЯ" Alpha2="MR" Alpha3="MRT" FullName="Исламская Республика Мавритания"/>
+	<Item Code="480" ShortName="МАВРИКИЙ" Alpha2="MU" Alpha3="MUS" FullName="Республика Маврикий"/>
+	<Item Code="484" ShortName="МЕКСИКА" Alpha2="MX" Alpha3="MEX" FullName="Мексиканские Соединенные Штаты"/>
+	<Item Code="492" ShortName="МОНАКО" Alpha2="MC" Alpha3="MCO" FullName="Княжество Монако"/>
+	<Item Code="496" ShortName="МОНГОЛИЯ" Alpha2="MN" Alpha3="MNG" FullName=""/>
+	<Item Code="498" ShortName="МОЛДОВА, РЕСПУБЛИКА" Alpha2="MD" Alpha3="MDA" FullName="Республика Молдова"/>
+	<Item Code="499" ShortName="ЧЕРНОГОРИЯ" Alpha2="ME" Alpha3="MNE" FullName="Республика Черногория"/>
+	<Item Code="500" ShortName="МОНТСЕРРАТ" Alpha2="MS" Alpha3="MSR" FullName=""/>
+	<Item Code="504" ShortName="МАРОККО" Alpha2="MA" Alpha3="MAR" FullName="Королевство Марокко"/>
+	<Item Code="508" ShortName="МОЗАМБИК" Alpha2="MZ" Alpha3="MOZ" FullName="Республика Мозамбик"/>
+	<Item Code="512" ShortName="ОМАН" Alpha2="OM" Alpha3="OMN" FullName="Султанат Оман"/>
+	<Item Code="516" ShortName="НАМИБИЯ" Alpha2="NA" Alpha3="NAM" FullName="Республика Намибия"/>
+	<Item Code="520" ShortName="НАУРУ" Alpha2="NR" Alpha3="NRU" FullName="Республика Науру"/>
+	<Item Code="524" ShortName="НЕПАЛ" Alpha2="NP" Alpha3="NPL" FullName="Королевство Непал"/>
+	<Item Code="528" ShortName="НИДЕРЛАНДЫ" Alpha2="NL" Alpha3="NLD" FullName="Королевство Нидерландов"/>
+	<Item Code="530" ShortName="НИДЕРЛАНДСКИЕ АНТИЛЫ" Alpha2="AN" Alpha3="ANT" FullName=""/>
+	<Item Code="533" ShortName="АРУБА" Alpha2="AW" Alpha3="ABW" FullName=""/>
+	<Item Code="540" ShortName="НОВАЯ КАЛЕДОНИЯ" Alpha2="NC" Alpha3="NCL" FullName=""/>
+	<Item Code="548" ShortName="ВАНУАТУ" Alpha2="VU" Alpha3="VUT" FullName="Республика Вануату"/>
+	<Item Code="554" ShortName="НОВАЯ ЗЕЛАНДИЯ" Alpha2="NZ" Alpha3="NZL" FullName=""/>
+	<Item Code="558" ShortName="НИКАРАГУА" Alpha2="NI" Alpha3="NIC" FullName="Республика Никарагуа"/>
+	<Item Code="562" ShortName="НИГЕР" Alpha2="NE" Alpha3="NER" FullName="Республика Нигер"/>
+	<Item Code="566" ShortName="НИГЕРИЯ" Alpha2="NG" Alpha3="NGA" FullName="Федеративная Республика Нигерия"/>
+	<Item Code="570" ShortName="НИУЭ" Alpha2="NU" Alpha3="NIU" FullName="Республика Ниуэ"/>
+	<Item Code="574" ShortName="ОСТРОВ НОРФОЛК" Alpha2="NF" Alpha3="NFK" FullName=""/>
+	<Item Code="578" ShortName="НОРВЕГИЯ" Alpha2="NO" Alpha3="NOR" FullName="Королевство Норвегия"/>
+	<Item Code="580" ShortName="СЕВЕРНЫЕ МАРИАНСКИЕ ОСТРОВА" Alpha2="MP" Alpha3="MNP" FullName="Содружество Северных Марианских островов"/>
+	<Item Code="581" ShortName="МАЛЫЕ ТИХООКЕАНСКИЕ ОТДАЛЕННЫЕ ОСТРОВА СОЕДИНЕННЫХ ШТАТОВ" Alpha2="UM" Alpha3="UMI" FullName=""/>
+	<Item Code="583" ShortName="МИКРОНЕЗИЯ, ФЕДЕРАТИВНЫЕ ШТАТЫ" Alpha2="FM" Alpha3="FSM" FullName="Федеративные штаты Микронезии"/>
+	<Item Code="584" ShortName="МАРШАЛЛОВЫ ОСТРОВА" Alpha2="MH" Alpha3="MHL" FullName="Республика Маршалловы Острова"/>
+	<Item Code="585" ShortName="ПАЛАУ" Alpha2="PW" Alpha3="PLW" FullName="Республика Палау"/>
+	<Item Code="586" ShortName="ПАКИСТАН" Alpha2="PK" Alpha3="PAK" FullName="Исламская Республика Пакистан"/>
+	<Item Code="591" ShortName="ПАНАМА" Alpha2="PA" Alpha3="PAN" FullName="Республика Панама"/>
+	<Item Code="598" ShortName="ПАПУА-НОВАЯ ГВИНЕЯ" Alpha2="PG" Alpha3="PNG" FullName=""/>
+	<Item Code="600" ShortName="ПАРАГВАЙ" Alpha2="PY" Alpha3="PRY" FullName="Республика Парагвай"/>
+	<Item Code="604" ShortName="ПЕРУ" Alpha2="PE" Alpha3="PER" FullName="Республика Перу"/>
+	<Item Code="608" ShortName="ФИЛИППИНЫ" Alpha2="PH" Alpha3="PHL" FullName="Республика Филиппины"/>
+	<Item Code="612" ShortName="ПИТКЕРН" Alpha2="PN" Alpha3="PCN" FullName=""/>
+	<Item Code="616" ShortName="ПОЛЬША" Alpha2="PL" Alpha3="POL" FullName="Республика Польша"/>
+	<Item Code="620" ShortName="ПОРТУГАЛИЯ" Alpha2="PT" Alpha3="PRT" FullName="Португальская Республика"/>
+	<Item Code="624" ShortName="ГВИНЕЯ-БИСАУ" Alpha2="GW" Alpha3="GNB" FullName="Республика Гвинея-Бисау"/>
+	<Item Code="626" ShortName="ТИМОР-ЛЕСТЕ" Alpha2="TL" Alpha3="TLS" FullName="Демократическая Республика Тимор-Лесте"/>
+	<Item Code="630" ShortName="ПУЭРТО-РИКО" Alpha2="PR" Alpha3="PRI" FullName=""/>
+	<Item Code="634" ShortName="КАТАР" Alpha2="QA" Alpha3="QAT" FullName="Государство Катар"/>
+	<Item Code="638" ShortName="РЕЮНЬОН" Alpha2="RE" Alpha3="REU" FullName=""/>
+	<Item Code="642" ShortName="РУМЫНИЯ" Alpha2="RO" Alpha3="ROU" FullName=""/>
+	<Item Code="643" ShortName="РОССИЯ" Alpha2="RU" Alpha3="RUS" FullName="Российская Федерация"/>
+	<Item Code="646" ShortName="РУАНДА" Alpha2="RW" Alpha3="RWA" FullName="Руандийская Республика"/>
+	<Item Code="654" ShortName="СВЯТАЯ ЕЛЕНА" Alpha2="SH" Alpha3="SHN" FullName=""/>
+	<Item Code="659" ShortName="СЕНТ-КИТС И НЕВИС" Alpha2="KN" Alpha3="KNA" FullName=""/>
+	<Item Code="660" ShortName="АНГИЛЬЯ" Alpha2="AI" Alpha3="AIA" FullName=""/>
+	<Item Code="662" ShortName="СЕНТ-ЛЮСИЯ" Alpha2="LC" Alpha3="LCA" FullName=""/>
+	<Item Code="666" ShortName="СЕН-ПЬЕР И МИКЕЛОН" Alpha2="PM" Alpha3="SPM" FullName=""/>
+	<Item Code="670" ShortName="СЕНТ-ВИНСЕНТ И ГРЕНАДИНЫ" Alpha2="VC" Alpha3="VCT" FullName=""/>
+	<Item Code="674" ShortName="САН-МАРИНО" Alpha2="SM" Alpha3="SMR" FullName="Республика Сан-Марино"/>
+	<Item Code="678" ShortName="САН-ТОМЕ И ПРИНСИПИ" Alpha2="ST" Alpha3="STP" FullName="Демократическая Республика Сан-Томе и Принсипи"/>
+	<Item Code="682" ShortName="САУДОВСКАЯ АРАВИЯ" Alpha2="SA" Alpha3="SAU" FullName="Королевство Саудовская Аравия"/>
+	<Item Code="686" ShortName="СЕНЕГАЛ" Alpha2="SN" Alpha3="SEN" FullName="Республика Сенегал"/>
+	<Item Code="688" ShortName="СЕРБИЯ" Alpha2="RS" Alpha3="SRB" FullName="Республика Сербия"/>
+	<Item Code="690" ShortName="СЕЙШЕЛЫ" Alpha2="SC" Alpha3="SYC" FullName="Республика Сейшелы"/>
+	<Item Code="694" ShortName="СЬЕРРА-ЛЕОНЕ" Alpha2="SL" Alpha3="SLE" FullName="Республика Сьерра-Леоне"/>
+	<Item Code="702" ShortName="СИНГАПУР" Alpha2="SG" Alpha3="SGP" FullName="Республика Сингапур"/>
+	<Item Code="703" ShortName="СЛОВАКИЯ" Alpha2="SK" Alpha3="SVK" FullName="Словацкая Республика"/>
+	<Item Code="704" ShortName="ВЬЕТНАМ" Alpha2="VN" Alpha3="VNM" FullName="Социалистическая Республика Вьетнам"/>
+	<Item Code="705" ShortName="СЛОВЕНИЯ" Alpha2="SI" Alpha3="SVN" FullName="Республика Словения"/>
+	<Item Code="706" ShortName="СОМАЛИ" Alpha2="SO" Alpha3="SOM" FullName="Сомалийская Республика"/>
+	<Item Code="710" ShortName="ЮЖНАЯ АФРИКА" Alpha2="ZA" Alpha3="ZAF" FullName="Южно-Африканская Республика"/>
+	<Item Code="716" ShortName="ЗИМБАБВЕ" Alpha2="ZW" Alpha3="ZWE" FullName="Республика Зимбабве"/>
+	<Item Code="724" ShortName="ИСПАНИЯ" Alpha2="ES" Alpha3="ESP" FullName="Королевство Испания"/>
+	<Item Code="732" ShortName="ЗАПАДНАЯ САХАРА" Alpha2="EH" Alpha3="ESH" FullName=""/>
+	<Item Code="736" ShortName="СУДАН" Alpha2="SD" Alpha3="SDN" FullName="Республика Судан"/>
+	<Item Code="740" ShortName="СУРИНАМ" Alpha2="SR" Alpha3="SUR" FullName="Республика Суринам"/>
+	<Item Code="744" ShortName="ШПИЦБЕРГЕН И ЯН МАЙЕН" Alpha2="SJ" Alpha3="SJM" FullName=""/>
+	<Item Code="748" ShortName="СВАЗИЛЕНД" Alpha2="SZ" Alpha3="SWZ" FullName="Королевство Свазиленд"/>
+	<Item Code="752" ShortName="ШВЕЦИЯ" Alpha2="SE" Alpha3="SWE" FullName="Королевство Швеция"/>
+	<Item Code="756" ShortName="ШВЕЙЦАРИЯ" Alpha2="CH" Alpha3="CHE" FullName="Швейцарская Конфедерация"/>
+	<Item Code="760" ShortName="СИРИЙСКАЯ АРАБСКАЯ РЕСПУБЛИКА" Alpha2="SY" Alpha3="SYR" FullName=""/>
+	<Item Code="762" ShortName="ТАДЖИКИСТАН" Alpha2="TJ" Alpha3="TJK" FullName="Республика Таджикистан"/>
+	<Item Code="764" ShortName="ТАИЛАНД" Alpha2="TH" Alpha3="THA" FullName="Королевство Таиланд"/>
+	<Item Code="768" ShortName="ТОГО" Alpha2="TG" Alpha3="TGO" FullName="Тоголезская Республика"/>
+	<Item Code="772" ShortName="ТОКЕЛАУ" Alpha2="TK" Alpha3="TKL" FullName=""/>
+	<Item Code="776" ShortName="ТОНГА" Alpha2="TO" Alpha3="TON" FullName="Королевство Тонга"/>
+	<Item Code="780" ShortName="ТРИНИДАД И ТОБАГО" Alpha2="TT" Alpha3="TTO" FullName="Республика Тринидад и Тобаго"/>
+	<Item Code="784" ShortName="ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ" Alpha2="AE" Alpha3="ARE" FullName=""/>
+	<Item Code="788" ShortName="ТУНИС" Alpha2="TN" Alpha3="TUN" FullName="Тунисская Республика"/>
+	<Item Code="792" ShortName="ТУРЦИЯ" Alpha2="TR" Alpha3="TUR" FullName="Турецкая Республика"/>
+	<Item Code="795" ShortName="ТУРКМЕНИЯ" Alpha2="TM" Alpha3="TKM" FullName="Туркменистан"/>
+	<Item Code="796" ShortName="ОСТРОВА ТЕРКС И КАЙКОС" Alpha2="TC" Alpha3="TCA" FullName=""/>
+	<Item Code="798" ShortName="ТУВАЛУ" Alpha2="TV" Alpha3="TUV" FullName=""/>
+	<Item Code="800" ShortName="УГАНДА" Alpha2="UG" Alpha3="UGA" FullName="Республика Уганда"/>
+	<Item Code="804" ShortName="УКРАИНА" Alpha2="UA" Alpha3="UKR" FullName=""/>
+	<Item Code="807" ShortName="РЕСПУБЛИКА МАКЕДОНИЯ" Alpha2="MK" Alpha3="MKD" FullName=""/>
+	<Item Code="818" ShortName="ЕГИПЕТ" Alpha2="EG" Alpha3="EGY" FullName="Арабская Республика Египет"/>
+	<Item Code="826" ShortName="СОЕДИНЕННОЕ КОРОЛЕВСТВО" Alpha2="GB" Alpha3="GBR" FullName="Соединенное Королевство Великобритании и Северной Ирландии"/>
+	<Item Code="831" ShortName="ГЕРНСИ" Alpha2="GG" Alpha3="GGY" FullName=""/>
+	<Item Code="832" ShortName="ДЖЕРСИ" Alpha2="JE" Alpha3="JEY" FullName=""/>
+	<Item Code="833" ShortName="ОСТРОВ МЭН" Alpha2="IM" Alpha3="IMN" FullName=""/>
+	<Item Code="834" ShortName="ТАНЗАНИЯ, ОБЪЕДИНЕННАЯ РЕСПУБЛИКА" Alpha2="TZ" Alpha3="TZA" FullName="Объединенная Республика Танзания"/>
+	<Item Code="840" ShortName="СОЕДИНЕННЫЕ ШТАТЫ" Alpha2="US" Alpha3="USA" FullName="Соединенные Штаты Америки"/>
+	<Item Code="850" ShortName="ВИРГИНСКИЕ ОСТРОВА, США" Alpha2="VI" Alpha3="VIR" FullName="Виргинские острова Соединенных Штатов"/>
+	<Item Code="854" ShortName="БУРКИНА-ФАСО" Alpha2="BF" Alpha3="BFA" FullName=""/>
+	<Item Code="858" ShortName="УРУГВАЙ" Alpha2="UY" Alpha3="URY" FullName="Восточная Республика Уругвай"/>
+	<Item Code="860" ShortName="УЗБЕКИСТАН" Alpha2="UZ" Alpha3="UZB" FullName="Республика Узбекистан"/>
+	<Item Code="862" ShortName="ВЕНЕСУЭЛА" Alpha2="VE" Alpha3="VEN" FullName="Боливарийская Республика Венесуэла"/>
+	<Item Code="876" ShortName="УОЛЛИС И ФУТУНА" Alpha2="WF" Alpha3="WLF" FullName=""/>
+	<Item Code="882" ShortName="САМОА" Alpha2="WS" Alpha3="WSM" FullName="Независимое Государство Самоа"/>
+	<Item Code="887" ShortName="ЙЕМЕН" Alpha2="YE" Alpha3="YEM" FullName="Йеменская Республика"/>
+	<Item Code="894" ShortName="ЗАМБИЯ" Alpha2="ZM" Alpha3="ZMB" FullName="Республика Замбия"/>
+</Items>

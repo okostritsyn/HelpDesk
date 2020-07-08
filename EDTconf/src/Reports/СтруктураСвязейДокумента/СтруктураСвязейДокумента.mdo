@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b65176c6-f15d-4ac8-81ce-afd306dae162">
+  <producedTypes>
+    <objectType typeId="a621b6bf-d171-45cf-ae87-a87d7aff5a6f" valueTypeId="a7cef5a9-af3d-461a-b25b-60fbfcf9281b"/>
+    <managerType typeId="517bbfae-1292-48f9-8284-0d1192c0bea1" valueTypeId="72b03d22-b112-442c-9d62-b6930a539036"/>
+  </producedTypes>
+  <name>СтруктураСвязейДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура связей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СтруктураСвязейДокумента.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a937b38f-1363-4e9f-a4e2-70974f7f3d6c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a4c6b9c-16fb-4a99-bad7-5a5e20c0f4cc">
+    <name>ВыборТиповСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор типов связи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7373a39a-bcbf-494d-bddd-426eb542b8ce">
+    <name>СтруктураСвязей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура связей</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

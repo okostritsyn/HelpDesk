@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="639d0596-df7f-4a6c-ac62-dfb6cadd9070">
+  <producedTypes>
+    <objectType typeId="3058eb96-3f74-49f5-ac1b-b813aa8f62bd" valueTypeId="d481a936-0588-4060-866e-8ce006a5856c"/>
+    <managerType typeId="5b13c501-8015-40dc-9880-d89068301ea3" valueTypeId="bdb60a5c-991b-43e5-9f04-a06a52ef31db"/>
+  </producedTypes>
+  <name>ОбновлениеКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеКонфигурации.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="93f1efef-a429-4caa-ac82-b00ac2bed0df">
+    <name>АдресРесурсаДляПроверкиНаличияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ресурса для проверки наличия обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d13c1489-b4ab-4128-950e-38f561b0d1e0">
+    <name>АдресСервераДляПроверкиНаличияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера для проверки наличия обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="94a2b7d0-1ed1-408f-9db4-12862c25dee2">
+    <name>АдресСервераОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера обновлений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="21ae0ec6-76f8-416d-8df9-917aec60402d">
+    <name>ИспАдресРесурсаДляПроверкиНаличияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ресурса для проверки наличия обновления:</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="609e400b-0d96-4f4c-b0ec-2ef3eaca60b6">
+    <name>ИспАдресСервераДляПроверкиНаличияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера для проверки наличия обновления:</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dccb9a84-defe-4f2b-a71a-81b02e51abf1">
+    <name>ИспАдресСервераОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера обновлений:</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="842bd0a0-62d4-42fc-afb9-771efaffdee4">
+    <name>КороткоеИмяКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короткое имя конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d60e5cfa-4280-47de-b5b0-9852c1b9c691">
+    <name>ИспКороткоеИмяКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короткое имя конфигурации:</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="61033673-3f69-480f-b69b-6c29a9412b89">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ca6eb5a-6c84-488b-8fb7-70cae0f5a1e0">
+    <name>ТестыОтдельныхФункций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тесты отдельных функций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c21b8422-84ec-4758-b6d8-9cba3e62e037">
+    <name>ИнструментыРазработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструменты разработчика</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

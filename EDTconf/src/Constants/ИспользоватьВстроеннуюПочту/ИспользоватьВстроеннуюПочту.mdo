@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5f5c216-0f2e-4406-9d5c-64627d86e7ab">
+  <producedTypes>
+    <managerType typeId="449e1b7f-ef42-4bf7-a978-274abff057d9" valueTypeId="5e6e63fc-0d11-45ee-baf9-0bb634904c14"/>
+    <valueManagerType typeId="c988c666-de8f-4201-a27e-f4621b8049cd" valueTypeId="f9866276-1473-437d-b4c0-7082be0ef67a"/>
+    <valueKeyType typeId="98c734d6-a446-53b1-8ed2-96c00eb738d0" valueTypeId="b5764c85-9c2d-5238-979b-b0e64dc73d95"/>
+  </producedTypes>
+  <name>ИспользоватьВстроеннуюПочту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать встроенную почту</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

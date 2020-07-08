@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 11.00.9600.18538"></meta></head><body>
+<p style="MARGIN-RIGHT: 0px" dir="ltr">Чтобы связь с некоторым типом можно было использовать  в документах, необходимо выполнить настройки в регистре <strong>"Настройка связей"</strong>.<br>Для настройки связи требуется указать:</p>
+<ul><li><strong>Тип связи</strong>, для которого выполняется настройка; 
+</li><li><strong>Характер связи</strong> (единичная или множественная); 
+</li><li><strong>Из документов какого вида</strong> может устанавливаться данная связь; 
+</li><li><strong>На документы какого вида</strong> может ссылаться данная связь; 
+</li><li><strong>Тип обратной связи</strong> (если не указан, то связь считается односторонней); 
+</li><li><strong>Характер обратной связи</strong> (единичная или множественная).</li></ul><p style="MARGIN-RIGHT: 0px" dir="ltr"> </p>
+<p style="MARGIN-RIGHT: 0px" dir="ltr">Например, для настройки связи между договором и доп. соглашением требуется выполнить следующие действия:</p>
+<ol dir="ltr"><li>
+<div style="MARGIN-RIGHT: 0px">В справочнике <strong>"Типы связей"</strong> создать типы связи "Имеет доп. соглашение" и "Относится к договору".</div>
+<ol><li>
+<div style="MARGIN-RIGHT: 0px">Тип связи <strong>"Имеет доп. соглашение"</strong> будет использован для задания ссылки из договора на доп. соглашение.</div>
+</li><li>
+<div style="MARGIN-RIGHT: 0px">Тип связи <strong>"Относится к договору"</strong> будет использован для задания ссылки из доп. соглашения на договор. </div></li></ol></li><li>
+<div style="MARGIN-RIGHT: 0px">В регистре <strong>"Настройка связей"</strong> создать новую запись, в которой указать:</div>
+<ol><li>
+<div style="MARGIN-RIGHT: 0px"><strong>Тип связи</strong> - "Имеет доп. соглашение"</div>
+</li><li>
+<div style="MARGIN-RIGHT: 0px"><strong>Характер связи</strong> - множественная, так как договор может иметь несколько доп. соглашений.</div>
+</li><li>
+<div style="MARGIN-RIGHT: 0px"><strong>Ссылка из</strong> - вид внутреннего документа (либо на группа видов), который используется для договоров.</div>
+</li><li>
+<div style="MARGIN-RIGHT: 0px"><strong>Ссылка на</strong> - вид внутреннего документа (либо на группа видов), который используется для доп. соглашений.</div>
+</li><li>
+<div style="MARGIN-RIGHT: 0px"><strong>Тип обратной связи</strong> - "Относится к договору"</div>
+</li><li>
+<div style="MARGIN-RIGHT: 0px"><strong>Характер обратной связи</strong> - единичная, так как доп. соглашение может относиться только к одному договору.</div></li></ol></li><li>
+<div style="MARGIN-RIGHT: 0px">Указанные настройки означают, что из внутреннего документа с видом, указанным в поле <strong>"Ссылка из"</strong> может быть установлена связь с типом "Имеет доп. соглашение" на внутренний документ с видом, указанным в поле <strong>"Ссылка на"</strong>. Причем из одного документа таких связей можно указать несколько, и при установке связи будет создана обратная связь с типом "Относится к договору".</div></li></ol><p style="MARGIN-RIGHT: 0px"> </p>
+<p><strong><font color="#b22222">См. также:</font></strong> </p>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+<p><a href="v8help://frame/form_common">Общая информация о формах</a><br></p></blockquote></body></html>

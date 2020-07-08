@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c379ca92-6ee8-4ba5-917a-0b52628e80fd">
+  <producedTypes>
+    <selectionType typeId="1968ed90-8431-462c-8153-5e61a7ae98f5" valueTypeId="f4e8b584-9dfc-4229-b55f-6002a72b9793"/>
+    <listType typeId="e02fd6fd-1a77-4428-b422-50ca01acc677" valueTypeId="34630dbd-fc77-4f7e-b832-e6d4c302d25a"/>
+    <managerType typeId="50374d65-c246-4494-9660-e16fa771d57e" valueTypeId="bd95a229-48f1-43de-8c15-108b9b3d5920"/>
+    <recordSetType typeId="763bdf44-9c10-4743-9444-d1d43a475885" valueTypeId="fe3a937e-60e3-4faa-9b47-7d48f897662a"/>
+    <recordKeyType typeId="a15e2334-43b1-4afb-a50b-b29a2b37dcc2" valueTypeId="3cf4e0c6-0722-4779-9d20-c7d09e39d1dd"/>
+    <recordType typeId="f917f759-907b-4134-86a7-72db06f67764" valueTypeId="6e69120e-e8e2-4098-9dec-408c9e71a97f"/>
+    <recordManagerType typeId="50e47794-49e9-41ba-b1c0-aba60e833f32" valueTypeId="4de35973-4e75-4f60-8ec0-df325f7a44ae"/>
+  </producedTypes>
+  <name>ПланированиеЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1fe5e65d-1134-4509-bc23-8bfe529440ac">
+    <name>Календарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КалендариСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11d02aa5-073e-4598-bb6a-d53f4b641b4b">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f00c2d83-43a1-464b-8fb7-9eeb46593118">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="470e35a4-9ab2-4989-8eec-cbcf514f1d91">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Заявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fe4e8105-708c-45bb-ac97-381aaed99075">
+    <name>ЗаписьКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись календаря</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗаписиКалендаряСотрудника</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

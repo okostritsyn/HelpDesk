@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8659e53-8c6b-4b0c-9736-fe93a91e4d69">
+  <name>ВерсионированиеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование объектов</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonPicture.ИсторияВерсий</content>
+  <content>CommonModule.ВерсионированиеОбъектовСобытия</content>
+  <content>Constant.ИспользоватьВерсионированиеОбъектов</content>
+  <content>Enum.ВариантыВерсионированияОбъектов</content>
+  <content>InformationRegister.ВерсииОбъектов</content>
+  <content>InformationRegister.НастройкиВерсионированияОбъектов</content>
+  <content>CommonModule.ВерсионированиеОбъектов</content>
+  <content>CommonModule.ВерсионированиеОбъектовКлиент</content>
+  <content>FunctionalOption.ВариантыВерсионированияОбъектов</content>
+  <content>FunctionalOption.ИспользоватьВерсионированиеОбъекта</content>
+  <content>FunctionalOption.ИспользоватьВерсионированиеОбъектов</content>
+  <content>Role.ЧтениеВерсийОбъектов</content>
+  <content>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</content>
+  <content>StyleItem.ДобавленныйРеквизитФон</content>
+  <content>StyleItem.ЗаголовокУдаленногоРеквизитаФон</content>
+  <content>StyleItem.ИзмененноеЗначениеРеквизитаФон</content>
+  <content>StyleItem.ИзмененноеЗначениеРеквизитаЦвет</content>
+  <content>StyleItem.УдаленныйРеквизитФон</content>
+  <content>Report.ОтчетПоИзменениямВерсийОбъектов</content>
+  <content>EventSubscription.ЗаписатьВерсиюОбъекта</content>
+  <content>CommonCommand.ИсторияИзменений</content>
+  <content>f4ece3c1-fa99-489f-928a-a1b726d20db2</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18b4773a-5380-4e71-8b51-ef10e19df17e">
+  <name>ОграничиватьДоступПоВидуВнешниеПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать доступ по виду внешние пользователи</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2735ca8e-d5fc-4103-9617-519b82595bd1">
+  <name>ИспользоватьГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать графики работы</value>
+  </synonym>
+  <location>Constant.ИспользоватьГрафикиРаботы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СтруктураПредприятия.Attribute.ГрафикРаботы</content>
+  <content>Constant.ОсновнойГрафикРаботы</content>
+  <content>InformationRegister.СведенияОПользователях.Resource.ГрафикРаботы</content>
+</mdclass:FunctionalOption>

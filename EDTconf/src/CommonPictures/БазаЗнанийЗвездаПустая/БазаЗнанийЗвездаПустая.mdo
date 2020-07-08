@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e81bf9df-5e8e-47a8-8a0a-a07889d7939f">
+  <name>БазаЗнанийЗвездаПустая</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний звезда пустая</value>
+  </synonym>
+</mdclass:CommonPicture>

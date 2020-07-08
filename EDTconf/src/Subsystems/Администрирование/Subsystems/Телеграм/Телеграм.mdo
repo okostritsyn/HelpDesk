@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bfc5171-ba18-4147-9e90-f0e46f741148">
+  <name>Телеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм</value>
+  </synonym>
+  <content>CommonModule.ТелеграмЗадания</content>
+  <content>CommonModule.ОбщегоНазначенияТелеграм</content>
+  <content>Constant.ТелеграмКлючAPI</content>
+  <content>InformationRegister.ТелеграмПодписчики</content>
+  <content>InformationRegister.ТелеграмСобытия</content>
+  <content>ScheduledJob.ПроверкаКомандТелеграм</content>
+  <content>ScheduledJob.ВыполнениеРассылкиНаТелеграм</content>
+  <content>e0d753a2-05d8-4e1b-a89e-8c8baee36e3e</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

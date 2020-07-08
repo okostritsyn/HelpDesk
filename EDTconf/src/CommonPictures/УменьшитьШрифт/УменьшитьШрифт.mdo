@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2f7729f-3666-407f-8f71-b32d529efa82">
+  <name>УменьшитьШрифт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уменьшить шрифт</value>
+  </synonym>
+</mdclass:CommonPicture>

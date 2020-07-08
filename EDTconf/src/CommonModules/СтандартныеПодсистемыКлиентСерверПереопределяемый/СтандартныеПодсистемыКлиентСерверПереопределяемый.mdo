@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00afd243-5575-4340-9217-40c8d61c1d54">
+  <name>СтандартныеПодсистемыКлиентСерверПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы клиент сервер переопределяемый</value>
+  </synonym>
+  <comment>Модуль настройки связей между подсистемами при выборочном внедрении</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
