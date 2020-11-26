@@ -52,6 +52,7 @@
   <content>DataProcessor.ЗагрузкаУчетныхЗаписейИзAD</content>
   <content>DataProcessor.СпискиХранилищНастроек</content>
   <content>Constant.АдресатыПолученияОтчетаПоЖурналуРегистрации</content>
+  <content>Constant.ИспользоватьТелеграм</content>
   <subsystems>ВерсионированиеОбъектов</subsystems>
   <subsystems>ПолнотекстовыйПоиск</subsystems>
   <subsystems>РегламентныеЗадания</subsystems>

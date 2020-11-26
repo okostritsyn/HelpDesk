@@ -73,7 +73,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -174,7 +174,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -297,7 +297,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -583,11 +583,11 @@
             </extendedTooltip>
             <commandName>Form.Command.НастройкаСпискаГрупп</commandName>
             <representation>PictureAndText</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -673,7 +673,6 @@
           <type>ViewStatusAddition</type>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -930,7 +929,6 @@
             <type>ViewStatusAddition</type>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
-              <horizontalLocation>Left</horizontalLocation>
             </extInfo>
           </viewStatusAddition>
           <searchControlAddition>
@@ -1063,7 +1061,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1098,7 +1096,7 @@
         <representation>WeakSeparation</representation>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -2310,11 +2308,11 @@
               </extendedTooltip>
               <commandName>Form.Item.СписокМоихЗаявок.StandardCommand.Find</commandName>
               <representation>Picture</representation>
-              <onlyInAllActions>false</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ОтменитьПоиск</name>
@@ -2341,11 +2339,11 @@
               </extendedTooltip>
               <commandName>Form.Item.СписокМоихЗаявок.StandardCommand.CancelSearch</commandName>
               <representation>Picture</representation>
-              <onlyInAllActions>false</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>УстановитьИнтервалДат</name>
@@ -2434,11 +2432,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ОбновитьЗаявкиГруппы</commandName>
               <representation>Picture</representation>
-              <onlyInAllActions>false</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ДобавитьВКалендарь</name>
@@ -2882,6 +2880,10 @@
             <event>OnActivateRow</event>
             <name>СписокМоихЗаявокПриАктивизацииСтроки</name>
           </handlers>
+          <handlers>
+            <event>DragStart</event>
+            <name>СписокМоихЗаявокНачалоПеретаскивания</name>
+          </handlers>
           <searchStringAddition>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2955,7 +2957,6 @@
             <type>ViewStatusAddition</type>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
-              <horizontalLocation>Left</horizontalLocation>
             </extInfo>
           </viewStatusAddition>
           <searchControlAddition>
@@ -3043,7 +3044,6 @@
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
-          <enableDrag>true</enableDrag>
           <searchStringLocation>None</searchStringLocation>
           <viewStatusLocation>None</viewStatusLocation>
           <searchControlLocation>None</searchControlLocation>
@@ -3157,7 +3157,7 @@
             <united>true</united>
             <showTitle>true</showTitle>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -3225,7 +3225,7 @@
       </extendedTooltip>
       <type>Pages</type>
       <extInfo xsi:type="form:PagesGroupExtInfo">
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -3263,7 +3263,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -3400,8 +3400,8 @@
 ГДЕ
 	ВЫБОР
 			КОГДА &amp;Тип = 0
-				ТОГДА ДокументЗаявка.ТекущийИсполнитель = &amp;Ответственный
-			ИНАЧЕ ДокументЗаявка.Постановщик = &amp;Ответственный
+				ТОГДА ДокументЗаявка.ТекущийИсполнитель = &amp;Ответственный  
+			ИНАЧЕ (ДокументЗаявка.Постановщик = &amp;Ответственный И ДокументЗаявка.ТекущийИсполнитель &lt;> &amp;Ответственный )
 		КОНЕЦ</queryText>
       <mainTable>Document.Заявка</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
@@ -3471,7 +3471,7 @@
 	ВЫБОР
 			КОГДА &amp;Тип = 0
 				ТОГДА ДокументЗаявка.ТекущийИсполнитель = &amp;Ответственный
-			ИНАЧЕ ДокументЗаявка.Постановщик = &amp;Ответственный
+			ИНАЧЕ (ДокументЗаявка.Постановщик = &amp;Ответственный И ДокументЗаявка.ТекущийИсполнитель &lt;> &amp;Ответственный )
 		КОНЕЦ</queryText>
       <mainTable>Document.Заявка</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
@@ -3975,7 +3975,7 @@
       </handler>
     </action>
     <functionalOptions>FunctionalOption.ИспользоватьПланированиеЗаявок</functionalOptions>
-    <representation>TextPicture</representation>
+    <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>

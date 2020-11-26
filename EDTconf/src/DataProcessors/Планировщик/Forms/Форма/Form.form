@@ -283,11 +283,11 @@
                 </extendedTooltip>
                 <commandName>Form.Command.Обновить</commandName>
                 <representation>Auto</representation>
-                <onlyInAllActions>true</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
               </items>
               <items xsi:type="form:Button">
                 <name>ФормаНастроить</name>
@@ -314,11 +314,11 @@
                 </extendedTooltip>
                 <commandName>Form.Command.Настроить</commandName>
                 <representation>Auto</representation>
-                <onlyInAllActions>true</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
               </items>
               <items xsi:type="form:Button">
                 <name>ФормаМоиКалендари</name>
@@ -345,11 +345,11 @@
                 </extendedTooltip>
                 <commandName>Catalog.КалендариСотрудников.Command.МоиКалендари</commandName>
                 <representation>Auto</representation>
-                <onlyInAllActions>true</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
               </items>
               <items xsi:type="form:Button">
                 <name>ФормаВсеКалендари</name>
@@ -384,11 +384,11 @@
                 </extendedTooltip>
                 <commandName>Catalog.КалендариСотрудников.StandardCommand.OpenList</commandName>
                 <representation>Auto</representation>
-                <onlyInAllActions>true</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
               </items>
               <items xsi:type="form:Button">
                 <name>ФормаСписокЗаписейКалендаря</name>
@@ -423,11 +423,11 @@
                 </extendedTooltip>
                 <commandName>Catalog.ЗаписиКалендаряСотрудника.StandardCommand.OpenList</commandName>
                 <representation>Auto</representation>
-                <onlyInAllActions>true</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -492,11 +492,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ОткрытьКалендарь</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -574,7 +574,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -665,7 +665,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -702,7 +702,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -835,7 +835,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -880,7 +880,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -929,6 +929,10 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:PlannerFieldExtInfo">
         <handlers>
+          <event>DragCheck</event>
+          <name>ПланировщикПроверкаПеретаскивания</name>
+        </handlers>
+        <handlers>
           <event>BeforeCreate</event>
           <name>ПланировщикПередСозданием</name>
         </handlers>
@@ -949,6 +953,10 @@
           <name>ПланировщикПередНачаломРедактирования</name>
         </handlers>
         <handlers>
+          <event>Drag</event>
+          <name>ПланировщикПеретаскивание</name>
+        </handlers>
+        <handlers>
           <event>BeforeStartQuickEdit</event>
           <name>ПланировщикПередНачаломБыстрогоРедактирования</name>
         </handlers>
@@ -958,6 +966,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
+        <enableDrag>true</enableDrag>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1002,7 +1011,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1110,7 +1119,7 @@
             <united>true</united>
             <showTitle>true</showTitle>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1219,7 +1228,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1265,7 +1274,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1301,7 +1310,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1344,7 +1353,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>

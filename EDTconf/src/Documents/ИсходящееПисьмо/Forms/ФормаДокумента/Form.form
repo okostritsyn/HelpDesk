@@ -333,7 +333,6 @@
                 <type>ViewStatusAddition</type>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
-                  <horizontalLocation>Left</horizontalLocation>
                 </extInfo>
               </viewStatusAddition>
               <searchControlAddition>
@@ -607,11 +606,11 @@
                     </extendedTooltip>
                     <commandName>Form.Command.СоздатьЛичногоАдресата</commandName>
                     <representation>Auto</representation>
-                    <onlyInAllActions>false</onlyInAllActions>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <placementArea>UserCmds</placementArea>
                     <representationInContextMenu>Auto</representationInContextMenu>
+                    <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
                   </items>
                   <items xsi:type="form:Button">
                     <name>ПолучателиПредставлениеКонтекстноеМенюСоздатьКорреспондента</name>
@@ -638,11 +637,11 @@
                     </extendedTooltip>
                     <commandName>Form.Command.СоздатьКорреспондента</commandName>
                     <representation>Auto</representation>
-                    <onlyInAllActions>false</onlyInAllActions>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <placementArea>UserCmds</placementArea>
                     <representationInContextMenu>Auto</representationInContextMenu>
+                    <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
                   </items>
                   <items xsi:type="form:Button">
                     <name>ПолучателиПредставлениеКонтекстноеМенюСоздатьКонтактноеЛицо</name>
@@ -669,11 +668,11 @@
                     </extendedTooltip>
                     <commandName>Form.Command.СоздатьКонтактноеЛицо</commandName>
                     <representation>Auto</representation>
-                    <onlyInAllActions>false</onlyInAllActions>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <placementArea>UserCmds</placementArea>
                     <representationInContextMenu>Auto</representationInContextMenu>
+                    <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
                   </items>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -777,7 +776,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -870,7 +869,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -971,7 +970,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1009,7 +1008,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1421,7 +1420,6 @@
                 <type>ViewStatusAddition</type>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
-                  <horizontalLocation>Left</horizontalLocation>
                 </extInfo>
               </viewStatusAddition>
               <searchControlAddition>
@@ -2554,7 +2552,7 @@
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
@@ -2682,7 +2680,7 @@
               </extendedTooltip>
               <type>Pages</type>
               <extInfo xsi:type="form:PagesGroupExtInfo">
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2721,7 +2719,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2757,7 +2755,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -2794,7 +2792,7 @@
           <united>true</united>
           <slaveItemsWidth>LeftWidest</slaveItemsWidth>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2861,7 +2859,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -3126,11 +3124,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ПереместитьВКорзину</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаУстановитьПометкуУдаления</name>
@@ -3216,11 +3214,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ВставитьТекстИсходногоПисьма</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ВставитьПодпись</name>
@@ -3247,11 +3245,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ВставитьПодпись</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3345,11 +3343,11 @@
       </extendedTooltip>
       <commandName>Form.Command.ПараметрыПисьма</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ИзменитьКодировку</name>
@@ -3376,11 +3374,11 @@
       </extendedTooltip>
       <commandName>Form.Command.ИзменитьКодировку</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКнопокКомандыФормы</name>
@@ -3473,11 +3471,11 @@
           </extendedTooltip>
           <commandName>Form.Command.Трудозатраты</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3815,11 +3813,11 @@
           </extendedTooltip>
           <commandName>Form.Command.СоздатьЛичногоАдресата</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ФормаСоздатьКорреспондента</name>
@@ -3846,11 +3844,11 @@
           </extendedTooltip>
           <commandName>Form.Command.СоздатьКорреспондента</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ФормаСоздатьКонтактноеЛицо</name>
@@ -3877,11 +3875,11 @@
           </extendedTooltip>
           <commandName>Form.Command.СоздатьКонтактноеЛицо</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3944,11 +3942,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ПротоколРаботы</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>СвязиОбъекта</name>
@@ -3975,11 +3973,11 @@
         </extendedTooltip>
         <commandName>Form.Command.СвязиОбъекта</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ЗадачиПоПредмету</name>

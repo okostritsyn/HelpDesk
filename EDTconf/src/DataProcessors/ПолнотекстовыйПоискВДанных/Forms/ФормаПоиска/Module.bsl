@@ -259,7 +259,7 @@
 		"<html>
 		|<head>
 		|<meta http-equiv=""Content-Style-Type"" content=""text/css"">
-		|<meta http-equiv=""X-UA-Compatible"" content=""IE=EmulateIE7"" />
+		//|<meta http-equiv=""X-UA-Compatible"" content=""IE=EmulateIE7"" />
 		|<meta name=""format-detection"" content=""telephone=no"" />
 		|</head>
 		|<body topmargin=0 leftmargin=0 scroll=auto>

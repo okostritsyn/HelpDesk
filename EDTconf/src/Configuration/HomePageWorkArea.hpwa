@@ -24,6 +24,13 @@
         <common>true</common>
       </visibility>
     </items>
+    <items>
+      <form>8fa3fb6c-3d53-4437-9bae-d2c8a981a1fa</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
   </columns>
   <columns>
     <items>

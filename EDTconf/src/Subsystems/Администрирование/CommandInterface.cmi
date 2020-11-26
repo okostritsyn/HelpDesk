@@ -2685,7 +2685,15 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>DataProcessor.ЗагрузкаУчетныхЗаписейИзAD.Command.ЗагрузкаУчетныхЗаписейИзAD</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.ЗагрузкаУчетныхЗаписейИзAD.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ИспользоватьТелеграм.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -3535,6 +3543,10 @@
           <role>Role.РазрешитьЗакрытиеНеСвоихЗаявок</role>
         </for>
       </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.СпискиХранилищНастроек.Command.УправлениеСпискомХранилищ</command>
+      <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>

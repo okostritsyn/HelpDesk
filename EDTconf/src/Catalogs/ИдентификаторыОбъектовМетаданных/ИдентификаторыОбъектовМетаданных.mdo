@@ -232,7 +232,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultChoiceForm>
+  <defaultChoiceForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="782a8801-06ca-4d63-bf8b-63d2320766d8">
     <name>ПорядокКоллекции</name>
     <synonym>
@@ -433,6 +433,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1f393d9-5ad0-44cf-b9b1-0eebd3503886">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

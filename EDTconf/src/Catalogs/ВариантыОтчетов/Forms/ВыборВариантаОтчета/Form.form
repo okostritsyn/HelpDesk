@@ -155,7 +155,6 @@
       <type>ViewStatusAddition</type>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -564,6 +563,24 @@
       <value>Имя подсистемы</value>
     </title>
     <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтборПоКлючу</name>
+    <title>
+      <key>ru</key>
+      <value>Отбор по ключу</value>
+    </title>
+    <id>1</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

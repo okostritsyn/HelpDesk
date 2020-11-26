@@ -136,13 +136,6 @@
         <value>000000001</value>
       </code>
     </items>
-    <items id="ee3f42fd-8f99-4fa3-9525-d2787eb27034">
-      <name>ПолучательОтчетаПоЗаявкам</name>
-      <description>Получатель отчета по заявкам</description>
-      <code xsi:type="core:StringValue">
-        <value>000000002</value>
-      </code>
-    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

@@ -504,7 +504,6 @@
       <type>ViewStatusAddition</type>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -813,7 +812,6 @@
           </extendedTooltip>
           <commandName>Form.Item.Список.StandardCommand.OutputList</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
@@ -827,6 +825,7 @@
             <color>Style.BorderColor</color>
           </borderColor>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ОбщаяКоманда_ДополнительныеСведения</name>

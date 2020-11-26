@@ -877,7 +877,6 @@
       <type>ViewStatusAddition</type>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -1554,11 +1553,11 @@
         </extendedTooltip>
         <commandName>Form.Command.Занять</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ОткрытьКаталогФайла</name>
@@ -1586,11 +1585,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ОткрытьКаталогФайла</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>Освободить</name>
@@ -1622,11 +1621,11 @@
         </extendedTooltip>
         <commandName>Form.Command.Освободить</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>СохранитьИзменения</name>
@@ -1654,11 +1653,11 @@
         </extendedTooltip>
         <commandName>Form.Command.СохранитьИзменения</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>СохранитьКак</name>
@@ -1686,11 +1685,11 @@
         </extendedTooltip>
         <commandName>Form.Command.СохранитьКак</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ИмпортФайлов</name>
@@ -1718,11 +1717,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ИмпортФайлов</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1873,11 +1872,11 @@
       </extendedTooltip>
       <commandName>Form.Item.Список.StandardCommand.Find</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ОтменитьПоиск</name>
@@ -1905,11 +1904,11 @@
       </extendedTooltip>
       <commandName>Form.Item.Список.StandardCommand.CancelSearch</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>НастройкаОтображенияДанных</name>
@@ -1937,11 +1936,11 @@
       </extendedTooltip>
       <commandName>Form.Item.Список.StandardCommand.ListSettings</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ВывестиСписок</name>
@@ -1969,11 +1968,11 @@
       </extendedTooltip>
       <commandName>Form.Item.Список.StandardCommand.OutputList</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>Обновить</name>
@@ -2001,11 +2000,11 @@
       </extendedTooltip>
       <commandName>Form.Item.Список.StandardCommand.Refresh</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ИзменитьФорму</name>

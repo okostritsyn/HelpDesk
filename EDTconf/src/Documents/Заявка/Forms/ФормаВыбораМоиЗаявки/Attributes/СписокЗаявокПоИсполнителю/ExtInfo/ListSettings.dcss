@@ -84,13 +84,31 @@
 				<item xsi:type="FilterItemComparison">
 					<left xsi:type="dcscor:Field">Срочная</left>
 					<comparisonType>Equal</comparisonType>
-					<right xsi:type="xs:boolean">true</right>
+					<right xsi:type="xs:decimal">0</right>
 				</item>
 			</filter>
 			<appearance>
 				<dcscor:item xsi:type="SettingsParameterValue">
 					<dcscor:parameter>ЦветТекста</dcscor:parameter>
 					<dcscor:value xsi:type="v8ui:Color">#FF7878</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection/>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ДатаИзменения</left>
+					<comparisonType>GreaterOrEqual</comparisonType>
+					<right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">#0000FF</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</item>

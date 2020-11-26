@@ -30,6 +30,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>InformationRegister.ИсторияСостояний.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.Заметки.Command.ВсеЗаметки</command>
       <visible/>
     </visibilityFragments>
@@ -50,6 +54,12 @@
     <visibilityFragments>
       <command>InformationRegister.СоответствиеРолейВГруппеПользователей.StandardCommand.OpenList</command>
       <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.НастройкаРассылкиОтчетов.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>CommonForm.ФормаДополненияКЗаявке.StandardCommand.Open</command>
@@ -80,6 +90,7 @@
       <commands>Catalog.ОбъектыЗаявок.StandardCommand.OpenList</commands>
       <commands>Catalog.ТипыЗаявок.StandardCommand.OpenList</commands>
       <commands>InformationRegister.СоответствиеРолейВГруппеПользователей.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НастройкаРассылкиОтчетов.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -95,6 +106,7 @@
       <commands>Document.Заявка.Command.Заявки</commands>
       <commands>InformationRegister.ПодписчикиЗаявок.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ОбъединенныеЗаявки.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ИсторияСостояний.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -103,6 +115,7 @@
       <commands>Catalog.ОбъектыЗаявок.StandardCommand.OpenList</commands>
       <commands>Catalog.ТипыЗаявок.StandardCommand.OpenList</commands>
       <commands>InformationRegister.СоответствиеРолейВГруппеПользователей.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НастройкаРассылкиОтчетов.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
@@ -112,6 +125,7 @@
       <commands>Constant.ИспользоватьПланированиеЗаявок.StandardCommand.Open</commands>
       <commands>Constant.ПрофильНовогоПользователяПоУмолчанию.StandardCommand.Open</commands>
       <commands>DataProcessor.ПланированиеЗаявок.StandardCommand.Open</commands>
+      <commands>0:1db0f7c9-0910-40b3-87e4-7b3b7301d1b0</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

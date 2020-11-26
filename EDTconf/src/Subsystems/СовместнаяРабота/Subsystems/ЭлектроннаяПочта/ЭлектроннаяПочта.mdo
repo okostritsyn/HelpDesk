@@ -92,7 +92,7 @@
   <content>InformationRegister.НастройкиОтложеннойОтправкиПисем</content>
   <content>InformationRegister.ИдентификаторыПочтовыхВложений</content>
   <content>InformationRegister.ИдентификаторыПолученныхПисем</content>
-  <content>InformationRegister.ВременныеФайлыОбъектов</content>
+  <content>decb53b4-c90d-40f1-ac95-3375e78292da</content>
   <content>Constant.ПрофильНовогоПользователяПоУмолчанию</content>
   <parentSubsystem>Subsystem.СовместнаяРабота</parentSubsystem>
 </mdclass:Subsystem>

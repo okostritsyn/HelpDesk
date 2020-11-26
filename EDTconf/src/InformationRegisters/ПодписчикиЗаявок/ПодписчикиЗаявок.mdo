@@ -15,6 +15,7 @@
     <value>Подписчики заявок</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.ПодписчикиЗаявок.Form.ФормаЗаписиПоЗаявке</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -64,6 +65,7 @@
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="42976d33-bb7e-48f2-8340-1090c4279031">

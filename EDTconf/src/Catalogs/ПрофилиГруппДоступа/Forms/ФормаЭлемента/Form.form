@@ -530,7 +530,6 @@
           <type>ViewStatusAddition</type>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1000,11 +999,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ВидыДоступа.StandardCommand.SortListAsc</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>ВидыДоступаСортироватьСписокПоУбыванию</name>
@@ -1032,11 +1031,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ВидыДоступа.StandardCommand.SortListDesc</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1138,7 +1137,6 @@
           <type>ViewStatusAddition</type>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1737,11 +1735,11 @@
                   </extendedTooltip>
                   <commandName>Form.Item.ЗначенияДоступа.StandardCommand.SortListAsc</commandName>
                   <representation>Auto</representation>
-                  <onlyInAllActions>false</onlyInAllActions>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <items xsi:type="form:Button">
                   <name>СортироватьСписокПоУбыванию</name>
@@ -1769,11 +1767,11 @@
                   </extendedTooltip>
                   <commandName>Form.Item.ЗначенияДоступа.StandardCommand.SortListDesc</commandName>
                   <representation>Auto</representation>
-                  <onlyInAllActions>false</onlyInAllActions>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1863,7 +1861,6 @@
                 <type>ViewStatusAddition</type>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
-                  <horizontalLocation>Left</horizontalLocation>
                 </extInfo>
               </viewStatusAddition>
               <searchControlAddition>
@@ -2330,7 +2327,7 @@
           </extendedTooltip>
           <type>Pages</type>
           <extInfo xsi:type="form:PagesGroupExtInfo">
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -2367,7 +2364,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2431,7 +2428,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -2463,11 +2460,11 @@
       </extendedTooltip>
       <commandName>Form.Command.ВосстановитьПоНачальномуЗаполнению</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ОписаниеПоставляемогоПрофиля</name>

@@ -104,7 +104,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -150,7 +150,7 @@
       <skipOnInput>false</skipOnInput>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация</picture>
+          <picture>CommonPicture.Информация16</picture>
         </picture>
       </extInfo>
     </items>
@@ -230,7 +230,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">

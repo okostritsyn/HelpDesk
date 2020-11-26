@@ -181,7 +181,7 @@
 	"<html>
 	|	<head>
 	|	<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
-	|	<meta http-equiv=""X-UA-Compatible"" content=""IE=EmulateIE7"" />
+	//|	<meta http-equiv=""X-UA-Compatible"" content=""IE=EmulateIE7"" />
 	|	<meta name=""format-detection"" content=""telephone=no"" />
 	|		" + ТаблицаСтилей + "
 	|	</head>
@@ -643,7 +643,7 @@
 	"<html>
 	|	<head>
 	|	<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
-	|	<meta http-equiv=""X-UA-Compatible"" content=""IE=EmulateIE7"" />
+	//|	<meta http-equiv=""X-UA-Compatible"" content=""IE=EmulateIE7"" />
 	|	<meta name=""format-detection"" content=""telephone=no"" />
 	|		" + ТаблицаСтилей + "
 	|	</head>

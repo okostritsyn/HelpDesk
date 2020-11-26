@@ -11,7 +11,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4aeb4686-c0f4-448a-aa8a-a03a1fe61d78"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="72af6a50-8e67-464c-aa58-9470403a27c5"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="652d8dc1-9c26-4494-96d2-d478ba5c24ab"/>
-  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -23,6 +23,11 @@
   <vendor>Copyright© Кострицын Олег (okostritsyn@gmail.com)</vendor>
   <version>2.1.2</version>
   <includeHelpInContents>true</includeHelpInContents>
+  <reportsUserSettingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsUserSettingsStorage>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
@@ -33,18 +38,8 @@
     <key>ru</key>
     <value>Поддержка пользователей. Простое решение для учета времени и задач</value>
   </detailedInformation>
-  <logo>
-    <transparentPixel>
-      <x>31</x>
-      <y>4</y>
-    </transparentPixel>
-  </logo>
-  <splash>
-    <transparentPixel>
-      <x>166</x>
-      <y>83</y>
-    </transparentPixel>
-  </splash>
+  <logo/>
+  <splash/>
   <copyright>
     <key>ru</key>
     <value>Copyright© Кострицын Олег (okostritsyn@gmail.com)</value>
@@ -163,7 +158,7 @@
   <commonPictures>CommonPicture.ЗнакСтопЧБ</commonPictures>
   <commonPictures>CommonPicture.ЗначокЗаставкиВнешнейОперации</commonPictures>
   <commonPictures>CommonPicture.ИерархическийСписок</commonPictures>
-  <commonPictures>CommonPicture.Информация</commonPictures>
+  <commonPictures>CommonPicture.Информация16</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.ИсторияВерсий</commonPictures>
   <commonPictures>CommonPicture.Категории</commonPictures>
@@ -365,6 +360,7 @@
   <commonPictures>CommonPicture.СовместнаяРаботаЧБ</commonPictures>
   <commonPictures>CommonPicture.АдминистрированиеЧБ</commonPictures>
   <commonPictures>CommonPicture.УчетВремениЧБ</commonPictures>
+  <commonPictures>CommonPicture.Телеграм</commonPictures>
   <sessionParameters>SessionParameter.ДобавлятьРуководителямДоступПодчиненных</sessionParameters>
   <sessionParameters>SessionParameter.ВидыДоступаБезОграничения</sessionParameters>
   <sessionParameters>SessionParameter.ОграничиватьДоступПоВидуОрганизации</sessionParameters>
@@ -664,7 +660,7 @@
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.УведомлениеИсполнителейОНовыхЗадачах</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
-  <scheduledJobs>ScheduledJob.РассылкаОтчетовПоЗаявкам</scheduledJobs>
+  <scheduledJobs>ScheduledJob.РассылкаОтчетовПользователям</scheduledJobs>
   <scheduledJobs>ScheduledJob.РассылкаОповещенийПоЗаявкам</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВыполнениеРассылкиНаТелеграм</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПроверкаКомандТелеграм</scheduledJobs>
@@ -707,6 +703,7 @@
   <functionalOptions>FunctionalOption.ВестиУчетПоКонтрагентам</functionalOptions>
   <functionalOptions>FunctionalOption.ВестиУчетНачисленияЗарплаты</functionalOptions>
   <functionalOptions>FunctionalOption.ВестиУчетПоТипамЗаявок</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьТелеграм</functionalOptions>
   <functionalOptionsParameters>FunctionalOptionsParameter.Организация</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</functionalOptionsParameters>
   <definedTypes>DefinedType.ИсточникЗаписейКалендаря</definedTypes>
@@ -787,6 +784,7 @@
   <constants>Constant.ВестиУчетПоТипамЗаявок</constants>
   <constants>Constant.ВестиУчетНачисленияЗарплаты</constants>
   <constants>Constant.АдресатыПолученияОтчетаПоЖурналуРегистрации</constants>
+  <constants>Constant.ИспользоватьТелеграм</constants>
   <commonForms>CommonForm.АдреснаяКнига</commonForms>
   <commonForms>CommonForm.БизнесПроцессыИЗадачиПоПредмету</commonForms>
   <commonForms>CommonForm.ВводПароляСОписаниями</commonForms>
@@ -1052,6 +1050,8 @@
   <informationRegisters>InformationRegister.ВременныеФайлыОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.ТелеграмСобытия</informationRegisters>
   <informationRegisters>InformationRegister.ТелеграмПодписчики</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкаРассылкиОтчетов</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияСостояний</informationRegisters>
   <accumulationRegisters>AccumulationRegister.НачисленияПоПроектам</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыДоступа</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

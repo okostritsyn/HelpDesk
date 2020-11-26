@@ -119,6 +119,7 @@
       <pointerType>Special</pointerType>
       <verticalScrollBar>ScrollAlways</verticalScrollBar>
       <horizontalScrollBar>ScrollAlways</horizontalScrollBar>
+      <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
       <showGroups>true</showGroups>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
