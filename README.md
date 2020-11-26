@@ -1,14 +1,14 @@
 ## Description ## 
 A simple solution for time and task tracking
 
-Need 1C "1C:Enterprise" framework ver. 8.3.14 or higher   
+Need 1C "1C:Enterprise" framework ver. 8.3.17 or higher   
 For developing use EDT ver. 2020 or higher 
 
 ## Цель проекта ## 
 
 Конфигурация с простым интерфейсом, которая удобна как пользователям, так и исполнителям
 
-Используется платформа 8.3.14
+Используется платформа 8.3.17
 
 Для разработки использовался EDT ver. 2020
 
