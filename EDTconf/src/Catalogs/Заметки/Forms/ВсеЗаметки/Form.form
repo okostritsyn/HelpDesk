@@ -19,10 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВыбранныйЦвет</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВыбранныйЦвет</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -123,10 +121,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВыбранныйПредмет</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВыбранныйПредмет</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -191,10 +187,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПоказыватьУдаленные</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПоказыватьУдаленные</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <toolTip>
@@ -335,10 +329,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТемаРасширеннаяПодсказка</name>
@@ -383,10 +375,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПредставлениеПредмета</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПредставлениеПредмета</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПредметРасширеннаяПодсказка</name>
@@ -431,10 +421,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДатаИзменения</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаИзменения</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаИзмененияРасширеннаяПодсказка</name>

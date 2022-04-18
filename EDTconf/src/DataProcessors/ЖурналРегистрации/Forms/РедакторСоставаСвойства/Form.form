@@ -28,10 +28,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Пометка</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -77,10 +75,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Представление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Представление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПредставлениеРасширеннаяПодсказка</name>

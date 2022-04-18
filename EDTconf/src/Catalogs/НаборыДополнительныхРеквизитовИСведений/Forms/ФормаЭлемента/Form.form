@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -82,10 +80,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДополнительныеРеквизиты.Свойство</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДополнительныеРеквизиты.Свойство</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДополнительныеРеквизитыСвойствоРасширеннаяПодсказка</name>
@@ -140,10 +136,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДополнительныеРеквизиты.ЗаполнятьОбязательно</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДополнительныеРеквизиты.ЗаполнятьОбязательно</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДополнительныеРеквизитыЗаполнятьОбязательноРасширеннаяПодсказка</name>
@@ -547,10 +541,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДополнительныеСведения.Свойство</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДополнительныеСведения.Свойство</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДополнительныеСведенияСвойствоРасширеннаяПодсказка</name>

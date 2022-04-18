@@ -21,10 +21,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ВидДоступа</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВидДоступа</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -73,10 +71,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.НомерКартинкиЗначенияДоступа</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.НомерКартинкиЗначенияДоступа</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -127,10 +123,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ЗначениеДоступа</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ЗначениеДоступа</segments>
         </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
@@ -206,10 +200,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ТолькоВидДоступа</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ТолькоВидДоступа</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -255,10 +247,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.НомерКартинкиГруппыДоступа</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.НомерКартинкиГруппыДоступа</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -309,10 +299,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ГруппаДоступа</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ГруппаДоступа</segments>
         </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
@@ -388,10 +376,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.НаследоватьПраваРодителей</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НаследоватьПраваРодителей</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -434,10 +420,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.СвязьСРодителем</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СвязьСРодителем</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -480,10 +464,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ИспользоватьПраваСсылки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ИспользоватьПраваСсылки</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>

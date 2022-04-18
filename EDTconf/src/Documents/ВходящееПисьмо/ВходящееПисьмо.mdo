@@ -1119,7 +1119,6 @@
       <types>DocumentRef.ВходящееПисьмо</types>
     </commandParameterType>
     <representation>PictureAndText</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="06002033-ad1b-4189-81da-25227577785c">
     <name>ОтветитьВсем</name>
@@ -1132,7 +1131,6 @@
       <types>DocumentRef.ВходящееПисьмо</types>
     </commandParameterType>
     <representation>PictureAndText</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="69bb6a87-5cfe-4ee9-bd7f-19dd01be2437">
     <name>Переслать</name>
@@ -1145,6 +1143,5 @@
       <types>DocumentRef.ВходящееПисьмо</types>
     </commandParameterType>
     <representation>PictureAndText</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Document>

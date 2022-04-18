@@ -354,6 +354,5 @@
       <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:ChartOfCharacteristicTypes>

@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Документ</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Документ</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДокументРасширеннаяПодсказка</name>
@@ -69,10 +67,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипыСвязей</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипыСвязей</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТипыСвязейРасширеннаяПодсказка</name>
@@ -174,10 +170,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОграничиватьКоличествоУровней</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОграничиватьКоличествоУровней</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -224,10 +218,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоУровней</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоУровней</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -324,10 +316,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Результат</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Результат</segments>
       </dataPath>
       <extendedTooltip>
         <name>РезультатРасширеннаяПодсказка</name>

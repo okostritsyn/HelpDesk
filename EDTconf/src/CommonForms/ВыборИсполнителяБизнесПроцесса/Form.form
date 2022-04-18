@@ -70,10 +70,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокПользователи.Description</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокПользователи.Description</segments>
           </dataPath>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
@@ -366,10 +364,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокРоли.Description</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокРоли.Description</segments>
           </dataPath>
           <extendedTooltip>
             <name>НаименованиеРолиРасширеннаяПодсказка</name>
@@ -599,10 +595,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Items.СписокРоли.CurrentData.Комментарий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.СписокРоли.CurrentData.Комментарий</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>

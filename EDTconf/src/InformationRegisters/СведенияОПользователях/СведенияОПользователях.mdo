@@ -177,7 +177,6 @@
       <types>CatalogRef.СтруктураПредприятия</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="c300ee46-73f4-4c6e-ac03-dd15975e90b4">
     <name>ОткрытьПользователейДолжности</name>
@@ -188,6 +187,5 @@
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:InformationRegister>

@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Пароль</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Пароль</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПарольРасширеннаяПодсказка</name>
@@ -64,10 +62,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПодтверждениеПароля</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПодтверждениеПароля</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПодтверждениеПароляРасширеннаяПодсказка</name>
@@ -116,10 +112,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>СохранятьПароль</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СохранятьПароль</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>

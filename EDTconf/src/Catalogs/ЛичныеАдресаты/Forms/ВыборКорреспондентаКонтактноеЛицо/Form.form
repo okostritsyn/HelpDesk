@@ -37,10 +37,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Корреспонденты.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Корреспонденты.Description</segments>
         </dataPath>
         <extendedTooltip>
           <name>КорреспондентыНаименованиеРасширеннаяПодсказка</name>
@@ -364,10 +362,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокКонтактныеЛица.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокКонтактныеЛица.Description</segments>
         </dataPath>
         <extendedTooltip>
           <name>КонтактныеЛицаНаименованиеРасширеннаяПодсказка</name>
@@ -413,10 +409,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокКонтактныеЛица.Должность</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокКонтактныеЛица.Должность</segments>
         </dataPath>
         <extendedTooltip>
           <name>КонтактныеЛицаДолжностьРасширеннаяПодсказка</name>

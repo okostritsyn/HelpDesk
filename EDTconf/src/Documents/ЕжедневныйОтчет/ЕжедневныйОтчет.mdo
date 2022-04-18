@@ -445,7 +445,6 @@
       <key>ru</key>
       <value>Мои ежедневные отчеты</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="b8e1f440-4ced-4343-9850-1c569d31aedf">
     <name>ОткрытьОтчетыПодчиненных</name>
@@ -460,6 +459,5 @@
       <key>ru</key>
       <value>Ежедневные отчеты моих подчиненных</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Document>

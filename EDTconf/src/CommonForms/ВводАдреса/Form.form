@@ -200,10 +200,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Страна</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Страна</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -260,10 +258,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Страна.Code</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Страна.Code</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -321,10 +317,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Индекс</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Индекс</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -417,10 +411,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Регион</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Регион</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>Left</titleLocation>
@@ -483,10 +475,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Район</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Район</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -547,10 +537,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Город</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Город</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -611,10 +599,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>НаселенныйПункт</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>НаселенныйПункт</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -675,10 +661,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Улица</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Улица</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -742,10 +726,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипДома</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипДома</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <titleLocation>None</titleLocation>
@@ -815,10 +797,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Дом</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Дом</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -876,10 +856,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипКорпуса</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипКорпуса</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <titleLocation>None</titleLocation>
@@ -952,10 +930,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Корпус</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Корпус</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -1013,10 +989,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипКвартиры</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипКвартиры</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <titleLocation>None</titleLocation>
@@ -1089,10 +1063,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Квартира</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Квартира</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -1186,10 +1158,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеСВидом</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеСВидом</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

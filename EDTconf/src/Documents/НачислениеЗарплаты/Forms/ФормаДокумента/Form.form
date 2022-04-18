@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Number</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Number</segments>
       </dataPath>
       <extendedTooltip>
         <name>НомерРасширеннаяПодсказка</name>
@@ -63,10 +61,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Date</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Date</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
@@ -154,10 +150,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Сотрудник</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Сотрудник</segments>
       </dataPath>
       <extendedTooltip>
         <name>СотрудникРасширеннаяПодсказка</name>
@@ -214,10 +208,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ПериодРегистрации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ПериодРегистрации</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -324,10 +316,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Начисления.LineNumber</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Начисления.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>НомерСтрокиРасширеннаяПодсказка</name>
@@ -379,10 +369,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.Проект</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.Проект</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПроектРасширеннаяПодсказка</name>
@@ -435,10 +423,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ПроектнаяЗадача</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ПроектнаяЗадача</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПроектнаяЗадачаРасширеннаяПодсказка</name>
@@ -530,10 +516,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.Роль</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.Роль</segments>
             </dataPath>
             <extendedTooltip>
               <name>РольРасширеннаяПодсказка</name>
@@ -586,10 +570,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ВидРабот</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ВидРабот</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВидРаботРасширеннаяПодсказка</name>
@@ -681,10 +663,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.Источник</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.Источник</segments>
             </dataPath>
             <extendedTooltip>
               <name>ИсточникРасширеннаяПодсказка</name>
@@ -754,10 +734,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ОписаниеРаботы</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ОписаниеРаботы</segments>
             </dataPath>
             <extendedTooltip>
               <name>ОписаниеРаботыРасширеннаяПодсказка</name>
@@ -853,10 +831,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ТрудозатратыПлан</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ТрудозатратыПлан</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТрудозатратыПланРасширеннаяПодсказка</name>
@@ -889,10 +865,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalТрудозатратыПлан</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalТрудозатратыПлан</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -916,10 +890,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ТрудозатратыИзмОценки</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ТрудозатратыИзмОценки</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТрудозатратыИзмОценкиРасширеннаяПодсказка</name>
@@ -952,10 +924,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalТрудозатратыИзмОценки</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalТрудозатратыИзмОценки</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -1019,10 +989,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ТрудозатратыНаНачПериода</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ТрудозатратыНаНачПериода</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТрудозатратыНаНачПериодаРасширеннаяПодсказка</name>
@@ -1055,10 +1023,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalТрудозатратыНаНачПериода</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalТрудозатратыНаНачПериода</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -1082,10 +1048,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.Трудозатраты</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.Трудозатраты</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТрудозатратыВТекПериодеРасширеннаяПодсказка</name>
@@ -1118,10 +1082,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalТрудозатраты</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalТрудозатраты</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -1178,10 +1140,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Начисления.Тариф</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Начисления.Тариф</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТарифРасширеннаяПодсказка</name>
@@ -1240,10 +1200,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.НачисленоДоТекПериодаЧас</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.НачисленоДоТекПериодаЧас</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленоПериодаЧасРасширеннаяПодсказка</name>
@@ -1276,10 +1234,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalНачисленоДоТекПериодаЧас</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalНачисленоДоТекПериодаЧас</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -1305,10 +1261,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.НачисленоЧасов</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.НачисленоЧасов</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленоВТекПериодеЧасРасширеннаяПодсказка</name>
@@ -1340,10 +1294,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalНачисленоЧасов</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalНачисленоЧасов</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -1409,10 +1361,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.НачисленоДоТекПериода</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.НачисленоДоТекПериода</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленоДоТекПериодаРасширеннаяПодсказка</name>
@@ -1445,10 +1395,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalНачисленоДоТекПериода</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalНачисленоДоТекПериода</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -1474,10 +1422,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.Начислено</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.Начислено</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленоВтекПериодеРасширеннаяПодсказка</name>
@@ -1509,10 +1455,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.TotalНачислено</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.TotalНачислено</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>5</width>
@@ -1574,10 +1518,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ЗаявкаЗакрыта</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ЗаявкаЗакрыта</segments>
             </dataPath>
             <extendedTooltip>
               <name>ЗаявкаЗакрытаРасширеннаяПодсказка</name>
@@ -1619,10 +1561,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Начисления.ДатаЗакрытия</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Начисления.ДатаЗакрытия</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДатаЗакрытияРасширеннаяПодсказка</name>
@@ -2091,10 +2031,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.НачисленияПоЗакрытымЗаявкам.LineNumber</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачисленияПоЗакрытымЗаявкам.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>НачисленияПоЗакрытымЗаявкамНомерСтрокиРасширеннаяПодсказка</name>
@@ -2143,10 +2081,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.Проект</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.Проект</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамПроектРасширеннаяПодсказка</name>
@@ -2196,10 +2132,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ПроектнаяЗадача</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ПроектнаяЗадача</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамПроектнаяЗадачаРасширеннаяПодсказка</name>
@@ -2288,10 +2222,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ВидРабот</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ВидРабот</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамВидРаботРасширеннаяПодсказка</name>
@@ -2341,10 +2273,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.Роль</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.Роль</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамРольРасширеннаяПодсказка</name>
@@ -2430,10 +2360,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.НачисленияПоЗакрытымЗаявкам.Источник</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачисленияПоЗакрытымЗаявкам.Источник</segments>
           </dataPath>
           <extendedTooltip>
             <name>НачисленияПоЗакрытымЗаявкамИсточникРасширеннаяПодсказка</name>
@@ -2489,10 +2417,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыПлан</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыПлан</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамТрудозатратыПланРасширеннаяПодсказка</name>
@@ -2525,10 +2451,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыПлан</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыПлан</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -2551,10 +2475,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыИзмОценки</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыИзмОценки</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамТрудозатратыИзмОценкиРасширеннаяПодсказка</name>
@@ -2586,10 +2508,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыИзмОценки</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыИзмОценки</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -2653,10 +2573,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыНаНачПериода</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыНаНачПериода</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамТрудозатратыНаНачПериодаРасширеннаяПодсказка</name>
@@ -2689,10 +2607,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыНаНачПериода</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыНаНачПериода</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -2746,10 +2662,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.НачисленияПоЗакрытымЗаявкам.Тариф</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачисленияПоЗакрытымЗаявкам.Тариф</segments>
           </dataPath>
           <extendedTooltip>
             <name>НачисленияПоЗакрытымЗаявкамТарифРасширеннаяПодсказка</name>
@@ -2805,10 +2719,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.НачисленоДоТекПериодаЧас</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.НачисленоДоТекПериодаЧас</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамНачисленоДоТекПериодаЧасРасширеннаяПодсказка</name>
@@ -2841,10 +2753,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачисленоДоТекПериодаЧас</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачисленоДоТекПериодаЧас</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -2867,10 +2777,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыОстаток</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ТрудозатратыОстаток</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамТрудозатратыРасширеннаяПодсказка</name>
@@ -2903,10 +2811,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыОстаток</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalТрудозатратыОстаток</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -2929,10 +2835,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.НачисленоЧасов</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.НачисленоЧасов</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -2968,10 +2872,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачисленоЧасов</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачисленоЧасов</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -3034,10 +2936,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.НачисленоДоТекПериода</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.НачисленоДоТекПериода</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамНачисленоДоТекПериодаРасширеннаяПодсказка</name>
@@ -3070,10 +2970,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачисленоДоТекПериода</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачисленоДоТекПериода</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -3096,10 +2994,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.Начислено</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.Начислено</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамНачисленоРасширеннаяПодсказка</name>
@@ -3131,10 +3027,8 @@
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <footerDataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачислено</segments>
-              </paths>
+            <footerDataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.TotalНачислено</segments>
             </footerDataPath>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
@@ -3193,10 +3087,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ЗаявкаЗакрыта</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ЗаявкаЗакрыта</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамЗаявкаЗакрытаРасширеннаяПодсказка</name>
@@ -3239,10 +3131,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.НачисленияПоЗакрытымЗаявкам.ДатаЗакрытия</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.НачисленияПоЗакрытымЗаявкам.ДатаЗакрытия</segments>
             </dataPath>
             <extendedTooltip>
               <name>НачисленияПоЗакрытымЗаявкамДатаЗакрытияРасширеннаяПодсказка</name>
@@ -3755,10 +3645,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Ответственный</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Ответственный</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -3810,10 +3698,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Комментарий</segments>
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>

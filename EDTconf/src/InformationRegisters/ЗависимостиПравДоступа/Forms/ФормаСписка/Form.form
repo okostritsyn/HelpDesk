@@ -22,10 +22,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПодчиненнаяТаблица</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПодчиненнаяТаблица</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -71,10 +69,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ВедущаяТаблица</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВедущаяТаблица</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -127,10 +123,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ОтключитьПроверкуПравВедущейТаблицы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ОтключитьПроверкуПравВедущейТаблицы</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОтключитьПроверкуПравВедущейТаблицыРасширеннаяПодсказка</name>
@@ -176,10 +170,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПриПроверкеПраваЧтение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПриПроверкеПраваЧтение</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПриПроверкеПраваЧтениеРасширеннаяПодсказка</name>
@@ -228,10 +220,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПриПроверкеПраваДобавление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПриПроверкеПраваДобавление</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПриПроверкеПраваДобавлениеРасширеннаяПодсказка</name>
@@ -280,10 +270,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПриПроверкеПраваИзменение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПриПроверкеПраваИзменение</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПриПроверкеПраваИзменениеРасширеннаяПодсказка</name>
@@ -332,10 +320,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПриПроверкеПраваУдаление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПриПроверкеПраваУдаление</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПриПроверкеПраваУдалениеРасширеннаяПодсказка</name>

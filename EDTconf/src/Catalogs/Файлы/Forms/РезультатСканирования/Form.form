@@ -38,10 +38,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаФайлов.Представление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаФайлов.Представление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаФайловПредставлениеРасширеннаяПодсказка</name>
@@ -298,10 +296,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>АдресКартинки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>АдресКартинки</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -444,10 +440,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТекстНастроек</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТекстНастроек</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

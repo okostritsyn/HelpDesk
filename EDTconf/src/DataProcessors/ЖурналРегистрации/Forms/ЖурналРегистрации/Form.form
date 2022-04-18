@@ -19,10 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоПоказываемыхСобытий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоПоказываемыхСобытий</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -128,10 +126,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеОтбора</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеОтбора</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеОтбораРасширеннаяПодсказка</name>
@@ -247,10 +243,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Журнал.Дата</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Журнал.Дата</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДатаРасширеннаяПодсказка</name>
@@ -301,10 +295,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Журнал.ПредставлениеРазделенияДанныхСеанса</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Журнал.ПредставлениеРазделенияДанныхСеанса</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПредставлениеРазделенияДанныхСеансаРасширеннаяПодсказка</name>
@@ -360,10 +352,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.ИмяПользователя</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.ИмяПользователя</segments>
             </dataPath>
             <extendedTooltip>
               <name>ИмяПользователяРасширеннаяПодсказка</name>
@@ -418,10 +408,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.Компьютер</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.Компьютер</segments>
             </dataPath>
             <extendedTooltip>
               <name>КомпьютерРасширеннаяПодсказка</name>
@@ -479,10 +467,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Журнал.ПредставлениеПриложения</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Журнал.ПредставлениеПриложения</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ПредставлениеПриложенияРасширеннаяПодсказка</name>
@@ -533,10 +519,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Журнал.Сеанс</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Журнал.Сеанс</segments>
               </dataPath>
               <extendedTooltip>
                 <name>СеансРасширеннаяПодсказка</name>
@@ -641,10 +625,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.РабочийСервер</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.РабочийСервер</segments>
             </dataPath>
             <extendedTooltip>
               <name>РабочийСерверРасширеннаяПодсказка</name>
@@ -695,10 +677,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.ОсновнойIPПорт</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.ОсновнойIPПорт</segments>
             </dataPath>
             <extendedTooltip>
               <name>ОсновнойIPПортРасширеннаяПодсказка</name>
@@ -749,10 +729,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.ВспомогательныйIPПорт</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.ВспомогательныйIPПорт</segments>
             </dataPath>
             <toolTip>
               <key>ru</key>
@@ -846,10 +824,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.ПредставлениеСобытия</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.ПредставлениеСобытия</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПредставлениеСобытияРасширеннаяПодсказка</name>
@@ -904,10 +880,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.Комментарий</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.Комментарий</segments>
             </dataPath>
             <extendedTooltip>
               <name>КомментарийРасширеннаяПодсказка</name>
@@ -991,10 +965,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.СтатусТранзакции</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.СтатусТранзакции</segments>
             </dataPath>
             <extendedTooltip>
               <name>СтатусТранзакцииРасширеннаяПодсказка</name>
@@ -1045,10 +1017,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.Транзакция</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.Транзакция</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТранзакцияРасширеннаяПодсказка</name>
@@ -1132,10 +1102,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.ПредставлениеМетаданных</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.ПредставлениеМетаданных</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПредставлениеМетаданныхРасширеннаяПодсказка</name>
@@ -1186,10 +1154,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.Данные</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.Данные</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДанныеРасширеннаяПодсказка</name>
@@ -1240,10 +1206,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Журнал.ПредставлениеДанных</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Журнал.ПредставлениеДанных</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПредставлениеДанныхРасширеннаяПодсказка</name>
@@ -1717,10 +1681,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПолеИндикаторДлительныхОпераций</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПолеИндикаторДлительныхОпераций</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>

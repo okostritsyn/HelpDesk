@@ -25,10 +25,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Ref.ИндексКартинки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Ref.ИндексКартинки</segments>
         </dataPath>
         <extendedTooltip>
           <name>СсылкаИндексКартинкиРасширеннаяПодсказка</name>
@@ -77,10 +75,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Ref.ПутьКФайлу</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Ref.ПутьКФайлу</segments>
         </dataPath>
         <extendedTooltip>
           <name>СсылкаПутьКФайлуРасширеннаяПодсказка</name>
@@ -159,10 +155,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ref.Размер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ref.Размер</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРазмерРасширеннаяПодсказка</name>
@@ -207,10 +201,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ref.Автор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ref.Автор</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаАвторРасширеннаяПодсказка</name>

@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Роль</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Роль</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -64,10 +62,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ОсновнойОбъектАдресации</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОсновнойОбъектАдресации</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОсновнойОбъектАдресацииРасширеннаяПодсказка</name>
@@ -115,10 +111,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ДополнительныйОбъектАдресации</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ДополнительныйОбъектАдресации</segments>
     </dataPath>
     <extendedTooltip>
       <name>ДополнительныйОбъектАдресацииРасширеннаяПодсказка</name>

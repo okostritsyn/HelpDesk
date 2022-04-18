@@ -36,10 +36,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоНастроек.Настройка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоНастроек.Настройка</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоНастроекНастройкаExtendedTooltip</name>
@@ -92,10 +90,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоНастроек.Значение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоНастроек.Значение</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоНастроекЗначениеExtendedTooltip</name>
@@ -148,10 +144,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоНастроек.ЭтоГруппа</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоНастроек.ЭтоГруппа</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоНастроекЭтоГруппаExtendedTooltip</name>
@@ -192,10 +186,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоНастроек.НомерКартинки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоНастроек.НомерКартинки</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоНастроекНомерКартинкиExtendedTooltip</name>

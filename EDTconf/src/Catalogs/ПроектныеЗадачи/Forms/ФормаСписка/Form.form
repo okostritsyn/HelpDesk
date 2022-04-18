@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Проект</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Проект</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -115,10 +113,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Description</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -164,10 +160,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.КодСДР</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КодСДР</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодСДРРасширеннаяПодсказка</name>
@@ -217,10 +211,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ТекущийПланНачало</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ТекущийПланНачало</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТекущийПланНачалоРасширеннаяПодсказка</name>
@@ -269,10 +261,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ТекущийПланОкончание</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ТекущийПланОкончание</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТекущийПланОкончаниеРасширеннаяПодсказка</name>
@@ -324,10 +314,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ТекущийПланДлительность</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ТекущийПланДлительность</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекущийПланДлительностьРасширеннаяПодсказка</name>
@@ -372,10 +360,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ТекущийПланЕдиницаДлительности</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ТекущийПланЕдиницаДлительности</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекущийПланЕдиницаДлительностиРасширеннаяПодсказка</name>
@@ -461,10 +447,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ТекущийПланТрудозатраты</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ТекущийПланТрудозатраты</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекущийПланТрудозатратыРасширеннаяПодсказка</name>
@@ -509,10 +493,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ТекущийПланЕдиницаТрудозатрат</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ТекущийПланЕдиницаТрудозатрат</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекущийПланЕдиницаТрудозатратРасширеннаяПодсказка</name>
@@ -595,10 +577,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.НачалоФакт</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НачалоФакт</segments>
       </dataPath>
       <extendedTooltip>
         <name>НачалоФактРасширеннаяПодсказка</name>
@@ -647,10 +627,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ОкончаниеФакт</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ОкончаниеФакт</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОкончаниеФактРасширеннаяПодсказка</name>
@@ -702,10 +680,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ДлительностьФакт</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ДлительностьФакт</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДлительностьФактРасширеннаяПодсказка</name>
@@ -750,10 +726,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ЕдиницаДлительностиФакт</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ЕдиницаДлительностиФакт</segments>
         </dataPath>
         <extendedTooltip>
           <name>ЕдиницаДлительностиФактРасширеннаяПодсказка</name>

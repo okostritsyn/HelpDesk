@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ЧислоВерсийВБазе</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ЧислоВерсийВБазе</segments>
     </dataPath>
     <extendedTooltip>
       <name>ИнформацияКоличествоРасширеннаяПодсказка</name>
@@ -68,10 +66,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РазмерВерсийВБазе</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РазмерВерсийВБазе</segments>
       </dataPath>
       <extendedTooltip>
         <name>РазмерВерсийВБазеРасширеннаяПодсказка</name>

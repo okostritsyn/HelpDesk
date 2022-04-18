@@ -292,6 +292,5 @@
       <key>ru</key>
       <value>Список инициированных мной бизнес-процессов</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
 </mdclass:InformationRegister>

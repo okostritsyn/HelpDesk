@@ -44,6 +44,5 @@
     <group>ActionsPanelTools</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:DataProcessor>

@@ -140,10 +140,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПредставлениеОтбора</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПредставлениеОтбора</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -523,10 +521,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.ПолноеИмя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.ПолноеИмя</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -579,10 +575,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.Имя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.Имя</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -635,10 +629,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.АутентификацияСтандартная</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.АутентификацияСтандартная</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -686,10 +678,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.АутентификацияОС</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.АутентификацияОС</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -737,10 +727,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.ПользовательОС</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.ПользовательОС</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -791,10 +779,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.ЭтоПользователь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.ЭтоПользователь</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЭтоПользовательРасширеннаяПодсказка</name>
@@ -834,10 +820,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.ЭтоВнешнийПользователь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.ЭтоВнешнийПользователь</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЭтоВнешнийПользовательРасширеннаяПодсказка</name>
@@ -877,10 +861,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.Ссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -927,10 +909,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПользователиИнфБазы.ПометкаУдаления</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПользователиИнфБазы.ПометкаУдаления</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПометкаУдаленияРасширеннаяПодсказка</name>

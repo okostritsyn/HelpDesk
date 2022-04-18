@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>АвтоматическиЗапускатьОтдельныйСеансДляВыполненияРегламентныхЗаданий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>АвтоматическиЗапускатьОтдельныйСеансДляВыполненияРегламентныхЗаданий</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -97,10 +95,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>УведомлятьОНекорректномВыполненииРегламентныхЗаданий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УведомлятьОНекорректномВыполненииРегламентныхЗаданий</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <toolTip>
@@ -147,10 +143,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПериодУведомленияОНекорректномВыполненииРегламентныхЗаданий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПериодУведомленияОНекорректномВыполненииРегламентныхЗаданий</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>

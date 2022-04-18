@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>НадписьОРегионеИРайоне</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>НадписьОРегионеИРайоне</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -91,10 +89,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НайденныеЗаписиПоИндексу.Улица</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НайденныеЗаписиПоИндексу.Улица</segments>
       </dataPath>
       <extendedTooltip>
         <name>УлицаРасширеннаяПодсказка</name>
@@ -150,10 +146,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НайденныеЗаписиПоИндексу.Описание</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НайденныеЗаписиПоИндексу.Описание</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОписаниеРасширеннаяПодсказка</name>
@@ -204,10 +198,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НайденныеЗаписиПоИндексу.ПризнакАктуальности</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НайденныеЗаписиПоИндексу.ПризнакАктуальности</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПризнакАктуальностиРасширеннаяПодсказка</name>

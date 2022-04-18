@@ -43,10 +43,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВерсий.НомерВерсии</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВерсий.НомерВерсии</segments>
           </dataPath>
           <extendedTooltip>
             <name>НомерВерсииРасширеннаяПодсказка</name>
@@ -96,10 +94,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВерсий.АвторВерсии</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВерсий.АвторВерсии</segments>
           </dataPath>
           <extendedTooltip>
             <name>АвторВерсииРасширеннаяПодсказка</name>
@@ -148,10 +144,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВерсий.ДатаВерсии</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВерсий.ДатаВерсии</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДатаРасширеннаяПодсказка</name>
@@ -201,10 +195,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВерсий.Комментарий</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВерсий.Комментарий</segments>
           </dataPath>
           <extendedTooltip>
             <name>СписокВерсийКомментарийРасширеннаяПодсказка</name>

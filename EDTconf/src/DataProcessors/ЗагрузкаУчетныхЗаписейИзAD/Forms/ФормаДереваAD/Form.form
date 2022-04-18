@@ -34,10 +34,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоAD.Name</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоAD.Name</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоADNameРасширеннаяПодсказка</name>
@@ -86,10 +84,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоAD.Path</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоAD.Path</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоADPathРасширеннаяПодсказка</name>

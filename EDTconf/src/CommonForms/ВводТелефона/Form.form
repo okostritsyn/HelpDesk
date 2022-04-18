@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПредставлениеСВидом</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПредставлениеСВидом</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -68,10 +66,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>КодСтраны</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>КодСтраны</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -131,10 +127,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>КодГорода</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>КодГорода</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
     <handlers>
@@ -195,10 +189,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>НомерТелефона</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>НомерТелефона</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>Left</titleLocation>
@@ -259,10 +251,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Добавочный</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Добавочный</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
     <handlers>
@@ -319,10 +309,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Комментарий</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>

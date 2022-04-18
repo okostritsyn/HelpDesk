@@ -77,10 +77,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Профили.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Профили.Пометка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -126,10 +124,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Профили.ПрофильПредставление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Профили.ПрофильПредставление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПрофилиПрофильПредставлениеРасширеннаяПодсказка</name>
@@ -357,10 +353,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Items.Профили.CurrentData.ПрофильПредставление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Профили.CurrentData.ПрофильПредставление</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -441,10 +435,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВидыДоступа.ВидДоступа</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВидыДоступа.ВидДоступа</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -501,10 +493,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВидыДоступа.Использование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВидыДоступа.Использование</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -903,10 +893,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>НадписьВидДоступа</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>НадписьВидДоступа</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <shortcut>Ctrl+S</shortcut>
@@ -1017,10 +1005,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ЗначенияДоступа.НомерСтрокиПоВиду</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ЗначенияДоступа.НомерСтрокиПоВиду</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>НомерСтрокиПоВидуРасширеннаяПодсказка</name>
@@ -1066,10 +1052,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ЗначенияДоступа.ЗначениеДоступа</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ЗначенияДоступа.ЗначениеДоступа</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ЗначениеДоступаРасширеннаяПодсказка</name>

@@ -18,10 +18,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Красный</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Красный</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -85,10 +83,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Красный</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Красный</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -188,10 +184,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Зеленый</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Зеленый</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -255,10 +249,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Зеленый</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Зеленый</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -358,10 +350,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Синий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Синий</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -425,10 +415,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Синий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Синий</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -572,10 +560,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТабличноеПоле.КартинкаЦвета</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТабличноеПоле.КартинкаЦвета</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТабличноеПолеКартинкаЦветаExtendedTooltip</name>
@@ -624,10 +610,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТабличноеПоле.НазваниеЦвета</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТабличноеПоле.НазваниеЦвета</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТабличноеПолеНазваниеЦветаExtendedTooltip</name>
@@ -675,10 +659,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТабличноеПоле.ЗначениеЦвета</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТабличноеПоле.ЗначениеЦвета</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТабличноеПолеЗначениеЦветаExtendedTooltip</name>
@@ -915,10 +897,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПолеКартинкиЦвета</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПолеКартинкиЦвета</segments>
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>

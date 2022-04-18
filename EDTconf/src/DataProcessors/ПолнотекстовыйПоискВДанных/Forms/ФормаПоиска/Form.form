@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтрокаПоиска</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтрокаПоиска</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <titleLocation>None</titleLocation>
@@ -430,10 +428,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ИскатьТолькоВРазделах</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ИскатьТолькоВРазделах</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
@@ -551,10 +547,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.РазделыПоиска.Check</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.РазделыПоиска.Check</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -599,10 +593,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.РазделыПоиска.Value</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.РазделыПоиска.Value</segments>
             </dataPath>
             <extendedTooltip>
               <name>НастройкиПоискаРазделыПоискаЗначениеExtendedTooltip</name>
@@ -994,10 +986,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИскатьСловаСОшибками</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИскатьСловаСОшибками</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTip>
@@ -1048,10 +1038,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ОтображатьТекстовоеОписание</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ОтображатьТекстовоеОписание</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTip>
@@ -1102,10 +1090,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ВыделятьСловаЦветом</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ВыделятьСловаЦветом</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTip>
@@ -1160,10 +1146,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ОтображатьДополнительнуюИнформацию</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ОтображатьДополнительнуюИнформацию</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTip>
@@ -1304,10 +1288,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.ИскатьСочетанияСлов</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.ИскатьСочетанияСлов</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -1419,10 +1401,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.РезультатовНаСтранице</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.РезультатовНаСтранице</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -1602,10 +1582,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>HTMLТекст</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>HTMLТекст</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -1810,10 +1788,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПоказаныРезультатыСПо</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПоказаныРезультатыСПо</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -2020,10 +1996,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СостояниеИндекса</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СостояниеИндекса</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

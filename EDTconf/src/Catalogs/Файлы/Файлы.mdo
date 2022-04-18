@@ -1231,7 +1231,6 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="52f4453e-e968-4290-a79a-470f68fbd07f">
     <name>ЗанятыеФайлы</name>
@@ -1242,7 +1241,6 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="5b952e35-1037-4447-8293-6d8889692c8b">
     <name>ПапкиФайлов</name>
@@ -1254,7 +1252,6 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="d5b2eab7-8f14-4136-b488-f69038d13ad1">
     <name>ИсторияПереписки</name>
@@ -1267,6 +1264,5 @@
       <types>CatalogRef.Файлы</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

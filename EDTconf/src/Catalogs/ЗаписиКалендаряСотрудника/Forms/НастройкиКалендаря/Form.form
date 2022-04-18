@@ -19,10 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НачалоРабочегоДня</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НачалоРабочегоДня</segments>
       </dataPath>
       <extendedTooltip>
         <name>НачалоРабочегоДняРасширеннаяПодсказка</name>
@@ -90,10 +88,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОкончаниеРабочегоДня</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОкончаниеРабочегоДня</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОкончаниеРабочегоДняРасширеннаяПодсказка</name>
@@ -202,10 +198,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтображатьТекущуюДату</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтображатьТекущуюДату</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>

@@ -16,10 +16,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Каталог</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Каталог</segments>
     </dataPath>
     <extendedTooltip>
       <name>ВыбранныйКаталогРасширеннаяПодсказка</name>
@@ -82,10 +80,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПапкаДляДобавления</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПапкаДляДобавления</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПапкаРасширеннаяПодсказка</name>
@@ -140,10 +136,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>УдалятьФайлыПослеДобавления</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>УдалятьФайлыПослеДобавления</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -194,10 +188,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Описание</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Описание</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОписаниеРасширеннаяПодсказка</name>
@@ -252,10 +244,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ХранитьВерсии</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ХранитьВерсии</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>

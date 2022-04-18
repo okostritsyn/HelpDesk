@@ -58,10 +58,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТекстВопроса</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТекстВопроса</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

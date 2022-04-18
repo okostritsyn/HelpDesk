@@ -845,7 +845,6 @@
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="459d8cf2-472f-430b-a8f9-81b896a1a0d4">
     <name>СоздатьПроектнуюЗадачуНаОсновании</name>
@@ -859,6 +858,5 @@
       <types>DocumentRef.ИсходящееПисьмо</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

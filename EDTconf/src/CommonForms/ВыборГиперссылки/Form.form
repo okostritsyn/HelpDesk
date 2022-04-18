@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВидСсылки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВидСсылки</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -104,10 +102,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Гиперссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Гиперссылка</segments>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
@@ -166,10 +162,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Файл</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Файл</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -232,10 +226,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтатьяБазыЗнаний</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтатьяБазыЗнаний</segments>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <handlers>
@@ -333,10 +325,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Представление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Представление</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

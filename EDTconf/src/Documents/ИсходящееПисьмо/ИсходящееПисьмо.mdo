@@ -1097,6 +1097,5 @@
       <types>DocumentRef.ИсходящееПисьмо</types>
     </commandParameterType>
     <representation>PictureAndText</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Document>

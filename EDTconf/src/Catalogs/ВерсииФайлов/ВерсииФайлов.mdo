@@ -798,6 +798,5 @@
       <types>CatalogRef.Файлы</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

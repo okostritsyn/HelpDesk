@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КластерТребуетАвторизации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КластерТребуетАвторизации</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -64,10 +62,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ИмяАдминистратораКластера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИмяАдминистратораКластера</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИмяАдминистратораКластераРасширеннаяПодсказка</name>
@@ -117,10 +113,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПарольАдминистратораКластера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПарольАдминистратораКластера</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПарольАдминистратораКластераРасширеннаяПодсказка</name>
@@ -204,10 +198,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НестандартныеПорты</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НестандартныеПорты</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -257,10 +249,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПортКластераСерверов</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПортКластераСерверов</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПортКластераСерверовРасширеннаяПодсказка</name>
@@ -308,10 +298,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПортАгентаСервера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПортАгентаСервера</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПортАгентаСервераРасширеннаяПодсказка</name>

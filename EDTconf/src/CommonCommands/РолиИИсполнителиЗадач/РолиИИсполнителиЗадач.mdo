@@ -17,5 +17,4 @@
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.User</picture>
   </picture>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

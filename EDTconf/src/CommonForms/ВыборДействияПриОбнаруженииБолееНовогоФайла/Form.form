@@ -61,10 +61,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Сообщение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Сообщение</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -204,10 +202,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Файл</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Файл</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -364,10 +360,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ВремяИзмененияНаСервере</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВремяИзмененияНаСервере</segments>
     </dataPath>
     <extendedTooltip>
       <name>ВремяИзмененияНаСервереРасширеннаяПодсказка</name>
@@ -416,10 +410,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВРабочемКаталоге</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВРабочемКаталоге</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВремяИзмененияВРабочемКаталогеРасширеннаяПодсказка</name>

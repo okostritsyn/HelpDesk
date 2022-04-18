@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ИспользоватьПрокси</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьПрокси</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>Right</titleLocation>
@@ -62,10 +60,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Сервер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Сервер</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПроксиСерверРасширеннаяПодсказка</name>
@@ -113,10 +109,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пользователь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пользователь</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользовательРасширеннаяПодсказка</name>
@@ -164,10 +158,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пароль</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пароль</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПарольРасширеннаяПодсказка</name>
@@ -216,10 +208,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Порт</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Порт</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПортРасширеннаяПодсказка</name>
@@ -273,10 +263,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НеИспользоватьПроксиДляЛокальныхАдресов</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НеИспользоватьПроксиДляЛокальныхАдресов</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>

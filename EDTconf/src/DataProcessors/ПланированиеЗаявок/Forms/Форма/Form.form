@@ -19,10 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ГруппаПользователей</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ГруппаПользователей</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -180,10 +178,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОткрытыеЗаявки.Number</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОткрытыеЗаявки.Number</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОткрытыеЗаявкиНомерExtendedTooltip</name>
@@ -235,10 +231,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ОткрытыеЗаявки.Date</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ОткрытыеЗаявки.Date</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ОткрытыеЗаявкиДатаExtendedTooltip</name>
@@ -287,10 +281,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ОткрытыеЗаявки.ДатаИзменения</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ОткрытыеЗаявки.ДатаИзменения</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ОткрытыеЗаявкиДатаИзмененияExtendedTooltip</name>
@@ -369,10 +361,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОткрытыеЗаявки.Тема</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОткрытыеЗаявки.Тема</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОткрытыеЗаявкиТемаРасширеннаяПодсказка</name>
@@ -420,10 +410,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ОткрытыеЗаявки.Статус</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ОткрытыеЗаявки.Статус</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ОткрытыеЗаявкиСтатусExtendedTooltip</name>
@@ -468,10 +456,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ОткрытыеЗаявки.ТипЗаявки</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ОткрытыеЗаявки.ТипЗаявки</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ОткрытыеЗаявкиТипЗаявкиExtendedTooltip</name>
@@ -550,10 +536,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОткрытыеЗаявки.СрокЗаявки</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОткрытыеЗаявки.СрокЗаявки</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОткрытыеЗаявкиСрокЗаявкиExtendedTooltip</name>
@@ -598,10 +582,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОткрытыеЗаявки.Организация</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОткрытыеЗаявки.Организация</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОткрытыеЗаявкиОрганизацияExtendedTooltip</name>
@@ -650,10 +632,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОткрытыеЗаявки.Контрагент</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОткрытыеЗаявки.Контрагент</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОткрытыеЗаявкиКонтрагентРасширеннаяПодсказка</name>
@@ -902,10 +882,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Items.ОткрытыеЗаявки.CurrentData.ОписаниеЗаявки</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Items.ОткрытыеЗаявки.CurrentData.ОписаниеЗаявки</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -1220,10 +1198,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ВариантПериода</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ВариантПериода</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <handlers>
@@ -1350,10 +1326,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ПредставлениеПериода</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ПредставлениеПериода</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -1902,10 +1876,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДатаОтображения</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДатаОтображения</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -2128,10 +2100,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Планировщик</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Планировщик</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>

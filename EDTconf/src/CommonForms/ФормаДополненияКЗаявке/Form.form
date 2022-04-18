@@ -1154,10 +1154,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СтилиТекста</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтилиТекста</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -1219,10 +1217,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ИмяШрифта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИмяШрифта</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -1280,10 +1276,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РазмерыШрифта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РазмерыШрифта</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -1413,10 +1407,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ТекстДополненияHTML</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТекстДополненияHTML</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>

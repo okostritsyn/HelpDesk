@@ -20,10 +20,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокКодировок.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокКодировок.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокКодировокЗначениеРасширеннаяПодсказка</name>
@@ -248,10 +246,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПоказыватьТолькоОсновныеКодировки</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПоказыватьТолькоОсновныеКодировки</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>

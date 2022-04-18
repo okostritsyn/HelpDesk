@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтборПоПользователю</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборПоПользователю</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -61,10 +59,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Пользователь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Пользователь</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -173,10 +169,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеОбщихНастроек.КлючОбъекта</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеОбщихНастроек.КлючОбъекта</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеОбщихНастроекКлючОбъектаРасширеннаяПодсказка</name>
@@ -226,10 +220,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеОбщихНастроек.Пользователь</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеОбщихНастроек.Пользователь</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеОбщихНастроекПользовательРасширеннаяПодсказка</name>
@@ -279,10 +271,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеОбщихНастроек.КлючНастроек</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеОбщихНастроек.КлючНастроек</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеОбщихНастроекЗначениеСпискаНастроекРасширеннаяПодсказка</name>
@@ -336,10 +326,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеОбщихНастроек.Настройки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеОбщихНастроек.Настройки</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеОбщихНастроекНастройкиРасширеннаяПодсказка</name>
@@ -391,10 +379,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеОбщихНастроек.Значение</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеОбщихНастроек.Значение</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -445,10 +431,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеОбщихНастроек.РазрешеноРедактирование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеОбщихНастроек.РазрешеноРедактирование</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеОбщихНастроекРазрешеноРедактированиеРасширеннаяПодсказка</name>
@@ -1170,10 +1154,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеСистемныхНастроек.КлючОбъекта</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеСистемныхНастроек.КлючОбъекта</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеСистемныхНастроекКлючОбъектаРасширеннаяПодсказка</name>
@@ -1222,10 +1204,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеСистемныхНастроек.Пользователь</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеСистемныхНастроек.Пользователь</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеСистемныхНастроекПользовательРасширеннаяПодсказка</name>
@@ -1274,10 +1254,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеСистемныхНастроек.КлючНастроек</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеСистемныхНастроек.КлючНастроек</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеСистемныхНастроекКлючНастроекРасширеннаяПодсказка</name>
@@ -1330,10 +1308,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеСистемныхНастроек.Настройки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеСистемныхНастроек.Настройки</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеСистемныхНастроекНастройкиРасширеннаяПодсказка</name>
@@ -1380,10 +1356,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеСистемныхНастроек.СкрытыйКлючОбъекта</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеСистемныхНастроек.СкрытыйКлючОбъекта</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеСистемныхНастроекСкрытыйКлючьНастроекРасширеннаяПодсказка</name>
@@ -2064,10 +2038,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТекстНастроек</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТекстНастроек</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -2168,10 +2140,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеНастроекДанныхФорм.КлючОбъекта</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеНастроекДанныхФорм.КлючОбъекта</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеНастроекДанныхФормКлючОбъектаРасширеннаяПодсказка</name>
@@ -2221,10 +2191,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеНастроекДанныхФорм.Пользователь</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеНастроекДанныхФорм.Пользователь</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеНастроекДанныхФормПользовательРасширеннаяПодсказка</name>
@@ -2274,10 +2242,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеНастроекДанныхФорм.КлючНастроек</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеНастроекДанныхФорм.КлючНастроек</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеНастроекДанныхФормКлючНастроекРасширеннаяПодсказка</name>
@@ -2331,10 +2297,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеНастроекДанныхФорм.Настройки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеНастроекДанныхФорм.Настройки</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеНастроекДанныхФормНастройкиРасширеннаяПодсказка</name>
@@ -2382,10 +2346,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеНастроекДанныхФорм.РазрешеноРедактирование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеНастроекДанныхФорм.РазрешеноРедактирование</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоХранилищеНастроекДанныхФормРазрешеноРедактированиеРасширеннаяПодсказка</name>
@@ -2427,10 +2389,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоХранилищеНастроекДанныхФорм.Значение</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоХранилищеНастроекДанныхФорм.Значение</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>

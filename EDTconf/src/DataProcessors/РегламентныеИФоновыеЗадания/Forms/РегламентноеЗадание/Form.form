@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Предопределенное</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Предопределенное</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -78,10 +76,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Использование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Использование</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -134,10 +130,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Наименование</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -193,10 +187,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоПовторовПриАварийномЗавершении</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоПовторовПриАварийномЗавершении</segments>
       </dataPath>
       <extendedTooltip>
         <name>КоличествоПовторовПриАварийномЗавершенииРасширеннаяПодсказка</name>
@@ -244,10 +236,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИнтервалПовтораПриАварийномЗавершении</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИнтервалПовтораПриАварийномЗавершении</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИнтервалПовтораПриАварийномЗавершенииРасширеннаяПодсказка</name>
@@ -339,10 +329,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Идентификатор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Идентификатор</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
@@ -392,10 +380,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Ключ</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Ключ</segments>
       </dataPath>
       <extendedTooltip>
         <name>КлючРасширеннаяПодсказка</name>
@@ -443,10 +429,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяПользователя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяПользователя</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -551,10 +535,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяМетаданных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяМетаданных</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
@@ -608,10 +590,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СинонимМетаданных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СинонимМетаданных</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
@@ -665,10 +645,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяМетодаМетаданных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяМетодаМетаданных</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяМетодаМетаданныхРасширеннаяПодсказка</name>
@@ -771,10 +749,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СообщенияПользователюИОписаниеИнформацииОбОшибке</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СообщенияПользователюИОписаниеИнформацииОбОшибке</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

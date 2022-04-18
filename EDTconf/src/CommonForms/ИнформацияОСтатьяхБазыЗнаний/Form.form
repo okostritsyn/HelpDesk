@@ -53,10 +53,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТипСтатей</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТипСтатей</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -113,10 +111,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РазмерПорции</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РазмерПорции</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -255,10 +251,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаСтатей.Статья</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаСтатей.Статья</segments>
       </dataPath>
       <extendedTooltip>
         <name>СтатьяРасширеннаяПодсказка</name>
@@ -307,10 +301,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаСтатей.Рейтинг</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаСтатей.Рейтинг</segments>
       </dataPath>
       <extendedTooltip>
         <name>РейтингРасширеннаяПодсказка</name>
@@ -359,10 +351,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаСтатей.ДатаСоздания</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаСтатей.ДатаСоздания</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаСозданияРасширеннаяПодсказка</name>
@@ -411,10 +401,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаСтатей.Ответственный</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаСтатей.Ответственный</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -463,10 +451,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаСтатей.Разделы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаСтатей.Разделы</segments>
       </dataPath>
       <extendedTooltip>
         <name>РазделыРасширеннаяПодсказка</name>

@@ -37,11 +37,7 @@
   <content>FunctionalOption.ВестиУчетПоКонтрагентам</content>
   <content>Constant.ПрофильНовогоПользователяПоУмолчанию</content>
   <content>Report.ПлановыеТрудозатратыПоЗаявкам</content>
-  <content>Report.ДиаграммаСгоранияЗаявок</content>
   <content>DataProcessor.ПланированиеЗаявок</content>
   <content>InformationRegister.НастройкаРассылкиОтчетов</content>
-  <content>1db0f7c9-0910-40b3-87e4-7b3b7301d1b0</content>
-  <content>da116762-e99d-46a1-aad8-8304926ac794</content>
-  <content>51ebbede-5058-4add-a0e9-d826cb0a0274</content>
   <content>InformationRegister.ИсторияСостояний</content>
 </mdclass:Subsystem>

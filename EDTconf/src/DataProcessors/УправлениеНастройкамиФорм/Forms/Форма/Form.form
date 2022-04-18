@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Пользователь</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Пользователь</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -69,10 +67,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Поиск</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Поиск</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -218,10 +214,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтфильтрованныеФормы.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтфильтрованныеФормы.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЗначениеРасширеннаяПодсказка</name>

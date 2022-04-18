@@ -27,10 +27,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ГруппыВнешнихПользователей.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ГруппыВнешнихПользователей.Description</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеГруппыРасширеннаяПодсказка</name>
@@ -297,10 +295,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВнешниеПользователиСписок.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВнешниеПользователиСписок.Description</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеРасширеннаяПодсказка</name>
@@ -582,10 +578,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ОписаниеОтображаемыхВнешнихПользователей</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОписаниеОтображаемыхВнешнихПользователей</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -664,10 +658,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВыбиратьИерархически</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВыбиратьИерархически</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>

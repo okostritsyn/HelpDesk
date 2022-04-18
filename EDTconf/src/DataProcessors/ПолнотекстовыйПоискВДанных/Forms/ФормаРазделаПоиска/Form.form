@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Наименование</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Наименование</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -91,10 +89,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоМетаданных.Картинка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоМетаданных.Картинка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -143,10 +139,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоМетаданных.Имя</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоМетаданных.Имя</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДеревоМетаданныхИмяРасширеннаяПодсказка</name>
@@ -230,10 +224,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоМетаданных.Пометка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоМетаданных.Пометка</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -284,10 +276,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоМетаданных.Путь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоМетаданных.Путь</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоМетаданныхПутьРасширеннаяПодсказка</name>

@@ -28,10 +28,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоНаборов.Выбран</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоНаборов.Выбран</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -80,10 +78,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоНаборов.Набор</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоНаборов.Набор</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаборРасширеннаяПодсказка</name>

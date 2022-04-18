@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Автообновление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Автообновление</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -61,10 +59,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПериодАвтообновления</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПериодАвтообновления</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <titleLocation>None</titleLocation>

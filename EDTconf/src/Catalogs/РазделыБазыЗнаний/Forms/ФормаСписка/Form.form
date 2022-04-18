@@ -24,10 +24,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокЗнаний.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокЗнаний.Description</segments>
         </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
@@ -73,10 +71,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокЗнаний.Описание</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокЗнаний.Описание</segments>
         </dataPath>
         <extendedTooltip>
           <name>СодержаниеРасширеннаяПодсказка</name>

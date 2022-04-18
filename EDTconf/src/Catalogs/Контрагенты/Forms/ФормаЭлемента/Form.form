@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -64,10 +62,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Code</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Code</segments>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
@@ -158,10 +154,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Parent</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Parent</segments>
     </dataPath>
     <extendedTooltip>
       <name>РодительExtendedTooltip</name>
@@ -256,10 +250,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.НаименованиеПолное</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.НаименованиеПолное</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
     <extendedTooltip>
@@ -310,10 +302,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ВестиУчетЗаявокПоПроектам</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВестиУчетЗаявокПоПроектам</segments>
     </dataPath>
     <extendedTooltip>
       <name>ВестиУчетЗаявокПоПроектамРасширеннаяПодсказка</name>
@@ -355,10 +345,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.УчетнаяЗаписьДляОповещений</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.УчетнаяЗаписьДляОповещений</segments>
     </dataPath>
     <extendedTooltip>
       <name>УчетнаяЗаписьДляОповещенийРасширеннаяПодсказка</name>
@@ -413,10 +401,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ЮрФизЛицо</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ЮрФизЛицо</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -470,10 +456,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ИНН</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИНН</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИННExtendedTooltip</name>
@@ -526,10 +510,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.КодПоОКПО</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.КодПоОКПО</segments>
         </dataPath>
         <extendedTooltip>
           <name>КодПоОКПОExtendedTooltip</name>

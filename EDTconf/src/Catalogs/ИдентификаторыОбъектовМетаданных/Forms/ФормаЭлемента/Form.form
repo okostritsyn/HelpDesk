@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -64,10 +62,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Имя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Имя</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяРасширеннаяПодсказка</name>
@@ -117,10 +113,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Синоним</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Синоним</segments>
       </dataPath>
       <extendedTooltip>
         <name>СинонимРасширеннаяПодсказка</name>
@@ -212,10 +206,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ПолноеИмя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ПолноеИмя</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -272,10 +264,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ПолныйСиноним</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ПолныйСиноним</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПолныйСинонимРасширеннаяПодсказка</name>
@@ -365,10 +355,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ПорядокКоллекции</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ПорядокКоллекции</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПорядокКоллекцииРасширеннаяПодсказка</name>
@@ -418,10 +406,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.БезДанных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.БезДанных</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -463,10 +449,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПустаяСсылкаПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПустаяСсылкаПредставление</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>

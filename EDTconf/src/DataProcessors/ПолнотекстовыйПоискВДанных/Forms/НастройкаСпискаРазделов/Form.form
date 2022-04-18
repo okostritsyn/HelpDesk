@@ -32,10 +32,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.РазделыПоиска.Check</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.РазделыПоиска.Check</segments>
         </dataPath>
         <extendedTooltip>
           <name>НастройкиПоискаРазделыПоискаПометкаРасширеннаяПодсказка</name>
@@ -77,10 +75,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.РазделыПоиска.Value</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.РазделыПоиска.Value</segments>
         </dataPath>
         <extendedTooltip>
           <name>НастройкиПоискаРазделыПоискаЗначениеРасширеннаяПодсказка</name>

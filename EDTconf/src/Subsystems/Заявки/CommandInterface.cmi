@@ -125,7 +125,6 @@
       <commands>Constant.ИспользоватьПланированиеЗаявок.StandardCommand.Open</commands>
       <commands>Constant.ПрофильНовогоПользователяПоУмолчанию.StandardCommand.Open</commands>
       <commands>DataProcessor.ПланированиеЗаявок.StandardCommand.Open</commands>
-      <commands>0:1db0f7c9-0910-40b3-87e4-7b3b7301d1b0</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -146,10 +146,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ОбъектАвторизации</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ОбъектАвторизации</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -332,10 +330,8 @@
         <role>Role.ЧтениеФизическихЛиц</role>
       </for>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Недействителен</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Недействителен</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>
@@ -382,10 +378,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ДоступКИнформационнойБазеРазрешен</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ДоступКИнформационнойБазеРазрешен</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>
@@ -438,10 +432,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПользовательИнфБазыИмя</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПользовательИнфБазыИмя</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПользовательИнфБазыИмяРасширеннаяПодсказка</name>
@@ -494,10 +486,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПользовательИнфБазыАутентификацияСтандартная</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПользовательИнфБазыАутентификацияСтандартная</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
@@ -548,10 +538,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Пароль</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Пароль</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -610,10 +598,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ПодтверждениеПароля</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПодтверждениеПароля</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -672,10 +658,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ПользовательИнфБазыЗапрещеноИзменятьПароль</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПользовательИнфБазыЗапрещеноИзменятьПароль</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
@@ -782,10 +766,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПользовательИнфБазыАутентификацияOpenID</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПользовательИнфБазыАутентификацияOpenID</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -831,10 +813,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПользовательИнфБазыЯзык</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПользовательИнфБазыЯзык</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПользовательИнфБазыЯзыкРасширеннаяПодсказка</name>
@@ -960,10 +940,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.УстановитьРолиНепосредственно</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.УстановитьРолиНепосредственно</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -1046,10 +1024,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Роли.Пометка</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Роли.Пометка</segments>
               </dataPath>
               <handlers>
                 <event>OnChange</event>
@@ -1093,10 +1069,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Роли.Синоним</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Роли.Синоним</segments>
               </dataPath>
               <extendedTooltip>
                 <name>РолиСинонимРасширеннаяПодсказка</name>

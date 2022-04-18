@@ -16,10 +16,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Запись.Документ</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.Документ</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -74,10 +72,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.ТипСвязи</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.ТипСвязи</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -138,10 +134,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.ТипСвязи.Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.ТипСвязи.Комментарий</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -229,10 +223,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипСвязанногоДокумента</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипСвязанногоДокумента</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -390,10 +382,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СвязанныйДокумент</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СвязанныйДокумент</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -484,10 +474,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.Комментарий</segments>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
@@ -538,10 +526,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.Установил</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.Установил</segments>
       </dataPath>
       <extendedTooltip>
         <name>УстановилРасширеннаяПодсказка</name>
@@ -595,10 +581,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.ДатаУстановки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.ДатаУстановки</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаУстановкиРасширеннаяПодсказка</name>

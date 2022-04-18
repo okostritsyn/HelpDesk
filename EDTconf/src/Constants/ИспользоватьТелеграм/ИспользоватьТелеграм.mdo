@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c20c57be-f819-401e-8fdf-b10d5cb9fd9a">
+  <producedTypes>
+    <managerType typeId="e4877954-203e-41f9-8c06-da485f175d39" valueTypeId="65f889c6-de04-40f9-be99-548747ecd714"/>
+    <valueManagerType typeId="2263b045-525b-4171-80b1-1738aea5ec5d" valueTypeId="759d72b2-3c9e-4644-be0c-13d6b5814745"/>
+    <valueKeyType typeId="6f17409d-9cb4-548e-9101-e5c9dfeb8774" valueTypeId="308766ca-bc25-573b-9bb9-e3e6f00e96e8"/>
+  </producedTypes>
+  <name>ИспользоватьТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать телеграм</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

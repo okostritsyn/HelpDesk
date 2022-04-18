@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.ТипСвязи</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.ТипСвязи</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТипСвязиРасширеннаяПодсказка</name>
@@ -65,10 +63,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.ХарактерСвязи</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.ХарактерСвязи</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -161,10 +157,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипСсылкаИз</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипСсылкаИз</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -309,10 +303,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.СсылкаИз</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.СсылкаИз</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -406,10 +398,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипСсылкаНа</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипСсылкаНа</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -491,10 +481,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.СсылкаНа</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.СсылкаНа</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -584,10 +572,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.ТипОбратнойСвязи</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.ТипОбратнойСвязи</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -641,10 +627,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Запись.ХарактерОбратнойСвязи</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Запись.ХарактерОбратнойСвязи</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

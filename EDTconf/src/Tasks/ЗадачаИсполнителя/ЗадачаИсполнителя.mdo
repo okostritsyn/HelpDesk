@@ -721,7 +721,6 @@
       <key>ru</key>
       <value>Список всех задач</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="0fa77ef7-a836-4459-9bca-6010d0bdfc7f">
     <name>Выполнено</name>
@@ -743,7 +742,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.ExecuteTask</picture>
     </picture>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="c322dc4a-30f3-4d23-9824-4a01c496408d">
     <name>МоиЗадачи</name>
@@ -758,7 +756,6 @@
       <key>ru</key>
       <value>Список задач исполнителя</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="dcff004c-1b61-4a19-b977-ea21bf688614">
     <name>Перенаправить</name>
@@ -777,6 +774,5 @@
       <key>ru</key>
       <value>Перенаправить задачу другому исполнителю</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Task>

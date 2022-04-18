@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПредставлениеХранилищаФайлов</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПредставлениеХранилищаФайлов</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПредставлениеХранилищаФайловРасширеннаяПодсказка</name>
@@ -85,10 +83,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ФайлыВТомах.ПутьКФайлу</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыВТомах.ПутьКФайлу</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПутьКФайлуРасширеннаяПодсказка</name>
@@ -133,10 +129,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ФайлыВТомах.Размер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыВТомах.Размер</segments>
       </dataPath>
       <extendedTooltip>
         <name>РазмерРасширеннаяПодсказка</name>
@@ -181,10 +175,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ФайлыВТомах.Автор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыВТомах.Автор</segments>
       </dataPath>
       <extendedTooltip>
         <name>АвторРасширеннаяПодсказка</name>

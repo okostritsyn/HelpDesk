@@ -14,5 +14,4 @@
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.Task</picture>
   </picture>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

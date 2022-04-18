@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ИспКороткоеИмяКонфигурации</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИспКороткоеИмяКонфигурации</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -60,10 +58,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.КороткоеИмяКонфигурации</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.КороткоеИмяКонфигурации</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -147,10 +143,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспАдресСервераДляПроверкиНаличияОбновления</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспАдресСервераДляПроверкиНаличияОбновления</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
@@ -193,10 +187,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.АдресСервераДляПроверкиНаличияОбновления</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.АдресСервераДляПроверкиНаличияОбновления</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -277,10 +269,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспАдресРесурсаДляПроверкиНаличияОбновления</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспАдресРесурсаДляПроверкиНаличияОбновления</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
@@ -323,10 +313,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.АдресРесурсаДляПроверкиНаличияОбновления</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.АдресРесурсаДляПроверкиНаличияОбновления</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -437,10 +425,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ИспАдресСервераОбновлений</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИспАдресСервераОбновлений</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
@@ -483,10 +469,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.АдресСервераОбновлений</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.АдресСервераОбновлений</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -564,10 +548,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РежимИмитацииКлиентСервернойИБ</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РежимИмитацииКлиентСервернойИБ</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -610,10 +592,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РежимОтладкиСкрипта</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РежимОтладкиСкрипта</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>

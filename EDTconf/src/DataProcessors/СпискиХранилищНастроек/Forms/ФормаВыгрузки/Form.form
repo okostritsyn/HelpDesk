@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТекущееХранилище</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТекущееХранилище</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекущееХранилищеРасширеннаяПодсказка</name>
@@ -73,10 +71,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>КлючОбъекта</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>КлючОбъекта</segments>
           </dataPath>
           <extendedTooltip>
             <name>КлючОбъектаРасширеннаяПодсказка</name>
@@ -126,10 +122,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>КлючНастроек</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>КлючНастроек</segments>
           </dataPath>
           <extendedTooltip>
             <name>КлючНастроекРасширеннаяПодсказка</name>
@@ -179,10 +173,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Пользователь</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Пользователь</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПользовательРасширеннаяПодсказка</name>
@@ -339,10 +331,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ИмяФайлаЗагрузки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИмяФайлаЗагрузки</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИмяФайлаЗагрузкиРасширеннаяПодсказка</name>

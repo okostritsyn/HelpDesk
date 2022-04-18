@@ -451,7 +451,6 @@
       <types>CatalogRef.Файлы</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="cd308368-ef7c-4238-92e1-0c575e72300a">
     <name>ТрудозатратыПопроектуЗадаче</name>
@@ -465,7 +464,6 @@
       <types>CatalogRef.ПроектныеЗадачи</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="6707b616-a149-452b-80c9-2803f15dc657">
     <name>МоиТрудозатраты</name>
@@ -476,7 +474,6 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="5a7cc856-01f7-4d18-bc9e-289795e3b05b">
     <name>ТрудозатратыПодчиненных</name>
@@ -487,6 +484,5 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:InformationRegister>

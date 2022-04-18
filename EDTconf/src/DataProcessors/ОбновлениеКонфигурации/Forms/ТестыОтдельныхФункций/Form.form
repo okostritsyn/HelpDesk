@@ -61,10 +61,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РезультатОбновления</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РезультатОбновления</segments>
         </dataPath>
         <extendedTooltip>
           <name>РезультатОбновленияРасширеннаяПодсказка</name>
@@ -204,10 +202,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>АдресЭлектроннойПочты</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>АдресЭлектроннойПочты</segments>
       </dataPath>
       <extendedTooltip>
         <name>АдресЭлектроннойПочтыРасширеннаяПодсказка</name>
@@ -303,10 +299,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяАдминистратораОбновления</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяАдминистратораОбновления</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяАдминистратораОбновленияРасширеннаяПодсказка</name>

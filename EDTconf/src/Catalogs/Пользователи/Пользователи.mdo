@@ -604,6 +604,5 @@
       <key>ru</key>
       <value>Пользователи информационной базы</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

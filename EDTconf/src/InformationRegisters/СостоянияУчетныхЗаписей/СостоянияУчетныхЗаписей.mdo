@@ -157,6 +157,5 @@
       <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:InformationRegister>

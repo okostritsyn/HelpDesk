@@ -28,10 +28,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоКонтактов.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоКонтактов.Наименование</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоКонтактовНаименованиеРасширеннаяПодсказка</name>
@@ -79,10 +77,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоКонтактов.Организация</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоКонтактов.Организация</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоКонтактовОрганизацияРасширеннаяПодсказка</name>
@@ -131,10 +127,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоКонтактов.Должность</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоКонтактов.Должность</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоКонтактовДолжностьРасширеннаяПодсказка</name>
@@ -183,10 +177,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоКонтактов.Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоКонтактов.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоКонтактовКомментарийРасширеннаяПодсказка</name>
@@ -235,10 +227,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоКонтактов.Email</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоКонтактов.Email</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоКонтактовEmailРасширеннаяПодсказка</name>
@@ -287,10 +277,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоКонтактов.Телефон</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоКонтактов.Телефон</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоКонтактовТелефонРасширеннаяПодсказка</name>

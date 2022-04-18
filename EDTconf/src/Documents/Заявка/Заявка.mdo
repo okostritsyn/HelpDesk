@@ -377,7 +377,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Пользователи.РаспределительЗаявок</value>
+      <value>Catalog.Пользователи.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -825,7 +825,6 @@
     <group>NavigationPanelImportant</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="74d289d3-2fed-4256-8356-372f5daa0891">
     <name>ЗаявкиПоИсточнику</name>
@@ -839,7 +838,6 @@
       <types>CatalogRef.ПроектныеЗадачи</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="0615f2f6-8aea-435f-9916-ee0fb23f1ae6">
     <name>ВсеЗаявки</name>
@@ -850,6 +848,5 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Document>

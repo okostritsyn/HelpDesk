@@ -12,5 +12,4 @@
     <types>CatalogRef.Пользователи</types>
   </commandParameterType>
   <representation>PictureAndText</representation>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

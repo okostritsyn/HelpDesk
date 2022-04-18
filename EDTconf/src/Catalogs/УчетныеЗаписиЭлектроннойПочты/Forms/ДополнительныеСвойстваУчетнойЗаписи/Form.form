@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПортPOP3</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПортPOP3</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПортPOP3РасширеннаяПодсказка</name>
@@ -67,10 +65,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПортSMTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПортSMTP</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -275,10 +271,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СпособPOP3Аутентификации</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СпособPOP3Аутентификации</segments>
         </dataPath>
         <extendedTooltip>
           <name>СпособPOP3АутентификацииРасширеннаяПодсказка</name>
@@ -397,10 +391,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ОставлятьКопииСообщенийНаСервере</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОставлятьКопииСообщенийНаСервере</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -498,10 +490,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>УдалятьСообщенияССервера</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>УдалятьСообщенияССервера</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
@@ -552,10 +542,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ОставлятьКопииСообщенийЧислоДней</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОставлятьКопииСообщенийЧислоДней</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <toolTip>
@@ -685,10 +673,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДлительностьОжиданияСервера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДлительностьОжиданияСервера</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДлительностьОжиданияСервераРасширеннаяПодсказка</name>
@@ -777,10 +763,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>SMTPАутентификацияУстановлена</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>SMTPАутентификацияУстановлена</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -827,10 +811,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>SMTPАутентификация</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>SMTPАутентификация</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -913,10 +895,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ПустойРеквизит</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПустойРеквизит</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
@@ -1001,10 +981,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ПользовательSMTP</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПользовательSMTP</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПользовательSMTPРасширеннаяПодсказка</name>
@@ -1054,10 +1032,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ПарольSMTP</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПарольSMTP</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПарольSMTPРасширеннаяПодсказка</name>
@@ -1108,10 +1084,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СпособSMTPАутентификации</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СпособSMTPАутентификации</segments>
             </dataPath>
             <extendedTooltip>
               <name>СпособSMTPАутентификацииРасширеннаяПодсказка</name>

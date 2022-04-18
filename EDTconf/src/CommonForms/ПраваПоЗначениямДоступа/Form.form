@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ВидДоступа</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВидДоступа</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -94,10 +92,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ГруппыПрав.РаспространяетсяВИерархии</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ГруппыПрав.РаспространяетсяВИерархии</segments>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -428,10 +424,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>НаследоватьПраваРодителей</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>НаследоватьПраваРодителей</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>

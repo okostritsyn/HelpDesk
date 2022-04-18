@@ -20,10 +20,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоОтчетовИВариантов.Синоним</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоОтчетовИВариантов.Синоним</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоОтчетовИВариантовСинонимРасширеннаяПодсказка</name>

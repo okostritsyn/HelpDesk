@@ -243,7 +243,6 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="ac2c3e6e-1f8a-45e2-a3f1-98645adfa0f5">
     <name>ОткрытьФормуНастройкаТипаСвязи</name>
@@ -254,6 +253,5 @@
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:InformationRegister>

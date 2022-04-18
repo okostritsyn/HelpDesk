@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВыбраноФайлов</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВыбраноФайлов</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВыбраноФайловExtendedTooltip</name>
@@ -211,10 +209,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокФайловДляВыбора.Ссылка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокФайловДляВыбора.Ссылка</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокФайловДляВыбораСсылкаExtendedTooltip</name>
@@ -267,10 +263,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокФайловДляВыбора.Расширение</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокФайловДляВыбора.Расширение</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -361,10 +355,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокФайловДляВыбора.Папка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокФайловДляВыбора.Папка</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокФайловДляВыбораПапкаExtendedTooltip</name>
@@ -418,10 +410,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокФайловДляВыбора.ТипВладельца</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокФайловДляВыбора.ТипВладельца</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -505,10 +495,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокФайловДляВыбора.Выгружать</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокФайловДляВыбора.Выгружать</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -725,10 +713,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПапкаДляЭкспорта</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПапкаДляЭкспорта</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <extendedTooltip>

@@ -12,5 +12,4 @@
     <key>ru</key>
     <value>установить расширение работы с файлами в Веб-клиенте</value>
   </toolTip>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

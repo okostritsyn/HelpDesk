@@ -36,10 +36,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокОшибок.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокОшибок.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокОшибокЗначениеРасширеннаяПодсказка</name>

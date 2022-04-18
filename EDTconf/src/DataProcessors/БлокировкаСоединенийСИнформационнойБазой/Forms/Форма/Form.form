@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.БлокировкаУстановкиСоединенийВключена</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.БлокировкаУстановкиСоединенийВключена</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -58,10 +56,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.НачалоДействияБлокировки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.НачалоДействияБлокировки</segments>
       </dataPath>
       <extendedTooltip>
         <name>НачалоБлокировкиРасширеннаяПодсказка</name>
@@ -113,10 +109,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ОкончаниеДействияБлокировки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ОкончаниеДействияБлокировки</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОкончаниеБлокировкиРасширеннаяПодсказка</name>
@@ -168,10 +162,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Сообщение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Сообщение</segments>
       </dataPath>
       <extendedTooltip>
         <name>СообщениеРасширеннаяПодсказка</name>
@@ -230,10 +222,8 @@
             <role>Role.ПолныеПрава</role>
           </for>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.КодРазрешения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.КодРазрешения</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>

@@ -19,10 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Источник</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Источник</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -216,10 +214,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОчищаемыеНастройки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОчищаемыеНастройки</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>

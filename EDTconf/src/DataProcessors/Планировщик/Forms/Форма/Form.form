@@ -588,10 +588,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ПредставлениеПериода</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПредставлениеПериода</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
@@ -716,10 +714,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВариантПериода</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВариантПериода</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <handlers>
@@ -757,7 +753,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
-            <radioButtonsType>Tumbler</radioButtonsType>
+            <radioButtonsType>RadioButtons</radioButtonsType>
             <itemWidth>7</itemWidth>
             <equalElementsWidth>true</equalElementsWidth>
             <choiceList>
@@ -808,7 +804,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа типа периода</value>
+          <value>Тип периода</value>
         </title>
         <toolTip>
           <key>ru</key>
@@ -832,6 +828,12 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
+          <collapsedRepresentationTitle>
+            <key>ru</key>
+            <value>Тип периода</value>
+          </collapsedRepresentationTitle>
+          <collapsed>true</collapsed>
+          <controlRepresentation>Picture</controlRepresentation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -891,10 +893,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Планировщик</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Планировщик</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -1027,10 +1027,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДатаОтображения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДатаОтображения</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -1356,6 +1354,7 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -1383,7 +1382,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <scalingMode>Compact</scalingMode>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ВариантПериода</name>

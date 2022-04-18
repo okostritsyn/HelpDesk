@@ -49,6 +49,5 @@
       <key>uk</key>
       <value>Адміністрування інформаційної бази</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
 </mdclass:DataProcessor>

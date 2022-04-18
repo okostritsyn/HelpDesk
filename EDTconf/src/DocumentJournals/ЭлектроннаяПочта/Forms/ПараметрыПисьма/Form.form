@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Дата</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Дата</segments>
     </dataPath>
     <extendedTooltip>
       <name>ДатаРасширеннаяПодсказка</name>
@@ -70,10 +68,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПолученоОтправлено</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПолученоОтправлено</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПолученоОтправленоРасширеннаяПодсказка</name>
@@ -124,10 +120,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Кодировка</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Кодировка</segments>
     </dataPath>
     <extendedTooltip>
       <name>КодировкаРасширеннаяПодсказка</name>
@@ -178,10 +172,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>УчетнаяЗапись</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>УчетнаяЗапись</segments>
     </dataPath>
     <extendedTooltip>
       <name>УчетнаяЗаписьРасширеннаяПодсказка</name>
@@ -232,10 +224,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ЗаголовкиИнтернета</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ЗаголовкиИнтернета</segments>
     </dataPath>
     <extendedTooltip>
       <name>ЗаголовкиРасширеннаяПодсказка</name>

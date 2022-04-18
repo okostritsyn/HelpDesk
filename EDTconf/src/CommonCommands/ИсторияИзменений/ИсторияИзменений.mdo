@@ -20,5 +20,4 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ИсторияВерсий</picture>
   </picture>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

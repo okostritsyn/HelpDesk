@@ -313,10 +313,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоВерсий.ИндексКартинки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоВерсий.ИндексКартинки</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокИндексКартинкиРасширеннаяПодсказка</name>
@@ -365,10 +363,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоВерсий.Автор</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоВерсий.Автор</segments>
         </dataPath>
         <extendedTooltip>
           <name>АвторРасширеннаяПодсказка</name>
@@ -450,10 +446,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВерсий.Владелец</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВерсий.Владелец</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВладелецРасширеннаяПодсказка</name>
@@ -502,10 +496,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВерсий.НомерВерсии</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВерсий.НомерВерсии</segments>
       </dataPath>
       <extendedTooltip>
         <name>НомерВерсииРасширеннаяПодсказка</name>
@@ -554,10 +546,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВерсий.Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВерсий.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
@@ -606,10 +596,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВерсий.ДатаСоздания</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВерсий.ДатаСоздания</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаСозданияРасширеннаяПодсказка</name>
@@ -658,10 +646,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВерсий.Размер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВерсий.Размер</segments>
       </dataPath>
       <extendedTooltip>
         <name>РазмерРасширеннаяПодсказка</name>
@@ -709,10 +695,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВерсий.Ссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВерсий.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>

@@ -178,6 +178,5 @@
     <group>NavigationPanelImportant</group>
     <commandParameterType/>
     <representation>PictureAndText</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:DataProcessor>

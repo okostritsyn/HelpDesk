@@ -42,10 +42,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокДоменов.ИмяДомена</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокДоменов.ИмяДомена</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДоменыРасширеннаяПодсказка</name>
@@ -394,10 +392,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокПользователейТекущегоДомена.ИмяПользователя</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокПользователейТекущегоДомена.ИмяПользователя</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПользователиРасширеннаяПодсказка</name>

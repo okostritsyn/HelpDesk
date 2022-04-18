@@ -434,7 +434,6 @@
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="a1569710-d267-4557-96d9-a296df2ef090">
     <name>ОткрытьФормуСписка</name>
@@ -445,6 +444,5 @@
     <group>NavigationPanelSeeAlso</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

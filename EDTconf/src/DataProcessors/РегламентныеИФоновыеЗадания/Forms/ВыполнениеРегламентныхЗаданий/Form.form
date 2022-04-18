@@ -240,10 +240,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаРегламентныхЗаданий.Номер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаРегламентныхЗаданий.Номер</segments>
       </dataPath>
       <extendedTooltip>
         <name>РегламентныеЗаданияНомерРасширеннаяПодсказка</name>
@@ -293,10 +291,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаРегламентныхЗаданий.РегламентноеЗадание</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаРегламентныхЗаданий.РегламентноеЗадание</segments>
       </dataPath>
       <extendedTooltip>
         <name>РегламентныеЗаданияРегламентноеЗаданиеРасширеннаяПодсказка</name>
@@ -345,10 +341,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаРегламентныхЗаданий.Выполнено</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаРегламентныхЗаданий.Выполнено</segments>
       </dataPath>
       <extendedTooltip>
         <name>РегламентныеЗаданияВыполненоРасширеннаяПодсказка</name>
@@ -577,10 +571,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИнтервалВремениПроверкиВыполнения</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИнтервалВремениПроверкиВыполнения</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПериодВыполненияРасширеннаяПодсказка</name>

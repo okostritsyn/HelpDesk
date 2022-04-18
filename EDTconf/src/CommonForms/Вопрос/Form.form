@@ -104,10 +104,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>БольшеНеЗадаватьЭтотВопрос</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>БольшеНеЗадаватьЭтотВопрос</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>

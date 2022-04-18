@@ -28,10 +28,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Number</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Number</segments>
       </dataPath>
       <extendedTooltip>
         <name>НомерExtendedTooltip</name>
@@ -84,10 +82,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Date</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Date</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДатаExtendedTooltip</name>
@@ -136,10 +132,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ДатаИзменения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ДатаИзменения</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДатаИзмененияExtendedTooltip</name>
@@ -219,10 +213,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Статус</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Статус</segments>
       </dataPath>
       <extendedTooltip>
         <name>СтатусExtendedTooltip</name>
@@ -267,10 +259,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ОписаниеЗаявки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ОписаниеЗаявки</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОписаниеЗаявкиРасширеннаяПодсказка</name>
@@ -315,10 +305,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Тема</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Тема</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТемаРасширеннаяПодсказка</name>
@@ -367,10 +355,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.ТекущийИсполнитель</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.ТекущийИсполнитель</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекущийИсполнительРасширеннаяПодсказка</name>
@@ -420,10 +406,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Постановщик</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Постановщик</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПостановщикExtendedTooltip</name>
@@ -1045,10 +1029,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Items.Список.CurrentData.ОписаниеЗаявки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Items.Список.CurrentData.ОписаниеЗаявки</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

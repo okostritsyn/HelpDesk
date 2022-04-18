@@ -24,10 +24,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокПочтовыхАдресов.Check</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПочтовыхАдресов.Check</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокПочтовыхАдресовПометкаРасширеннаяПодсказка</name>
@@ -69,10 +67,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокПочтовыхАдресов.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПочтовыхАдресов.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокПочтовыхАдресовЗначениеРасширеннаяПодсказка</name>

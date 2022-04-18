@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>LDAPText</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>LDAPText</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -130,10 +128,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтатусLDAPЗапроса</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтатусLDAPЗапроса</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -208,10 +204,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПользователей.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПользователей.Пометка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -253,10 +247,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПользователей.Имя</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПользователей.Имя</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПользователейИмяРасширеннаяПодсказка</name>
@@ -306,10 +298,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПользователей.Аккаунт</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПользователей.Аккаунт</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПользователейАккаунтРасширеннаяПодсказка</name>
@@ -359,10 +349,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПользователей.Домен</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПользователей.Домен</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПользователейДоменРасширеннаяПодсказка</name>
@@ -416,10 +404,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПользователей.Email</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПользователей.Email</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПользователейEmailРасширеннаяПодсказка</name>
@@ -469,10 +455,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПользователей.Телефон</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПользователей.Телефон</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПользователейТелефонРасширеннаяПодсказка</name>
@@ -962,10 +946,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Интерфейс</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Интерфейс</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИнтерфейсРасширеннаяПодсказка</name>
@@ -1013,10 +995,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Язык</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Язык</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЯзыкРасширеннаяПодсказка</name>
@@ -1064,10 +1044,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РежимЗапуска</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РежимЗапуска</segments>
       </dataPath>
       <extendedTooltip>
         <name>РежимЗапускаРасширеннаяПодсказка</name>
@@ -1130,10 +1108,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Профили.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Профили.Пометка</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПрофилиПометкаРасширеннаяПодсказка</name>
@@ -1175,10 +1151,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Профили.ПрофильПредставление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Профили.ПрофильПредставление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПрофилиПрофильПредставлениеРасширеннаяПодсказка</name>

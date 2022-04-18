@@ -26,10 +26,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипыСвязей.Check</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипыСвязей.Check</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТипыСвязейПометкаРасширеннаяПодсказка</name>
@@ -71,10 +69,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипыСвязей.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипыСвязей.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТипыСвязейЗначениеРасширеннаяПодсказка</name>

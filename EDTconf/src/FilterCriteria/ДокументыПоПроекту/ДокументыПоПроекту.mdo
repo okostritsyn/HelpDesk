@@ -36,6 +36,5 @@
       <types>CatalogRef.Проекты</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:FilterCriterion>

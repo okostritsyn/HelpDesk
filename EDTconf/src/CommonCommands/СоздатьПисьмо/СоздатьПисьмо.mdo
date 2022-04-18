@@ -12,5 +12,4 @@
     <key>ru</key>
     <value>Создать письмо</value>
   </toolTip>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

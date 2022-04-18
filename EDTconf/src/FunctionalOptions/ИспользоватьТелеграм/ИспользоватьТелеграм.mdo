@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec8b5e62-48e2-4616-9054-70c9ca4cb06e">
+  <name>ИспользоватьТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать телеграм</value>
+  </synonym>
+  <location>Constant.ИспользоватьТелеграм</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Администрирование.Subsystem.Телеграм</content>
+  <content>InformationRegister.ТелеграмПодписчики</content>
+  <content>InformationRegister.ТелеграмСобытия</content>
+</mdclass:FunctionalOption>

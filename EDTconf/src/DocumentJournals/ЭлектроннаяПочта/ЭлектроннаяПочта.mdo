@@ -272,6 +272,5 @@
       <types>DocumentRef.ИсходящееПисьмо</types>
     </commandParameterType>
     <representation>Picture</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:DocumentJournal>

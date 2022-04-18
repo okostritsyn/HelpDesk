@@ -11,6 +11,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4aeb4686-c0f4-448a-aa8a-a03a1fe61d78"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="72af6a50-8e67-464c-aa58-9470403a27c5"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="652d8dc1-9c26-4494-96d2-d478ba5c24ab"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0bb01135-2d15-4b3d-b0e1-a03c41f96e61"/>
   <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -38,8 +39,18 @@
     <key>ru</key>
     <value>Поддержка пользователей. Простое решение для учета времени и задач</value>
   </detailedInformation>
-  <logo/>
-  <splash/>
+  <logo>
+    <transparentPixel>
+      <x>31</x>
+      <y>4</y>
+    </transparentPixel>
+  </logo>
+  <splash>
+    <transparentPixel>
+      <x>166</x>
+      <y>83</y>
+    </transparentPixel>
+  </splash>
   <copyright>
     <key>ru</key>
     <value>Copyright© Кострицын Олег (okostritsyn@gmail.com)</value>
@@ -967,7 +978,6 @@
   <reports>Report.ТрудозатратыПоПроекту</reports>
   <reports>Report.НачисленияПоВидамРабот</reports>
   <reports>Report.ПраваДоступа</reports>
-  <reports>Report.ДиаграммаСгоранияЗаявок</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АдминистрированиеСистемы</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
@@ -1047,7 +1057,6 @@
   <informationRegisters>InformationRegister.ОповещенияПоЗаявкам</informationRegisters>
   <informationRegisters>InformationRegister.ПодписчикиЗаявок</informationRegisters>
   <informationRegisters>InformationRegister.ОбъединенныеЗаявки</informationRegisters>
-  <informationRegisters>InformationRegister.ВременныеФайлыОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.ТелеграмСобытия</informationRegisters>
   <informationRegisters>InformationRegister.ТелеграмПодписчики</informationRegisters>
   <informationRegisters>InformationRegister.НастройкаРассылкиОтчетов</informationRegisters>

@@ -11,5 +11,4 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.НепрочтенноеПисьмо</picture>
   </picture>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

@@ -375,10 +375,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НачальныйСтатусЗапретаРаботыПользователей</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НачальныйСтатусЗапретаРаботыПользователей</segments>
           </dataPath>
           <extendedTooltip>
             <name>НачальныйСтатусЗапретаРаботыПользователейРасширеннаяПодсказка</name>
@@ -459,10 +457,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.СообщениеДляПользователей</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.СообщениеДляПользователей</segments>
         </dataPath>
         <extendedTooltip>
           <name>СообщениеДляПользователейРасширеннаяПодсказка</name>
@@ -524,10 +520,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.НачалоДействияБлокировки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачалоДействияБлокировки</segments>
           </dataPath>
           <extendedTooltip>
             <name>НачалоБлокировкиРасширеннаяПодсказка</name>
@@ -583,10 +577,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ОкончаниеДействияБлокировки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ОкончаниеДействияБлокировки</segments>
           </dataPath>
           <extendedTooltip>
             <name>ОкончаниеБлокировкиРасширеннаяПодсказка</name>
@@ -675,10 +667,8 @@
             <role>Role.ПолныеПрава</role>
           </for>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.КодДляРазблокировки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.КодДляРазблокировки</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -743,10 +733,8 @@
               <role>Role.ПолныеПрава</role>
             </for>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ЗапретитьРаботуРегламентныхЗаданий</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗапретитьРаботуРегламентныхЗаданий</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
@@ -956,10 +944,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.СообщениеДляПользователей</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.СообщениеДляПользователей</segments>
             </dataPath>
             <extendedTooltip>
               <name>СообщениеДляПользователей1РасширеннаяПодсказка</name>
@@ -1022,10 +1008,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.НачалоДействияБлокировки</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.НачалоДействияБлокировки</segments>
               </dataPath>
               <extendedTooltip>
                 <name>НачалоБлокировки1РасширеннаяПодсказка</name>
@@ -1075,10 +1059,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.ОкончаниеДействияБлокировки</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.ОкончаниеДействияБлокировки</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОкончаниеБлокировки1РасширеннаяПодсказка</name>

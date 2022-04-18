@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -78,10 +76,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ДополнительныеРеквизиты.LineNumber</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ДополнительныеРеквизиты.LineNumber</segments>
         </dataPath>
         <extendedTooltip>
           <name>НомерСтрокиРасширеннаяПодсказка</name>
@@ -126,10 +122,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ДополнительныеРеквизиты.Свойство</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ДополнительныеРеквизиты.Свойство</segments>
         </dataPath>
         <extendedTooltip>
           <name>СвойствоРасширеннаяПодсказка</name>
@@ -366,10 +360,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ДополнительныеСведения.LineNumber</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ДополнительныеСведения.LineNumber</segments>
         </dataPath>
         <extendedTooltip>
           <name>НомерСтроки1РасширеннаяПодсказка</name>
@@ -414,10 +406,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ДополнительныеСведения.Свойство</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ДополнительныеСведения.Свойство</segments>
         </dataPath>
         <extendedTooltip>
           <name>Свойство1РасширеннаяПодсказка</name>

@@ -40,13 +40,6 @@
       <value>Веб-страница (.html)</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="ed5465b4-a556-4078-ab18-49fef2afba2e">
-    <name>HTML4</name>
-    <synonym>
-      <key>ru</key>
-      <value>Веб-страница версии 4 (.html)</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="7368ab8f-59d5-4270-a43b-0f3e422169ed">
     <name>XLS</name>
     <synonym>
@@ -73,34 +66,6 @@
     <synonym>
       <key>ru</key>
       <value>Табличный документ (.mxl)</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="9245417f-f247-47ba-a1b4-a17ec2e8776c">
-    <name>ODS</name>
-    <synonym>
-      <key>ru</key>
-      <value>Электронная таблица OpenDocument (.ods)</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="a4b721d7-b119-47eb-80e0-7db34c83964f">
-    <name>DOCX</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ Word 2007 (.docx)</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="512629d1-e8b7-4f66-b613-b8c0cb9c250b">
-    <name>TXT</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текстовый документ UTF-8 (.txt)</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="b7cf4684-4432-4658-9c06-b315d470a3a6">
-    <name>ANSITXT</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текстовый документ ANSI (.txt)</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

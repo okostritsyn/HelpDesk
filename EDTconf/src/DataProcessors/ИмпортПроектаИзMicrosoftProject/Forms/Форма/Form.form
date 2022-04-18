@@ -21,10 +21,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПутьКФайлу</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПутьКФайлу</segments>
           </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
@@ -252,10 +250,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПроектСсылка</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПроектСсылка</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -396,10 +392,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВидПроекта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВидПроекта</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВидПроектаРасширеннаяПодсказка</name>
@@ -534,10 +528,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредварительноОчиститьПроект</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредварительноОчиститьПроект</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -588,10 +580,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>УдалитьНезагруженныеЗадачи</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УдалитьНезагруженныеЗадачи</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -771,10 +761,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмпортироватьРесурсы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмпортироватьРесурсы</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>

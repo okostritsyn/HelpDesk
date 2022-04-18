@@ -36,10 +36,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.КодКартинки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.КодКартинки</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -93,10 +91,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.СинонимНаименованияОбъекта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.СинонимНаименованияОбъекта</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеОбъектаРасширеннаяПодсказка</name>
@@ -182,10 +178,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоОбъектовМетаданных.ВариантВерсионирования</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоОбъектовМетаданных.ВариантВерсионирования</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВариантВерсионированияРасширеннаяПодсказка</name>

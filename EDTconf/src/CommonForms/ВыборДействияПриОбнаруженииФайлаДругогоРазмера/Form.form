@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Сообщение</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Сообщение</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -62,10 +60,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Файл</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Файл</segments>
       </dataPath>
       <extendedTooltip>
         <name>ФайлРасширеннаяПодсказка</name>
@@ -175,10 +171,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>РазмерФайлаНаСервере</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>РазмерФайлаНаСервере</segments>
     </dataPath>
     <extendedTooltip>
       <name>РазмерФайлаНаСервереРасширеннаяПодсказка</name>
@@ -224,10 +218,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>РазмерВРабочемКаталоге</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>РазмерВРабочемКаталоге</segments>
     </dataPath>
     <extendedTooltip>
       <name>РазмерВРабочемКаталогеРасширеннаяПодсказка</name>
