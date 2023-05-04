@@ -3,9 +3,9 @@ A simple solution for time and task tracking
 
 More information about HelpDesk look here - https://infostart.ru/public/1317780/
 
-Online demo base availible here - [Demo](http://195.138.92.217:33391/HelpDeskDemo/ru_RU/) (not availiable from 24.02 as the war in my country began)
+Online demo base availible here - [Demo](http://195.138.92.217:33391/HelpDeskDemo/ru_RU/) (unavailable from 24.02.2022 due to the outbreak of war in my country)
 
-You can sent letters to HelpDesk on this email - **helpdesk1c@ukr.net**
+You can sent letters to HelpDesk on this email - **helpdesk1c@ukr.net** (unavailable from 24.02.2022 due to the outbreak of war in my country)
 
 If you want to thank - [Monobank](https://send.monobank.ua/jar/6VSpJ1Jv3n) 
 
@@ -26,9 +26,9 @@ HelpDesk с большими возможностями и простым инт
 
 Более подробное описание - https://infostart.ru/public/1317780/
 
-тестовая конфигурация доступна тут - [Демо сервер](http://195.138.92.217:33391/HelpDeskDemo/ru_RU/) (в связи с нападением рашистов и орков не доступен с 24.02)
+тестовая конфигурация доступна тут - [Демо сервер](http://195.138.92.217:33391/HelpDeskDemo/ru_RU/) (в связи с нападением рашистов и орков на Украину не доступен) 
 
-Email конфигурации - **helpdesk1c@ukr.net** (в связи с нападением рашистов и орков не доступен с 24.02)
+Email конфигурации - **helpdesk1c@ukr.net** (в связи с нападением рашистов и орков на Украину не доступен с 24.02)
 
 Благодарности можно добавлять сюда  - [Monobank](https://send.monobank.ua/jar/6VSpJ1Jv3n)
 
